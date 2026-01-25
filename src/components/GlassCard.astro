@@ -1,0 +1,20 @@
+---
+interface Props {
+  class?: string;
+  variant?: 'subtle' | 'light' | 'medium' | 'strong' | 'solid';
+}
+
+const { class: className = '', variant = 'medium' } = Astro.props;
+---
+
+<div class:list={['glass-card', `glass-${variant}`, className]}>
+  <slot />
+</div>
+
+<style>
+  .glass-card {
+    padding: var(--space-6);
+    border-radius: var(--radius-xl);
+    transition: all 200ms ease;
+  }
+</style>

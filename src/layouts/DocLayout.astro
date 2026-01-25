@@ -1,0 +1,109 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  title: string;
+  description?: string;
+  headings?: Heading[];
+}
+
+const { title, description, headings = [] } = Astro.props;
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="doc-layout">
+    <article class="article">
+      <Breadcrumb />
+      <header class="article-header">
+        <h1>{title}</h1>
+        {description && <p class="article-description">{description}</p>}
+      </header>
+      <div class="article-content">
+        <slot />
+      </div>
+    </article>
+    
+    {headings.length > 0 && (
+      <aside class="article-toc">
+        <TableOfContents headings={headings} />
+      </aside>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .doc-layout {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: var(--space-10);
+    max-width: 100%;
+  }
+  
+  @media (max-width: 1200px) {
+    .doc-layout {
+      grid-template-columns: 1fr;
+    }
+    
+    .article-toc {
+      display: none;
+    }
+  }
+  
+  .article {
+    max-width: 720px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .article-header {
+    margin-bottom: var(--space-8);
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--color-divider);
+    text-align: center;
+  }
+  
+  .article-header h1 {
+    margin-bottom: var(--space-3);
+    background: var(--gradient-brand);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .article-description {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  .article-content {
+    line-height: var(--leading-relaxed);
+  }
+  
+  .article-content :global(h2) {
+    scroll-margin-top: var(--space-8);
+  }
+  
+  .article-content :global(h3) {
+    scroll-margin-top: var(--space-8);
+  }
+  
+  @media (max-width: 768px) {
+    .article-header {
+      text-align: left;
+    }
+    
+    .article-description {
+      font-size: var(--text-base);
+    }
+  }
+</style>

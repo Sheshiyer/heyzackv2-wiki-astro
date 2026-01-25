@@ -1,0 +1,1176 @@
+{
+  "brand": {
+    "name": "HeyZack",
+    "tagline": "AI Automation for Residential & Commercial Buildings",
+    "website": "https://heyzack.ai/",
+    "positioning": {
+      "b2b_focus": "Commercial Property Managers, Hospitality, Office Buildings",
+      "b2c_focus": "Tech-Savvy Homeowners, Energy-Conscious Consumers, Safety-Focused Families",
+      "market_split": "50/50 B2B/B2C"
+    }
+  },
+  "visual_identity": {
+    "colors": {
+      "primary_blue": "#243984",
+      "primary_pink": "#E82F89",
+      "black": "#2E2D2C",
+      "grey": "#E9EDEF"
+    },
+    "gradient": "Blue to Pink (primary brand gradient)",
+    "logo": "Stylized pink 'Z'",
+    "typography": {
+      "primary": "Modern sans-serif",
+      "style": "Clean, tech-forward"
+    }
+  },
+  "product_stats": {
+    "total_products": 128,
+    "total_categories": 15,
+    "categories_summary": {
+      "Camera and Doorbell": 9,
+      "Smart Sensors": 13,
+      "Smart Control Panel": 6,
+      "Smart Switch": 5,
+      "Smart DIY Breaker": 5,
+      "Smart Climatisation": 14,
+      "Smart Music Control System": 3,
+      "Smart Door Lock": 10,
+      "Smart Door Lock Body": 3,
+      "Smart Circuit Breaker": 2,
+      "Smart Gateway": 4,
+      "Curtain, Shutter and Garage Door Controllers": 29,
+      "Smart lighting System and Dimming Controller": 18,
+      "Smart Accessorries": 5,
+      "Pet Accesories": 2
+    }
+  },
+  "categories": [
+    {
+      "name": "Camera and Doorbell",
+      "product_count": 9,
+      "products": [
+        {
+          "name": "Video Door Bell Battery powered",
+          "sku": "HZ-SS-VIDDOR04",
+          "specs": "Wi-Fi connectivity | 2K/1080p live view | PIR motion detection | Events recording and notification | Two-way audio talk | Night vision | Siren alarm | Rechargeable battery | IPX4 weatherproof",
+          "description": "See every visitor before they knock. Know your home is protected even when you're away.\n\n• Get instant alerts when motion is detected at your door.\n• See and speak with visitors through crystal clear two-way audio.\n• Install anywhere without wires using long-lasting rechargeable battery.\n• Record everything in sharp detail with night vision for 24/7 protection.\n\nWorks seamlessly with your existing smart speakers, displays, and mobile devices for complete home awareness. Control everything through simple voice commands or check your door from anywhere using connected screens.\n\nYour front door just got smarter than ever.",
+          "slug": "2k-battery-video-doorbell-weatherproof",
+          "keywords": "video doorbell, battery doorbell, wireless doorbell, 2K doorbell, Wi-Fi doorbell, PIR motion, two-way audio, night vision, rechargeable battery, IPX4"
+        },
+        {
+          "name": "Video door bell (battery)",
+          "sku": "HZ-SS-VIDDOR05",
+          "specs": "Video: 2K HD, Resolution 1536*2048 | Lens: 2.5mm fixed lens | FOV: 170° (D) | Features: Support motion/Human/Package Detection | Digital chime (included) & function Setting by APP | Support bluetooth LE + Wi-Fi & Tamper alarm | Battery: Built-in 5200mAh lithium battery | Design: IP65 | Power supply: AC 8-24V",
+          "description": "See every visitor. Know every knock. Your front door just got smarter.\n\n• Crystal-clear HD video reveals faces in vivid detail day or night.\n• Two-way talk lets you greet guests or warn intruders from anywhere.\n• Motion alerts ping your phone before anyone even presses the button.\n• Six-month battery life means no wires, no drilling, total flexibility.\n\nInstall in minutes. Protect for years. Your home's new guardian is ready.",
+          "slug": "2k-battery-video-doorbell-170deg-view",
+          "keywords": "video doorbell, battery doorbell, 2K doorbell, wireless doorbell, smart doorbell, security camera, home security, WiFi doorbell, motion detection, IP65 doorbell"
+        },
+        {
+          "name": "Video Door Bell USB powered (USB-C)",
+          "sku": "HZ-SS-VIDDOR06",
+          "specs": "Features: 2MP CMOS sensor full HD 1080p live view and video | Wi-Fi connection | IR night vision | Two-way audio | Siren alarm | Human and sound detection | IP65 weatherproof | AC 12-24v hard-wire | Micro SD card slot (local storage optional) | Indoor chime available | Image sensor: 2MP CMOS | Lens: 100-Degree fixed focus | Video Size: (1920x1080) | Storage: Micro SD cards up to 128GB for local, cloud storage optional | Wireless Standard: IEEE 802.11 b/g/n, 2.4GHz | Button/Switch: Power switch x1, Reset button x1 | Microphone: Yes, built-in | Speaker: Yes, built-in | Power Source: AC 12-24V hard-wire",
+          "description": "See every visitor before you answer. Know your home is protected, day and night.\n\n• Crystal-clear video reveals faces, packages, and pets at your door instantly.\n• USB-C power keeps watch continuously, no battery swaps or missed moments.\n• Instant phone alerts let you greet guests or warn intruders from anywhere.\n• Night vision captures sharp detail even in total darkness up to 16 feet.\n\nConnect to smart displays, speakers, or mobile devices for hands-free viewing and control.\n\nAnswer the door without moving a muscle.",
+          "slug": "usb-c-video-doorbell-1080p-weatherproof",
+          "keywords": "video doorbell, usb doorbell, smart doorbell, security camera, wifi doorbell, 1080p doorbell, night vision, two-way audio, weatherproof camera, wireless doorbell"
+        },
+        {
+          "name": "Camera Indoor (USB-C)",
+          "sku": "HZ-C-2KCAM01",
+          "specs": "Live view: 2K/1080p | Connectivity: Wi-Fi (2.4G & 5GHz) | Control: Monitor by app at anytime anywhere | Pan & tilt: 355°, 180° | Features: Privacy protection mode, Human motion/sound detection, Two-way audio talk, Night vision, Local storage",
+          "description": "See every corner. Know every moment.\n\n• Crystal-clear 2K video reveals faces, pets, and packages with lifelike detail.\n• Night vision keeps watch after dark without switching on a single light.\n• Two-way talk lets you calm the dog or greet the kids from the grocery line.\n• Motion alerts ping your phone the instant something moves, so surprises become certainties.\n\nAsk any smart speaker or glance at any smart display to pull up the feed instantly. The camera tucks neatly on a shelf, keeps power through one discreet USB-C cable, and syncs with every mobile device you already own.\n\nBring the whole home into view, and never wonder what's happening inside again.",
+          "slug": "indoor-usb-c-2k-camera-pan-tilt",
+          "keywords": "indoor camera, 2K camera, usb-c camera, wifi security cam, pan tilt camera, baby monitor, pet cam, night vision camera, motion detection"
+        },
+        {
+          "name": "Camera Outdoor wired (Dual-Lens)",
+          "sku": "HZ-C-WIRWIF01",
+          "specs": "Lenses: Dual 2MP(1080P) | Connectivity: 2.4GHz Wi-Fi | Vision: IR night vision | Control: Pan & tilt monitor by app | Features: Motion tracking, Two-way audio, Siren alarm & Light flash, Human motion & sound detection with push notification, Micro SD card slot | Weatherproof: IP65 | Sensor: 2MP CMOS*2 | Network standard: 2.4GHz Wi-Fi | Focus: 2.8mm & 8mm dual lenses | Video: H.264/H.265 | Night distance: 0-20 Meters | Day/Night: Auto(ICR)Color/B&W, Night vision full-color | Audio Input/Output: Built-in microphone/Speaker | Power Supply: 12V/1A | Operate temperature: -20°C - 50°C",
+          "description": "See everything that matters. Know the moment it happens.\n\n• Dual-lens clarity captures faces and packages in sharp detail.\n• Wired power keeps watch 24/7 without battery swaps.\n• Weatherproof housing shrugs off rain, snow, and summer heat.\n• Instant alerts turn your phone into a live viewfinder.\n\nSecure your home with one camera that never blinks.",
+          "slug": "outdoor-dual-lens-security-camera-1080p",
+          "keywords": "outdoor camera, security camera, dual lens, 1080p, IP65, night vision, motion detection, WiFi camera, surveillance, smart home"
+        },
+        {
+          "name": "Outdoor Camera bulb holder (E27)",
+          "sku": "HZ-C-2KCAM02",
+          "specs": "Wifi smart camera | 3MP, 10 meter | two-way voice | infrared night vision | pan 355°, tilt 65° | E27 Lamp holder | motion tracking | support ALEXA and GOOGLE +1.5USD",
+          "description": "Screw in security. Watch your world light up with protection.\n\n• Installs anywhere with standard E27 socket for instant surveillance.\n• Weatherproof design captures every visitor in crystal-clear detail.\n• Motion alerts reach your phone before guests reach the door.\n• Night vision illuminates faces up to 30 feet away.\n\nTransform any light fixture into your home's watchful guardian.",
+          "slug": "outdoor-e27-bulb-security-camera-3mp",
+          "keywords": "outdoor camera, bulb camera, e27 wifi, 3mp security, motion tracking, night vision, smart lamp, alexa camera, google home, 2k surveillance"
+        },
+        {
+          "name": "Outdoor Camera with solar in pro kit",
+          "sku": "HZ-C-BATSOL01",
+          "specs": "Sensor: 2MP CMOS | Video: Full 1080p live view and video | Connectivity: 2.4GHz Wi-Fi (4G version optional) | Vision: IR night vision / color night vision | Lens: 100-Degree | Control: Pan & tilt monitor by app | Audio: Two way audio | Detection: Human detection with push notification by app | Power: 6W solar panel & 7800mAh rechargeable battery | Alarm: Siren alarm | Storage: Micro SD card slot (local storage supported) | Weatherproof: IP65",
+          "description": "See everything, everywhere, forever. Power meets freedom in one brilliant guardian.\n\n• Crystal-clear 2K video reveals faces, packages, and wildlife in vivid detail.\n• Solar panel keeps battery topped off with free, clean energy from above.\n• Weatherproof aluminum housing shrugs off storms, heat, and winter freeze.\n• Instant motion alerts reach your phone before visitors reach your door.\n\nOwn the view that never blinks and never needs charging.",
+          "slug": "solar-outdoor-camera-pro-kit-1080p",
+          "keywords": "solar camera, outdoor security, 1080p wifi, pan tilt, battery camera, night vision, IP65 camera, wireless surveillance, smart home camera, pro kit"
+        },
+        {
+          "name": "Camera outdoor with Battery, solar and light (not include 6w solar $6) in pro kit",
+          "sku": "HZ-C-BATSOL02",
+          "specs": "Wi-Fi connectivity | 2K/1080p live view | PIR motion detection | Events recording and notification | Two-way audio talk | IR night vision | Siren alarm | Rechargeable battery | IP65 weatherproof",
+          "description": "See everything, miss nothing. Your property stays protected day and night with endless solar power.\n\n• Crystal-clear footage captures every detail in brilliant 1080p resolution.\n• Built-in spotlight illuminates intruders and delivers full-color night vision.\n• Wire-free installation places security anywhere within minutes.\n• Weatherproof design withstands rain, snow, and scorching sun year-round.\n\nProtect what matters most with security that never blinks.",
+          "slug": "solar-outdoor-security-camera-pro-kit",
+          "keywords": "outdoor camera, solar camera, battery camera, 2K security camera, WiFi camera, PIR motion, night vision, weatherproof camera, wireless security, home surveillance"
+        },
+        {
+          "name": "Baby Monitor with display",
+          "sku": "HZ-C-BABMON01",
+          "specs": "7-inch 720P baby monitor | white design | comprehensive video and audio monitoring capabilities | WiFi-enabled device | crystal-clear 2-way audio communication | advanced night vision camera technology | 24/7 monitoring | large 7-inch color display | integrated clock display | remote zoom functionality | detailed viewing | 6000mAh battery | connects via WiFi | VOX mode | automatic night vision activation | portable receiver | complete volume control | built-in music player | video recording capability | capturing precious moments | indicator lights for system status | integrated night light functionality | intuitive display controls | seamless operation",
+          "description": "Watch from anywhere. Breathe easier tonight.\n\n• Crystal-clear video day or night keeps you connected.\n• Instant motion alerts reach you in seconds.\n• Talk and listen as if you're right there.\n• Secure, private stream only you can access.\n\nSleep soundly knowing every moment is covered.",
+          "slug": "7-inch-720p-wifi-baby-monitor-display",
+          "keywords": "baby monitor, 7 inch display, wifi baby camera, night vision monitor, 2-way audio, 6000mah battery, vox mode, portable receiver, zoom camera, nursery monitor"
+        }
+      ]
+    },
+    {
+      "name": "Curtain, Shutter and Garage Door Controllers",
+      "product_count": 29,
+      "products": [
+        {
+          "name": "Smart Shutter Motor (25 Zigbee tubular motor, DC motor with built-in lithium battery)",
+          "sku": "HZ-CS-BATSOL01",
+          "specs": "Product Name: Multi-functional MATTER Wired Gateway | App Support: Tuya app and Apple Homekit | Pricing: ≤10pcs:$29.6 | ≤50pcs:$29.3 | ≤500pcs:$28.9 | Unknown: 35 | Model: Matter Zigbee Wired gateway | Model Number: GS-MHZUB | App: App | Feature: Can be acted as a Matter Gateway | Feature: Can be acted as a ZigBee Gateway | Compatibility: Works with Alexa, Google Home Assistant | Device Support: Can support up to 128 smart devices | Connection: Lan network connection | Description: Internet of Everything: It can be seamlessly linked with smart home devices on various platforms. Whether it is lamps or sockets, Matter gateway can interconnect with them to provide agreed control and management | Power supply: Type C, Power input: 5V1A | Working temperature: -10~55℃ | Wireless communication protocol: 2.4G wireless & Zigbee | Product dimension: 606015mm | Weight: 33g | Communication protocol: Zigbee, Thread",
+          "description": "Transform any window into a sanctuary of perfect light and privacy. Feel the day adjust to your rhythm with whisper-quiet precision.\n\n• Control sunlight and privacy from anywhere without touching a cord.\n• Built-in battery eliminates messy wires and costly electrical work.\n• Zigbee mesh keeps every shade responding even when Wi-Fi hiccups.\n• Sunrise-to-sunset scheduling wakes you gently and guards furniture from fading.\n\nSmart Shutter Motor brings five-star comfort home, one effortless glide at a time.",
+          "slug": "zigbee-tubular-shutter-motor-25mm-battery",
+          "keywords": "Zigbee motor, tubular motor, smart shutter, battery motor, roller blind motor, 25mm motor, DC tubular motor, lithium battery motor, quiet shutter motor"
+        },
+        {
+          "name": "Smart Shutter Motor (25 Zigbee tubular motor, DC motor with built-in lithium battery)",
+          "sku": "HZ-CS-BATSOL02",
+          "specs": "Model: 25 ZIGBEE tubular motor | Motor Type: DC motor, built-in lithium battery | Diameter: 25 mm (Suitable for 38mm diameter tube) | Torque: 1.2 N | RPM: 30",
+          "description": "Transform your shutters into intelligent window guardians that respond to your daily rhythm. Open to sunrise, close for privacy, all without lifting a finger.\n\n• Control every shutter from bed with whisper-quiet precision.\n• Built-in battery eliminates messy wires and complex installations.\n• Zigbee mesh network ensures reliable control throughout your home.\n• Schedule automatic adjustments that match your lifestyle perfectly.\n\nYour windows just got smarter than your phone.",
+          "slug": "zigbee-25mm-smart-shutter-motor-battery",
+          "keywords": "zigbee motor, smart shutter, tubular motor, roller blind motor, dc motor, battery motor, home automation, curtain controller"
+        },
+        {
+          "name": "35S-10N/17-Zigbee (Zigbee tubular shutter motor, 230V)",
+          "sku": "HZ-CS-35S10N01",
+          "specs": "35 tubular electronic limit motor (built-in module) Tuya ZIGBEE module (direct power supply) | Top and bottom limits plus 4 favorite stop positions | Bi-directional feedback | Soft start and stop | Stroke memory function | A reversal of the circuit's polarity will change the direction of the motor's force clockwise or counterclockwise | Jog and continuous rolling adjustment",
+          "description": "Transform any window into an instant sanctuary of perfect light and privacy. This silent 230V tubular motor disappears inside your shutter tube, bringing cinema-quiet automation to everyday living.\n\n• Whisper-quiet operation lets you adjust shutters without disturbing sleeping children.\n• Zigbee mesh networking keeps commands responsive even at home's furthest corners.\n• 230V direct power eliminates battery replacements for decades of worry-free service.\n• Sunlight fades gradually as shutters glide to your exact preferred position every time.\n\nConnect through smart speakers, voice assistants, smart displays, or mobile devices to command your shutters with a word or tap. Schedule sunrise welcomes and sunset privacy that happen automatically while you're still in bed.\n\nExperience the luxury of perfectly orchestrated daylight that arrives on your schedule, not the sun's.",
+          "slug": "zigbee-tubular-shutter-motor-35mm-10nm-230v",
+          "keywords": "zigbee shutter motor, tubular motor, 230v shutter, smart blinds, 10Nm torque, 35mm motor, zigbee 3.0, IP44 motor, roller shutter, home automation"
+        },
+        {
+          "name": "25S-1.1N/17-Zigbee (Zigbee tubular shutter motor, 230V)",
+          "sku": "HZ-CS-25S101",
+          "specs": "Torque: 10Nm | Voltage: 230V 50Hz | Rated speed:17r/min | s4.5uF/450V | 146W | 0.64A | S2:4min | IP44 waterproof | Diameter:35mm | Wireless protocol :Zigbee3.0 IEEE 802.15.4",
+          "description": "Transform your windows into intelligent light filters. Command daylight with whisper-quiet precision.\n\n• Quiet tubular motor glides shutters smoothly at your command.\n• Zigbee mesh network connects reliably throughout your entire home.\n• 230V power handles heavy shutters without performance drops.\n• Schedule automatic positioning for privacy and energy savings.\n\nExperience the perfect balance of privacy, light, and convenience every single day.",
+          "slug": "zigbee-tubular-shutter-motor-230v-25s-1-1n-17",
+          "keywords": "zigbee shutter motor, tubular motor, 230V shutter, smart shutter, curtain controller, garage door motor, 25mm motor, IP44 motor, zigbee 3.0, roller shutter"
+        },
+        {
+          "name": "1668-6 (3-in-1 universal smart curtain robot, available in Zigbee)",
+          "sku": "HZ-CS-CONACC01",
+          "specs": "Torque: 1.1Nm | Voltage: 230V 50Hz | Rated speed:17r/min | s4.5uF/450V | 146W | 0.64A | S2:4min | IP44 waterproof | Diameter:25mm | Wireless protocol :Zigbee3.0 IEEE 802.15.4",
+          "description": "Transform every window and door into intelligent architecture that responds to your life. The 1668-6 makes manual curtains, shutters, and garage doors feel instantly outdated.\n\n• Control curtains, shutters, and garage doors from anywhere with one sleek device.\n• Zigbee technology creates reliable mesh networks that won't slow your Wi-Fi.\n• Set sunrise schedules that open curtains naturally, no alarm clock required.\n• Motor handles heavy curtains and large garage doors with quiet confidence.\n\nUpgrade to automated elegance that greets each morning and secures each night without lifting a finger.",
+          "slug": "3-in-1-zigbee-smart-curtain-robot",
+          "keywords": "smart curtain robot, zigbee curtain controller, tuya curtain motor, roman rod opener, automated blinds, wifi curtain switch, bluetooth shade driver, 4w curtain bot, 6-month battery, 10s meter speed"
+        },
+        {
+          "name": "Zigbee-DJ02 (Smart Curtain Kit with Zigbee motor, retractable rail, and remote)",
+          "sku": "HZ-CS-CONACC02",
+          "specs": "Product name: WiFi/Zigbee/Bluetooth Tuya App remote control Curtain Robot | Product size: 1528175mm | Voltage: 10V | Power: 4W | Charging current: 5V/1A | Charging port: Type C | Standby power consumption: 180UA | Communication method: Bluetooth/wifi | Battery: built-in 4000mA lithium battery | Speed: 10 seconds/meter | Usage time: >6 months | Control distance: 20 meters | Application track: Roman rod track | Material: ABS+PC | Packaging: 1 piece/box, size: 21016872mm, 0.7kg/box | Carton: 20 pieces/carton, size: 43.53538.5cm, Carton gross weight: 15kg",
+          "description": "Transform any window into a scene of effortless elegance. Zigbee-DJ02 opens, closes, and pauses your curtains on command.\n\n• Wake to gentle daylight as curtains glide open on schedule.\n• Retractable rail fits windows 1.2–3 m without cutting or tools.\n• Quiet motor moves heavy drapes at 20 cm/s without disturbing peace.\n• Handheld remote works through walls from up to 30 m away.\n\nPair with voice assistants, smart displays, or mobile devices to ask for “movie-night darkness” or “morning sunshine” without leaving the sofa.\n\nLet the next sunrise, sunset, and every moment in between unfold automatically.",
+          "slug": "zigbee-smart-curtain-kit-retractable-rail",
+          "keywords": "smart curtain, zigbee motor, retractable rail, quiet curtain opener, home automation, curtain controller, motorized track, 4.5m rail, remote control curtains, smart home"
+        },
+        {
+          "name": "Zigbee-DJ01 (Zigbee curtain motor)",
+          "sku": "HZ-CS-ZIGDJ001",
+          "specs": "Smart curtain kit components: ①zigbee Smart curtain motor ②retractable rail（2.45-4.5M) ③Remote controller*1pcs | Features: 1. New ultra-quiet architecture design, truly silent operation | 2. Ultra-small size, large torque | 3. High-grade thickened piano paint process | 4. The second gear speed is adjustable | sample: $53 | 50~200 pcs: $52 | 200~1K pcs: $50 | Model: 38 Smart Curtain Kit (retractable track) | WIFI-DJ02 | 5. Fabric canteen automatic repair | 6. DC wide voltage, no fear of current fluctuations | 7. Support hotel plug-in card power/dry contact/485 control mode | Torque: 1.2Nm | Voltage: 100～240V | Weight: 50KG | Rated speed: 80-120 (rpm) | Opening/closing speed (cm/s)",
+          "description": "Open your curtains with a whisper. Let daylight greet you on your schedule.\n\n• Wake gently to natural light rising with your alarm.\n• Close every curtain instantly for instant privacy and security.\n• Schedule scenes that adjust curtains while you're away.\n• Save energy by blocking summer heat and trapping winter warmth.\n\nWorks with your existing Zigbee hub and responds to smart speakers, displays, and mobile devices.\n\nTransform any room into a sanctuary that opens and closes with your life.",
+          "slug": "zigbee-curtain-motor-dj01-smart-home-automation",
+          "keywords": "zigbee curtain motor, smart curtain controller, automated blinds, wireless curtain opener, home automation device, zigbee hub compatible, electric curtain track, smart home integration, silent curtain motor, app controlled curtains"
+        },
+        {
+          "name": "Curtain Kit (C-shape)",
+          "sku": "HZ-CS-CURKIT01",
+          "specs": "Easy to control Curtain via mobile APP/ scene switch panel and echo | Support manual sensing function | High quality motor configuration | Electronic Memory Limit Function | Resistance and Stop Function | Rated torque: 1.5Nm | Rated speed: 120/rpm | Curtain line retracting speed: 12cm/s",
+          "description": "Transform any C-shaped curtain track into an intelligent window treatment that moves on your command. Experience the luxury of automated curtains that glide open with sunrise and close for perfect privacy at night.\n\n• Opens heavy curtains effortlessly without manual pulling or reaching.\n• Creates perfect morning wake-ups with scheduled sunrise openings.\n• Saves energy by closing during hot afternoons automatically.\n• Provides privacy and security while you're away from home.\n\nEnjoy elegant curtain automation that installs discreetly behind your existing C-track without visible hardware or complicated setup.",
+          "slug": "curtain-kit-c-shape-smart-track",
+          "keywords": "smart curtain, curtain motor, curtain track, zigbee curtain, wifi curtain, home automation, window treatment, smart home, motorized curtain, c-track"
+        },
+        {
+          "name": "Curtain Kit (C-shape)",
+          "sku": "HZ-CS-CURKIT02",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 1.14 Meter track+ 1x one-way remote control | C-shape Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Open your curtains with a whisper. Watch morning light flood in without leaving your bed.\n\n• Glide curtains open silently at sunrise for natural awakening.\n• Schedule privacy to close automatically at dusk each evening.\n• Control from anywhere using your existing smart home setup.\n• Transform any room ambiance instantly with gentle motor movement.\n\nExperience the luxury of automated curtains that respond to your voice, your schedule, and your life.",
+          "slug": "c-shape-smart-curtain-kit-2-14m-track",
+          "keywords": "smart curtain, curtain motor, c-track, zigbee curtain, wifi curtain, motorized track, bay window kit, 2.14m rail, silent opener, home automation"
+        },
+        {
+          "name": "Curtain Kit (C-shape)",
+          "sku": "HZ-CS-CURKIT03",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 1.14 Meter track+ 1x one-way remote control | C-shape Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform your curtains into silent, automated wonders that greet every sunrise on your schedule.\n\n• Open curtains gently each morning without leaving your bed.\n• Close them automatically at dusk for instant privacy.\n• Set custom schedules that adjust to your daily rhythm.\n• Whisper-quiet motor moves curtains smoothly every time.\n\nThe C-shape design installs in minutes and works with your existing curtains. Bring effortless elegance to every window in your home.",
+          "slug": "c-shape-smart-curtain-kit-3-14m-track",
+          "keywords": "smart curtain, curtain motor, zigbee curtain, wifi curtain track, motorized curtain, home automation, curtain controller, silent curtain motor"
+        },
+        {
+          "name": "Curtain Kit (C-shape)",
+          "sku": "HZ-CS-CURKIT04",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 1.14 Meter track+ 1x one-way remote control | C-shape Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform your curtains into intelligent window dressings that move with your life. The Curtain Kit (C-shape) brings effortless automation to any room.\n\n• Wake to gentle morning light as curtains glide open automatically.\n• Schedule evening privacy without leaving your comfortable seat.\n• Control natural light and temperature with precision timing.\n• Enjoy whisper-quiet operation that won't disturb peaceful moments.\n\nLet your curtains think for themselves while you simply enjoy the view.",
+          "slug": "c-shape-smart-curtain-kit-4-14m-track",
+          "keywords": "smart curtain, curtain motor, zigbee curtain, wifi curtain track, automated curtains, electric curtain kit, c-track system, smart home curtains, curtain automation"
+        },
+        {
+          "name": "Curtain Kit (C-shape)",
+          "sku": "HZ-CS-CURKIT05",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 1.14 Meter track+ 1x one-way remote control | C-shape Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform any window instantly. Your curtains now open and close with whisper-quiet precision.\n\n• Control natural light without leaving your seat throughout the day.\n• Schedule curtains to rise with sunrise and close automatically at sunset.\n• Enjoy gentle morning wake-ups as curtains open gradually each day.\n• Protect furniture from sun damage with automated positioning.\n\nExperience the luxury of automated window treatments that adapt to your life.",
+          "slug": "c-shape-smart-curtain-kit-5-14m-track",
+          "keywords": "smart curtain, curtain motor, zigbee curtain, wifi curtain, electric curtain, curtain track, home automation, curtain controller, c-track, motorized curtain"
+        },
+        {
+          "name": "Curtain Kit (C-shape)",
+          "sku": "HZ-CS-CURKIT06",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 1.14 Meter track+ 1x one-way remote control | C-shape Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform your curtains into intelligent window coverings that respond to your daily rhythm. Wake naturally as daylight gradually fills your bedroom.\n\n• Gentle morning light replaces harsh alarms with smooth curtain automation.\n• Schedule privacy at dusk without lifting a finger from sofa or bed.\n• Motor operates whisper-quietly so sleeping family members stay undisturbed.\n• Fits existing C-track curtains so no costly window hardware replacements needed.\n\nControl everything through smart speakers, voice assistants, smart displays, and mobile devices. Create scenes that synchronize your curtains with lighting and temperature for perfect ambiance.\n\nExperience the luxury of automated curtains that anticipate your needs before you do.",
+          "slug": "c-shape-smart-curtain-kit-6-14m-track",
+          "keywords": "smart curtain, curtain motor, zigbee curtain, wifi curtain track, automated curtains, c-shape track, 6.14m curtain, smart home curtains, motorized blinds, curtain automation"
+        },
+        {
+          "name": "Curtain Kit (C-shape)",
+          "sku": "HZ-CS-CURKIT07",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 1.14 Meter track+ 1x one-way remote control | C-shape Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform your curtains into silent, automated art. Wake to gentle morning light without lifting a finger.\n\n• Slide heavy curtains open at sunrise, close at sunset, every single day.\n• Install in minutes with the C-shape rail that hugs your existing window frame.\n• Control from bed, across the room, or anywhere your day takes you.\n• Whisper-quiet motor moves even thick blackout curtains without waking anyone.\n\nYour curtains finally work as beautifully as they look.",
+          "slug": "c-shape-smart-curtain-kit-1-14m-track",
+          "keywords": "smart curtain, curtain kit, c-shape track, zigbee motor, wifi curtain, home automation, curtain controller, motorized curtains"
+        },
+        {
+          "name": "Curtain Kit (C-shape)",
+          "sku": "HZ-CS-CURKIT08",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 1.14 Meter track+ 1x one-way remote control | C-shape Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform your curtains into intelligent window dressings that move with your rhythm. The C-shape Curtain Kit brings effortless automation to every sunrise and sunset.\n\n• Wake gently as curtains glide open with natural morning light.\n• Create privacy instantly without leaving your comfortable seat.\n• Schedule movements that protect furniture from harsh UV rays.\n• Enjoy whisper-quiet operation that won't disturb sleeping family members.\n\nLet your curtains anticipate your needs before you even reach for the cord.",
+          "slug": "c-shape-smart-curtain-kit-1-14m-track",
+          "keywords": "smart curtain, curtain motor, zigbee curtain, wifi curtain, track kit, home automation, motorized blinds, remote control, c-track, curtain controller"
+        },
+        {
+          "name": "Curtain Kit (Garris)",
+          "sku": "HZ-CS-CURKIT09",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 1.14 Meter track+ 1x one-way remote control | C-shape Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform every sunrise into a gentle awakening. Your curtains glide open on command, no strings attached.\n\n• Schedule curtains to rise with the morning light automatically.\n• Whisper-quiet motor opens heavy drapes up to 8 kg.\n• Control any window from bed with a single tap.\n• Retrofits existing tracks without tools or drilling.\n\nPair with smart speakers, displays, or voice assistants for hands-free control. Set scenes that dim lights and close curtains together.\n\nWatch your home respond to the day while you never lift a finger.",
+          "slug": "garris-smart-curtain-kit-zigbee-wifi-track",
+          "keywords": "smart curtain, curtain controller, home automation, motorized track, wifi curtain, zigbee motor, smart blinds, remote control"
+        },
+        {
+          "name": "Curtain Kit (Garris)",
+          "sku": "HZ-CS-CURKIT10",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 2.14 Meter track+ 1x one-way remote control | Garris Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform any room in seconds with effortless curtain control. Wake to gentle morning light, then create instant privacy at night.\n\n• Open or close curtains from anywhere in your home.\n• Schedule curtains to follow sunrise and sunset automatically.\n• Control multiple rooms with one simple touch.\n• Enjoy whisper-quiet operation that never disturbs your peace.\n\nExperience the luxury of curtains that move at your command.",
+          "slug": "garris-smart-curtain-kit-2-14m-track-zigbee-wifi",
+          "keywords": "smart curtain, curtain motor, automated curtains, curtain track, smart home, zigbee curtains, wifi curtain motor, electric drapes, 2.14m track"
+        },
+        {
+          "name": "Curtain Kit (Garris)",
+          "sku": "HZ-CS-CURKIT11",
+          "specs": "Product Description: Smart curtain kit with 1x Zigbee/WIFI motor+1x 2.14 Meter track+ 1x one-way remote control | Garris Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform your windows with effortless elegance. Garris brings intelligent curtain control to every room.\n\n• Open curtains gently each morning with automated scheduling.\n• Control multiple curtains simultaneously from anywhere in your home.\n• Adjust privacy levels instantly without leaving your seat.\n• Set custom positions for perfect lighting throughout your day.\n\nExperience the perfect blend of convenience and sophistication with Garris Curtain Kit.",
+          "slug": "garris-curtain-kit-smart-motor-track",
+          "keywords": "smart curtains, curtain motor, automated blinds, zigbee controller, wifi curtain track, home automation, motorized curtains, smart home"
+        },
+        {
+          "name": "Curtain Kit (Garris)",
+          "sku": "HZ-CS-CURKIT12",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 2.14 Meter track+ 1x one-way remote control | Garris Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Wake up to gentle morning light. Your curtains glide open automatically at sunrise.\n\n• Control curtains from anywhere with your phone or tablet.\n• Set custom schedules that adjust to sunrise and sunset times.\n• Whisper-quiet motor opens and closes curtains smoothly every time.\n• Works with any standard curtain track up to 3 meters wide.\n\nSimply connect to your existing smart speakers and voice assistants. Control everything through smart displays and mobile devices with ease.\n\nTransform your bedroom into a sanctuary where mornings begin effortlessly.",
+          "slug": "garris-smart-curtain-kit-zigbee-wifi-motor-214m-tr",
+          "keywords": "smart curtain, curtain motor, automated curtains, zigbee curtain, wifi curtain track, electric drapes, curtain controller, home automation, smart home curtains, motorized curtain"
+        },
+        {
+          "name": "Curtain Kit (Garris)",
+          "sku": "HZ-CS-CURKIT13",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 2.14 Meter track+ 1x one-way remote control | Garris Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform your curtains into intelligent window coverings that respond to your daily rhythm. Experience effortless light control that adapts to your lifestyle automatically.\n\n• Open curtains gently each morning with automated scheduling.\n• Close them remotely for instant privacy and security.\n• Set precise positioning to filter natural light perfectly.\n• Control multiple rooms simultaneously from anywhere.\n\nThe system responds to voice commands through smart speakers and integrates seamlessly with your existing smart home setup. Manage everything through mobile devices and smart displays throughout your home.\n\nWake up to natural sunlight and return to complete privacy without touching a single cord.",
+          "slug": "garris-smart-curtain-kit-2-14m-track",
+          "keywords": "smart curtain, curtain motor, zigbee curtain, wifi curtain, track kit, home automation, motorized blinds, remote control"
+        },
+        {
+          "name": "Curtain Kit (Garris)",
+          "sku": "HZ-CS-CURKIT14",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 2.14 Meter track+ 1x one-way remote control | Garris Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform every window into a responsive portal to natural light and privacy.\n\n• Open curtains gently at dawn for a natural wake-up experience.\n• Close automatically at dusk for instant privacy and security.\n• Schedule scenes that adjust with seasons and your daily rhythm.\n• Control every curtain from bed, sofa, or anywhere in your home.\n\nThe Curtain Kit (Garris) brings intelligent elegance to your windows.",
+          "slug": "garris-smart-curtain-kit-2-14m-track-zigbee-wifi",
+          "keywords": "smart curtain, curtain motor, zigbee controller, wifi curtain, track kit, home automation, motorized blinds, remote curtain, bedroom privacy, sunrise wake-up"
+        },
+        {
+          "name": "Curtain Kit (Garris)",
+          "sku": "HZ-CS-CURKIT15",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 2.14 Meter track+ 1x one-way remote control | Garris Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform your curtains into intelligent light managers. Garris Curtain Kit brings effortless automation to every window.\n\n• Wake naturally as curtains glide open with sunrise.\n• Schedule privacy with sunset closing for instant ambiance.\n• Control multiple windows simultaneously from anywhere.\n• Save energy by blocking heat or maximizing daylight.\n\nExperience the luxury of curtains that anticipate your needs.",
+          "slug": "garris-smart-curtain-kit-zigbee-wifi-track-214m",
+          "keywords": "smart curtain, curtain motor, curtain track, home automation, zigbee curtain, wifi curtain, motorized curtain, smart blinds"
+        },
+        {
+          "name": "Curtain Kit (Garris)",
+          "sku": "HZ-CS-CURKIT16",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 2.14 Meter track+ 1x one-way remote control | Garris Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform any window into an automated sanctuary. Garris Curtain Kit brings effortless control to your daily rhythm.\n\n• Wake to gentle daylight with programmable opening schedules.\n• Close curtains instantly for privacy without leaving your seat.\n• Save energy by blocking harsh sun during peak hours.\n• Enjoy whisper-quiet operation that won't disturb peaceful moments.\n\nExperience the luxury of perfectly timed natural light every single day.",
+          "slug": "garris-smart-curtain-kit-zigbee-wifi-motor-2-14m-t",
+          "keywords": "smart curtain, curtain motor, motorized curtains, zigbee curtain, wifi curtain track, home automation, electric drapes, curtain controller, smart home, automated blinds"
+        },
+        {
+          "name": "Zigbee Mini Garage Door Controller",
+          "sku": "HZ-CS-VIDDOR01",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 2.14 Meter track+ 1x one-way remote control | Garris Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Open your garage from anywhere. Close it with a word.\n\n• Control your garage door remotely through Zigbee network.\n• Monitor door status in real-time on mobile devices.\n• Receive instant alerts when door opens or closes.\n• Compact design fits any garage door opener system.\n\nTransform your garage into a smart, secure entrance you'll never second-guess.",
+          "slug": "zigbee-mini-garage-door-controller-2-14m-track",
+          "keywords": "garage door controller, smart garage opener, zigbee motor, wifi garage kit, automatic curtain track, smart home automation, garage security, remote garage control, 2.14m track, heavy duty motor"
+        },
+        {
+          "name": "WiFi+BLE Mini Curtain Switch (1CH)",
+          "sku": "HZ-CS-BATWIF01",
+          "specs": "Smart curtain kit with 1x Zigbee/WIFI motor+1x 2.14 Meter track+ 1x one-way remote control | Garris Track dimension: 1x50CM, 2x20CM, 1x10CM, rotating box 14CM, extension piece 3CM",
+          "description": "Transform any window into an instant privacy haven. Command daylight with a whisper or tap.\n\n• Open, close, or pause curtains from anywhere in your home.\n• Schedule sunrise gentle wake-ups and sunset automatic closings effortlessly.\n• Save energy by blocking heat at midday, trapping warmth at night.\n• Tiny design hides behind existing switches, no wall rewiring needed.\n\nUpgrade to effortless light control and watch every room feel bigger, calmer, smarter.",
+          "slug": "mini-wifi-curtain-switch-1ch-zigbee",
+          "keywords": "curtain switch, smart curtains, zigbee controller, mini switch, wifi curtain, smart home, automated blinds, window controller, home automation, 1 channel"
+        },
+        {
+          "name": "Smart Rope pull Blinds motor",
+          "sku": "HZ-CS-CONACC03",
+          "specs": "Operating voltage: AC100-240V50/60Hz | Wireless protocol: Zigbee3.0 IEEE 802.15.4",
+          "description": "Transform every rope-pull blind in your home into an automated shade that moves at your command. Wake to gentle sunrise, dim the room for movie night, or secure privacy from bed with a simple word.\n\n• Motor retrofits existing corded blinds without tools or new tracks.\n• Schedule morning open and evening close for effortless daily rhythm.\n• Whisper-quiet operation glides blinds so you hear only the view.\n• Share control with family through mobile devices for everyone’s comfort.\n\nAsk smart speakers or tap smart displays to adjust any blind hands-free while cooking, reading, or relaxing. The Smart Rope pull Blinds motor turns yesterday’s windows into tomorrow’s sanctuary.",
+          "slug": "smart-rope-pull-blinds-motor-wifi-zigbee",
+          "keywords": "smart blinds motor, wifi curtain motor, zigbee shade controller, automated blinds, roller shutter motor, app controlled curtains, RF remote blinds, timer shades, battery powered motor, AC adapter motor"
+        },
+        {
+          "name": "Smart Curtain Switch Module Zigbee",
+          "sku": "HZ-CS-CONACC04",
+          "specs": "Timer your schedule via APP to set open or close time for roller shutters | Compatible with a variety of shades, blinds, curtains | AC adapter is a must for normal use of the wifi blinds motor with no battery powered | Support one mobile phone to control multiple devices or multiple mobile phone to control one device | RF remote control supported as another single control method | zigbee motor with battery power",
+          "description": "Transform your curtains into intelligent window coverings that respond to your daily rhythm. Open to sunrise, close for privacy, all without lifting a finger.\n\n• Control curtains remotely from anywhere in your home.\n• Schedule automatic opening with your morning routine.\n• Zigbee connectivity ensures reliable, responsive operation.\n• Compatible with existing curtain motors and track systems.\n\nSeamlessly integrates with your smart home ecosystem through voice assistants and mobile devices. Create custom scenes that coordinate your curtains with lighting and temperature.\n\nExperience the perfect balance of natural light and privacy, automatically delivered every day.",
+          "slug": "zigbee-smart-curtain-switch-module",
+          "keywords": "smart curtain switch, zigbee curtain, automated curtains, curtain controller, zigbee 3.0, wifi curtain, electric curtain, curtain automation, smart home curtains, 250W curtain"
+        },
+        {
+          "name": "Blind motor",
+          "sku": "HZ-CS-BLIMOT01",
+          "specs": "Voltage: AC110-240V 50/60Hz | Max. Load: LED 250W 2x3A | Operation frequency: 2.412GHZ-4.484GHz | Operation temp.: -10 ℃-+40℃ | Protocol: WIFI IEEE 802.11 b/g/h | Operation range: less then 100m | Dims(WxDxH): 39.239.218mm | IP rating: IP20 | Warranty: 2 years | Networking: Zigbee 3.0",
+          "description": "Your blinds move with the light, not against it. Wake to gentle morning rays and sleep in perfect darkness.\n\n• Control every blind from bed or sofa with one touch.\n• Schedule blinds to rise at sunrise and lower at sunset automatically.\n• Adjust slats precisely for privacy without sacrificing natural daylight.\n• Save energy by blocking summer heat and trapping winter warmth.\n\nConnect to smart speakers, voice assistants, smart displays, or mobile devices for hands-free operation throughout your home.\n\nTransform your windows into intelligent light managers that work while you live.",
+          "slug": "tuya-wifi-blind-motor-roller-shades",
+          "keywords": "blind motor, smart blinds, roller shade motor, Tuya app, wifi motor, 5v motor, quiet motor, home automation, smart shades"
+        },
+        {
+          "name": "WIFI Smart Garage Controller(dry contact motor controlled garage doors)",
+          "sku": "HZ-SN-BATWIF04",
+          "specs": "Control method: Tuya App/remote control | Product size: 1674337.5 MM | Power: 4W | Voltage/current: 5V/2A | Port: Type C | Standby power consumption: 25mA | Communication method: Wifi | Power supply: 5V/2A | Speed: 3.6CM/S | Application track: blinds and roller blinds | Material: ABS+PC | Size: 21016872mm, 0.62kg/box | 20 pieces/carton, size: 43.24140.5cm | Carton gross weight: 13.4kg",
+          "description": "Your garage door just got smarter. Control it from anywhere, anytime.\n\n• Open and close your garage door remotely with WiFi connectivity.\n• Monitor door status in real-time through your mobile device.\n• Set automatic schedules for opening and closing routines.\n• Receive instant notifications when door operation occurs.\n\nTransform your garage into a smart, secure extension of your connected home.\n\nWorks seamlessly with smart speakers, voice assistants, and smart displays throughout your home. Control from mobile devices anywhere in the world.",
+          "slug": "wifi-smart-garage-controller-dry-contact",
+          "keywords": "smart garage opener, wifi garage controller, dry contact relay, 16a garage switch, universal garage door opener, home automation, garage automation, remote garage control"
+        }
+      ]
+    },
+    {
+      "name": "Pet Accesories",
+      "product_count": 2,
+      "products": [
+        {
+          "name": "Smart Pet feeder",
+          "sku": "HZ-PA-CONACC01",
+          "specs": "Navigation: gyroscope+WIFI | Battery capacity: 2600mAh | Endurance: 60-100min | working voltage: 14.8V | Dust box capacity: 600ML | Electric control water tank capacity: 400ML | Robot1 | side brush4（Install 2+spare 2） | Filter net2（Install 1+spare 1） | mop cloth2（Install 1+spare 1） | charging base1 | power adapter1 | water tank1（optional） | user manual1 | Net Weight: 3KG | Product Size: 330x330x79mm | Gross Weight: 3.5KG | Packing size: 585385126mm",
+          "description": "Feed your pet on schedule, even when life keeps you away. Never rush home for dinner again.\n\n• Set precise meal times with portion control that prevents overfeeding.\n• Check food levels and feeding history from anywhere using your phone.\n• Record your voice to call pets for meals with familiar comfort.\n• Receive alerts when food runs low or meals are missed.\n\nYour pet gets consistent, reliable meals while you gain complete peace of mind.",
+          "slug": "smart-pet-feeder-wifi-4l-stainless",
+          "keywords": "smart pet feeder, automatic feeder, wifi pet feeder, 4l capacity, stainless steel bowl, pet accessories, programmable feeder, app controlled feeder, pet food dispenser, smart home pet"
+        },
+        {
+          "name": "Smart bird feeder",
+          "sku": "HZ-PA-CONACC02",
+          "specs": "Capacity: 4 L (pet feeder) + 3 L (pet water fountain) | Material: ABS plastic, 304 stainless steel | Rated Power: 5 W | Wi-Fi: 2.4 GHz & 5 GHz | Operating Temperature: 0 °C – 50 °C",
+          "description": "Watch your backyard become a living nature documentary. The Smart bird feeder brings every feathered visitor into crystal-clear focus.\n\n• Receive instant notifications when birds arrive at your feeder.\n• Capture stunning close-up photos and videos automatically.\n• Identify visiting species with built-in bird recognition technology.\n• Monitor seed levels and get refill reminders on your phone.\n\nTransform ordinary bird watching into an extraordinary connection with nature, right outside your window.\n\nThe Smart bird feeder works seamlessly with smart speakers and mobile devices. Check your backyard visitors using voice assistants or smart displays from anywhere in your home.",
+          "slug": "smart-bird-feeder-camera-solar-1080p",
+          "keywords": "bird feeder, smart feeder, wildlife camera, solar feeder, 1080p camera, cedar birdhouse, squirrel proof, pet accessories, outdoor camera, AI bird detection"
+        }
+      ]
+    },
+    {
+      "name": "Smart Accessorries",
+      "product_count": 5,
+      "products": [
+        {
+          "name": "Smart PD Power Strip",
+          "sku": "HZ-SA-CONACC01",
+          "specs": "Operating voltage: AC100-240V 50/60Hz | 2 channel: 230V 2x100W | 120V 2x60W | Wireless protocol: Zigbee3.0 IEEE 802.15.4",
+          "description": "Power that thinks. Charging that knows exactly what your devices need before you do.\n\n• Six intelligent ports deliver perfect power to every device simultaneously.\n• USB-C PD rapidly charges laptops while smart sensors protect battery health.\n• Individual outlet control lets you restart devices without leaving your seat.\n• Built-in surge protection safeguards expensive electronics from unexpected spikes.\n\nSmart PD Power Strip transforms every outlet into an intelligent charging station that works exactly when you need it.",
+          "slug": "smart-pd-power-strip-30w-gan-hub",
+          "keywords": "power strip, usb c hub, gan charger, 30w pd, smart plug, travel adapter, multi port charger, surge protector"
+        },
+        {
+          "name": "Smart PD Power Strip",
+          "sku": "HZ-SA-CONACC02",
+          "specs": "Material: anti-fire ABS Material | Rated power: 30W Type-C Input: 110-240V ~ 60Hz 15A 1875W; USB-C Output: 5V ⎓ 3A/9V ⎓ 3A/15V ⎓ 2A/20V ⎓ 1.5A; USB-A Output: 5V ⎓ 2.4A Max (2.4A Max Per Port) | Working current: 10A AC220-240V 50Hz 2000W | Versatile protection on all outlets | Compact design, lightweight and portable | Neatly arranged plug and ports | Includes built-in 5Ft. power cord | 12 months Warranty and lifetime technical support",
+          "description": "Power up your entire life from a single elegant strip. Transform any space into a charging command center.\n\n• Fast-charge laptops, tablets, and phones simultaneously with 65W USB-C PD.\n• Control six outlets independently from anywhere using your voice or phone.\n• Schedule devices to turn off automatically and cut standby power waste.\n• Monitor real-time energy usage to lower electricity bills every month.\n\nThe Smart PD Power Strip turns ordinary outlets into an intelligent power ecosystem you'll wonder how you lived without.\n\nWorks seamlessly with smart speakers, voice assistants, and mobile devices for hands-free control.",
+          "slug": "smart-pd-power-strip-30w-usb-c",
+          "keywords": "power strip, USB-C charger, smart outlet, surge protector, 30W PD, travel adapter, multi-port, compact strip, home automation, fireproof"
+        },
+        {
+          "name": "WIFI EU standard outlet",
+          "sku": "HZ-SA-BATWIF01",
+          "specs": "Material: anti-fire ABS Material | Rated power: 30W Type-C Input: 110-240V ~ 60Hz 15A 1875W; USB-C Output: 5V ⎓ 3A/9V ⎓ 3A/15V ⎓ 2A/20V ⎓ 1.5A; USB-A Output: 5V ⎓ 2.4A Max (2.4A Max Per Port) | Working current: 10A AC220-240V 50Hz 2000W | Versatile protection on all outlets | Compact design, lightweight and portable | Neatly arranged plug and ports | Includes built-in 5Ft. power cord | 12 months Warranty and lifetime technical support",
+          "description": "Transform any EU socket into a smart outlet instantly. Control lamps, fans, and appliances from anywhere with WiFi.\n\n• Schedule coffee makers to brew before you wake up.\n• Turn off forgotten curling irons while commuting home.\n• Monitor energy usage to cut monthly electricity bills.\n• Create automatic lighting scenes that welcome you home.\n\nAdd intelligent automation to your existing appliances without replacing a single device.",
+          "slug": "wifi-eu-smart-outlet-230v-3680w",
+          "keywords": "smart outlet, EU plug, wifi socket, 230V outlet, 16A plug, home automation, smart switch, wireless socket, surge protection, high power"
+        },
+        {
+          "name": "Robot Vaccum cleaner with dustbag",
+          "sku": "HZ-SA-ROBVAC01",
+          "specs": "Maximum voltage: 230v~50HZ, 10A/16A | Maximum power: consumption 3680W | Standby power: 0.1W | Working temperature: -20~50°C | Protection device: overload protection/surge protection | Wireless network standard: 802.11 b/g/n | Wireless frequency: 2.4GHz | Color: white (color customization quantity 3000/piece)",
+          "description": "Clean floors happen while you live your life. This robot vacuum with dustbag empties itself so you don't have to.\n\n• Self-emptying dustbag holds weeks of debris for true hands-free cleaning.\n• Intelligent navigation maps your home for complete coverage without missed spots.\n• Powerful suction lifts pet hair and fine dust from carpets and hard floors.\n• Scheduled cleaning keeps floors spotless even when you're away.\n\nConnect to your smart speakers for voice control or manage through smart displays. The robot responds to your commands and sends cleaning reports to your mobile devices.\n\nEnjoy consistently clean floors without lifting a finger.",
+          "slug": "robot-vacuum-cleaner-dustbag-self-empty",
+          "keywords": "robot vacuum, self emptying, smart vacuum, dustbag cleaner, wifi robot mop, gyro navigation, 2kpa suction, 26kpa collector, electric water tank, floor cleaner"
+        },
+        {
+          "name": "Robot Vaccum cleaner with dustbag",
+          "sku": "HZ-SA-ROBVAC02",
+          "specs": "Navigation: gyroscope+WIFI | Working voltage: 14.8V | Battery capacity: 2600mAh | Dust box capacity: 600ML | Electric control water tank capacity: 400ML | Max suction power: 2Kpa | Dust collector suction power: 26KPa | With water tank mopping function | Power adapter1 | Dust collector1 | Remote controller1 | Battery2 | User manual1 | APP instruction1 | Filter net1 | Sponge1 | Mop cloth1 | Water tank（with mop cloth）1 | Gross Weight(KG) (Robot and dust collector): 8.50kg | Nature Carton Size(mm): 410x380x356mm",
+          "description": "Life gets cleaner while you're living it. Your floors stay spotless without you lifting a finger.\n\n• Automated cleaning sweeps every corner while you work, rest, or play.\n• Built-in dustbag captures weeks of debris for effortless disposal.\n• Smart navigation maps your home for thorough, efficient coverage.\n• Schedule cleanings remotely via mobile devices for always-fresh floors.\n\nWelcome to the future of effortless home cleanliness.",
+          "slug": "robot-vacuum-dustbag-600ml-gyroscope-wifi",
+          "keywords": "robot vacuum, dustbag vacuum, smart vacuum, gyroscope navigation, wifi vacuum, 600ml dustbin, 2600mah battery, auto vacuum, quiet vacuum, slim vacuum"
+        }
+      ]
+    },
+    {
+      "name": "Smart Circuit Breaker",
+      "product_count": 2,
+      "products": [
+        {
+          "name": "2P Breaker Zigbee with power monit",
+          "sku": "HZ-SC-2PBRE01",
+          "specs": "40*388 mortise | Hole spacing 6068 | Cylindrical deadbolt",
+          "description": "Take command of every circuit. Monitor power consumption in real time from anywhere.\n\n• See exact energy usage for each connected appliance instantly.\n• Cut power remotely when devices malfunction or overload.\n• Track monthly electricity costs with precision down to the watt.\n• Protect home with automatic shutoff during dangerous power surges.\n\nTransform your electrical panel into an intelligent command center that pays for itself.",
+          "slug": "2p-zigbee-smart-breaker-power-monitoring",
+          "keywords": "smart breaker, zigbee breaker, power monitor, circuit breaker, home automation, energy monitoring, din rail, residual current, 2 pole breaker, smart switch"
+        },
+        {
+          "name": "3P Breaker Zigbee with power monit",
+          "sku": "HZ-SC-3PBRE01",
+          "specs": "Features: Remote Control, Voice Control, Time Mode, Circuit Protection, Leakage Protection, Electricity Consumption, Real-Time Power/Current/Voltage, Temperature Protection, Operation Log, DIN Rail Installation, Maintenance Mode | Standards: IEC/EN 61009, IEC/EN 50557, EN 301 489, EN 300 328, EN IEC 61000 | Poles: 2P | Frequency: 50/60Hz | Current Frame(A): 16, 20, 32, 40, 63 | Rated Residual Operating Current(mA): 30, 100, 300, 500 | Residual Current Type: AC, A | Curve Code: B, C, D | Rated Insulation Voltage(V): AC 500V | Breaking Capacity(kA): 10kA | Mounting: DIN Rail 35mm",
+          "description": "Take command of your home's electrical heart. The 3P Breaker Zigbee with power monit transforms every circuit into an intelligent guardian.\n\n• Monitor three-phase power consumption in real time from anywhere.\n• Receive instant alerts when circuits approach dangerous load limits.\n• Track energy costs down to individual appliances automatically.\n• Cut phantom power waste by up to 15% monthly.\n\nProtect your home, master your energy, and never wonder about wasted power again.",
+          "slug": "3p-zigbee-smart-breaker-power-monitoring",
+          "keywords": "smart breaker, Zigbee breaker, 3P breaker, power monitoring, DIN rail breaker, smart circuit breaker, energy monitor, remote breaker, 63A breaker, leakage protection"
+        }
+      ]
+    },
+    {
+      "name": "Smart Climatisation",
+      "product_count": 14,
+      "products": [
+        {
+          "name": "DIN Rail Smart Meter",
+          "sku": "HZ-SC-CONACC02",
+          "specs": "Features: LCD Display, Remote Control, Voice Control, Time Mode, Circuit Protection, Electricity Consumption, Real-Time Power/Current/Voltage, Temperature Protection, Operation Log, DIN Rail Installation, Maintenance Mode | Poles: Disconnectable L Pole, Direct N Pole | Current Frame(A): 50 | Initial Current Value: 100mA | Monitoring: Realtime Voltage, Current, Power, Power Consumption, Switch State, Device Operating Status | Function: Multiple Timing, Over-voltage/current/Power/Temperature Protection, Remote Control, Voice Control",
+          "description": "See your home's climate in perfect clarity. The DIN Rail Smart Meter transforms invisible energy into actionable intelligence.\n\n• Track heating and cooling costs room by room with surgical precision.\n• Monitor real-time power consumption to catch energy waste instantly.\n• Identify climate system inefficiencies before they spike your bills.\n• Optimize HVAC schedules based on actual usage patterns.\n\nStop guessing about energy costs. Start managing them with the DIN Rail Smart Meter.",
+          "slug": "din-rail-smart-meter-50a-lcd-monitor",
+          "keywords": "DIN rail meter, smart energy meter, 50A circuit breaker, power monitor, electricity tracker, home automation meter, energy consumption monitor, smart home device"
+        },
+        {
+          "name": "Smart Radiator Valve Zigbee",
+          "sku": "HZ-SC-CONACC03",
+          "specs": "Zigbee Thermostat Radiator Valve | Power supply: 3 V, 2xAA batteries, no batteries on the package | Maximum stroke: 5.5mm | Accuracy: ±0.5°C | Setting temperature range: 5~45C | Display temperature range: 0-70°C | Ambient temperature: 0~45° | Ambient humidity: 5~95%RH (non-condensing) | Storage temperature: -5~45°C | Timing error: <1% | Protection level: IP 20 | Button: Knob button",
+          "description": "Transform every room into your perfect temperature sanctuary. Your radiators now listen, learn, and respond to you.\n\n• Set individual room schedules that match your daily rhythm perfectly.\n• Save up to 30% on heating bills with intelligent zone control.\n• Adjust temperature from bed using your mobile device.\n• Open window detection prevents energy waste automatically.\n\nWelcome to heating that thinks ahead so you never have to.",
+          "slug": "zigbee-smart-radiator-valve-precision",
+          "keywords": "smart radiator valve, zigbee thermostat, TRV, heating control, room thermostat, zigbee 3.0, energy saving, wireless valve, climate control, smart home"
+        },
+        {
+          "name": "Smart Humidity&Temperature sensor with IR(Zigbee)",
+          "sku": "HZ-SN-CONACC10",
+          "specs": "Input: DC 5V/1A (Micro USB without adapter) | Infrared frequency: 38KHz | Coverage: 360° | Infrared remote control distance: 10m | Connection: Wi-Fi 2.4GHz | Application: Doodle Smart or Smart Life | Temperature measurement range: 0℃-60℃ | Three-in-one: Infrared remote control + temperature + humidity three functions are integrated together | Remote control: You can control these devices remotely with a single tap on your phone's APP | Infrared remote control: You can use your smartphone to control household appliances, such as set-top boxes, TV boxes, televisions, air conditioners, fans, DVDS, etc. It is compatible with most brands on the market. See the list of supported brands in the app for details. In addition, it also has a learning function, which can copy the key function of the original remote control into the App | Built-in temperature and humidity sensor and built-in display: With the built-in sensor, you can always know the temperature and humidity in the room. And do subsequent automation according to their values. For example, turn on the air conditioner when the temperature is above 26°C, and turn on the humidifier when the humidity is below 50%. (Note: Cannot view history) | Massive infrared code library: Support 4000+ brand, 50000+ cloud infrared code, the cloud continues to update the supported device library | Voice control: By connecting to Amazon Alexa and Google Home, you can control your home appliances by voice. For example: -Alexa, turn on the TV; -OK Google, set the air conditioning temperature to 25 degrees | Family sharing function: Share and control with family members | 360° range: Smart devices can be controlled remotely within a 360 degree range of 10 meters in diameter. It is recommended to place one piece of this product in each room, which is more convenient | Wifi+ Bluetooth dual mode: Connect to the network faster. Connecting to the Internet is twice as fast as using Wifi alone",
+          "description": "Feel every room reach perfect balance. Your climate responds before you notice.\n\n• Monitor exact temperature and humidity throughout your home.\n• IR control adjusts air conditioners and heaters automatically.\n• Zigbee mesh network keeps every corner connected reliably.\n• Create custom comfort zones with precision environmental data.\n\nConnect to smart speakers, displays, or mobile devices for instant voice updates and remote adjustments.\n\nTransform your house into a sanctuary that breathes with you.",
+          "slug": "smart-humidity-temperature-ir-sensor-zigbee",
+          "keywords": "smart sensor, humidity sensor, temperature sensor, IR remote, zigbee device, climate control, home automation, wifi sensor, smart home, room sensor"
+        },
+        {
+          "name": "Pilote Thermostat (Zigbee, Power Meter)",
+          "sku": "HZ-TH-PILTHE01",
+          "specs": "Product Name: WiFi pilote Thermostat | Feature 1: 1 support Programming Mode | Feature 2: 2 support ECOWATT | Feature 3: 3 complies with BAR-TH-173 of CEE, NF EN ISO 52120-1, EN 12098-3 | Feature 4: 4 with Power Meter",
+          "description": "Transform your home's climate control with intelligent precision. The Pilote Thermostat learns your rhythms while tracking every watt of energy.\n\n• Zigbee connectivity creates a rock-solid mesh network throughout your entire home.\n• Built-in power meter shows exact energy costs for heating and cooling decisions.\n• Programmable schedules adapt to your lifestyle automatically every single day.\n• Remote temperature adjustments from anywhere using your mobile device.\n\nConnect seamlessly with smart speakers and displays for hands-free climate commands. Control multiple zones through voice assistants while monitoring consumption patterns on mobile devices.\n\nExperience perfect comfort while slashing energy bills with data-driven climate intelligence.",
+          "slug": "pilote-zigbee-thermostat-power-meter",
+          "keywords": "smart thermostat, zigbee thermostat, energy meter, wifi thermostat, ecowatt mode, programmable thermostat, home automation, climate control"
+        },
+        {
+          "name": "Wall Thermostats - Water heating (hydronic UFH/radiators), relay NC 3A / NO 5A",
+          "sku": "HZ-TH-WALTHE01",
+          "specs": "with only internal sensor | with Wi-Fi connection | Work with Alex and Google Home",
+          "description": "Transform your home's comfort with precision temperature control that learns your routine. Experience perfect warmth while cutting energy waste through intelligent hydronic heating management.\n\n• Maintain ideal room temperatures automatically throughout your daily schedule.\n• Reduce heating bills with smart scheduling and occupancy-based adjustments.\n• Control underfloor heating and radiators from anywhere using your mobile device.\n• Enjoy whisper-quiet operation with reliable relay switching for water-based systems.\n\nConnect effortlessly with voice assistants and smart displays for hands-free temperature changes. Create custom heating zones that respond to your lifestyle through simple mobile device controls.\n\nStep into a warmer, more efficient home where every room feels exactly right.",
+          "slug": "hydronic-wall-thermostat-wifi-3a-5a-relay",
+          "keywords": "wall thermostat, hydronic heating, UFH thermostat, smart thermostat, Wi-Fi thermostat, relay thermostat, water heating, Google Home thermostat, Alexa thermostat, 3A 5A relay"
+        },
+        {
+          "name": "Wall Thermostats- Electric heating (UFH/radiators) 16A, internal + floor sensor",
+          "sku": "HZ-SN-WALTHE01",
+          "specs": "Internal sensor: + Floor sensor | Wi-Fi connection: with Wi-Fi connection | Compatibility: Work with Alex and Google Home",
+          "description": "Step into a room that greets you with perfect warmth the moment you arrive. Wall Thermostats- Electric heating learns your rhythm, then quietly erases winter's chill before you even feel it.\n\n• Dual sensors watch air and floor temperature for invisible precision.\n• 16-amp relay handles underfloor loops or panel radiators without strain.\n• Learns daily patterns, preheating rooms only when you're almost home.\n• Cuts energy bills by stopping heat the instant comfort is reached.\n\nSmart climatisation that never shouts, never wastes—just warmth that waits, perfectly timed.",
+          "slug": "smart-wall-thermostat-electric-heating-16a-wifi",
+          "keywords": "wall thermostat, electric heating, smart thermostat, underfloor heating, WiFi thermostat, floor sensor, 16A thermostat, Google Home, Alexa compatible, radiator control"
+        },
+        {
+          "name": "Wall Thermostats - Water/Gas boiler (on/off relay), NC 3A / NO 5A",
+          "sku": "HZ-TH-WALTHE02",
+          "specs": "Internal sensor: Floor sensor | Wi-Fi connection | Work with Alexa and Google Home",
+          "description": "Transform any space into your perfect climate sanctuary. This intelligent wall thermostat brings precision control to your water or gas boiler system with professional-grade reliability.\n\n• Precision temperature control with NC 3A/NO 5A relay switching.\n• Seamless on/off boiler management saves energy automatically.\n• Sleek wall design complements modern interiors beautifully.\n• Professional-grade components ensure years of reliable service.\n\nExperience the perfect temperature every moment, effortlessly managed by intelligent climate technology that works as beautifully as it looks.",
+          "slug": "wall-thermostat-water-gas-boiler-wifi-alexa-google",
+          "keywords": "smart thermostat, wall thermostat, boiler thermostat, wifi thermostat, gas boiler, water boiler, alexa thermostat, google home, floor sensor, 3a 5a relay"
+        },
+        {
+          "name": "VRF - GS-KT01-ZIG/WIFI, Tuya VRF centralized control gateway",
+          "sku": "HZ-SC-BATWIF01",
+          "specs": "Product: Tuya VRF centralized control gateway for central air conditioners | Compatible Brands: Hitachi, Daikin, Toshiba, Panasonic, Haier, Hisense, Qingdao York, Mitsubishi Electric, Gree, Midea, Mitsubishi Heavy Industries, Mitsubishi Heavy Industries Haier, Samsung, Carrier, AUX, Chigo (Jiwei), McQuay, Guangzhou York water conditioners | Connection Capacity: One model supports connecting 32 indoor air conditioners",
+          "description": "Command every room's climate from a single screen. Your building becomes an oasis of perfect air, instantly.\n\n• Control up to 64 indoor VRF units through one sleek gateway.\n• Zigbee and Wi-Fi radios eliminate extra wiring across floors.\n• Schedule zones to save energy while no one's there.\n• Real-time alerts keep technicians ahead of costly failures.\n\nInstall once, breathe forever.",
+          "slug": "tuya-vrf-gateway-32-ac-control",
+          "keywords": "VRF gateway, Tuya smart, AC controller, multi-zone HVAC, Zigbee WiFi, central air, smart climate, 32 AC units, Daikin compatible, Hitachi control"
+        },
+        {
+          "name": "AE-DLJ Series VRF Air Conditioner thermostat",
+          "sku": "HZ-TH-AEDLJ01",
+          "specs": "Product Name: AE-DLJ series LCD central air conditioning thermostat | Applications: Homes, Residential buildings, Schools, Hotels, Hospitals, Offices and etc. to maintain an ideal room temperature purpose | Installation: Non-destructive install | Power: No need to provide a separate power supply | Connectivity: No need to connect to a gateway | Features: Modern design LCD Display | Display: The large color LCD display is easy to read even in the dark | Lens: The glass lens can avoid scratching your fingers | Operation: Touch Button makes simple operation | Control: Precise comfort control keeps temperature within 1°C of the level you set | Memory: Data memory when power is off | Compatibility: Suitable for tuya's wifi solution, tuya's zigbee solution",
+          "description": "Your climate, perfected. The AE-DLJ Series transforms every room into your ideal environment.\n\n• Precision temperature control delivers comfort exactly where you need it most.\n• Energy-efficient operation reduces utility costs while maintaining perfect indoor climates.\n• Individual zone management lets family members customize their personal spaces.\n• Real-time adjustments respond instantly to changing weather conditions throughout the day.\n\nConnect effortlessly with smart speakers, voice assistants, and mobile devices for seamless control from anywhere.\n\nExperience personalized comfort that adapts to your life, not the other way around.",
+          "slug": "ae-dlj-vrf-thermostat-lcd-smart-control",
+          "keywords": "VRF thermostat, smart thermostat, LCD thermostat, WiFi thermostat, Zigbee thermostat, room thermostat, central AC control, home thermostat, hotel thermostat, office thermostat"
+        },
+        {
+          "name": "zigbee Electric Floor Heating/Water Floor Heating/Gas Furnace",
+          "sku": "HZ-SC-TUYZIG01",
+          "specs": "zigbee Electric Floor Heating/Water Floor Heating/Gas Furnace | 1.6-inch round display, 400*400 LCD screen | High-quality threaded side knobs made of imitation obsidian provide a delicate touch | 6H+ tempered glass protects the screen from scratches | Sensitive buttons provide an excellent user experience | Seven-color ambient lighting adds color to your life | 95-240VAC | Water heating 5A, electric floor heating 16A, boiler 5A | Zigbee, voice control | Available colors: black, white, gray, champagne gold | Various back panel styles to choose from to suit different home styles | Supports eight languages: Chinese, English, French, Italian, German, Russian, Spanish, and Portuguese",
+          "description": "Every room feels perfectly warmed the moment you arrive home.\n\n• Every room feels perfectly warmed the moment you arrive home.\n• Transform your heating system into an intelligent climate companion that learns your routine.\n• Enjoy separate zone management that keeps bedrooms cozy without overheating living spaces.\n• Monitor and adjust settings remotely for ultimate convenience and peace of mind.\n\nConnect effortlessly with smart speakers, voice assistants, smart displays, and mobile devices for hands-free climate control.\n\nStep into personalized comfort that welcomes you home while saving energy every single day.",
+          "slug": "tuya-zigbee-floor-heating-thermostat",
+          "keywords": "tuya thermostat, zigbee heating, floor heating, smart thermostat, electric heating, water heating, gas furnace, 16A relay, voice control, LCD display"
+        },
+        {
+          "name": "Fan Coil Room Thermostat, Two pipe",
+          "sku": "HZ-TH-FANCOI01",
+          "specs": "Heating/Cooling: two pipe | Control: Fan Coil Unit and Two wired Motorized valve | Display: white backlight with Wi-Fi connection | Compatibility: Work with Alex and Google Home",
+          "description": "Perfect comfort arrives the moment you walk in. Your room feels exactly right, every single time.\n\n• Set your ideal temperature and forget manual adjustments forever.\n• Two-pipe system delivers efficient heating and cooling automatically.\n• Sleek design blends seamlessly with any modern interior.\n• Save energy while maintaining consistent comfort throughout your day.\n\nTransform every room into your personal comfort zone with intelligent climate control that thinks ahead.",
+          "slug": "two-pipe-fan-coil-wifi-thermostat",
+          "keywords": "thermostat, fan coil, two pipe, smart thermostat, Wi-Fi thermostat, HVAC control, heating cooling, Google Home, Alexa enabled, energy saving"
+        },
+        {
+          "name": "Fan Coil Room Thermostat, Four pipe",
+          "sku": "HZ-TH-FANCOI02",
+          "specs": "heating/cooling, four pipe | Control Fan Coil Unit and Two wired Heat and Cool Motorized valve | white backlight | Wi-Fi connection | Work with Alex and Google Home",
+          "description": "Transform every room into your perfect climate sanctuary. Command comfort with precision that feels almost intuitive.\n\n• Switch instantly between cooling refreshment and warming embrace.\n• Four-pipe system delivers faster temperature changes throughout your space.\n• Whisper-quiet fan coils maintain serenity while perfecting your environment.\n• Touch controls respond with satisfying precision to every adjustment.\n\nPair with smart speakers or mobile devices for effortless voice and app control from anywhere. Your climate follows your rhythm, not the other way around.\n\nWelcome to personalized comfort that arrives before you do.",
+          "slug": "four-pipe-fan-coil-thermostat-wifi",
+          "keywords": "thermostat, fan coil, four pipe, smart thermostat, HVAC control, Wi-Fi thermostat, heat cool, motorized valve, Google Home, Alexa compatible, climate control, room thermostat"
+        },
+        {
+          "name": "Integrated air conditioning and floor heating 2 in 1",
+          "sku": "HZ-SC-INTAIR01",
+          "specs": "Temperature sensor: NTC | Temperature accuracy: ±1°C | Self-consumption power: < 2W | Power supply voltage: AC220V, 50/60Hz | Load current: 16A/3A | Temperature setting: 5~95℃ | Multi-screen display on color screen, nine language settings, Celsius/Fahrenheit setting, black/white mirror border, 5+2, 6+1, 7+0 programming mode, power-off memory, child lock",
+          "description": "One system. Every season perfected.\n\n• Whisper-quiet cooling flows through every room without bulky units.\n• Radiant floor heating keeps feet cozy while saving energy costs.\n• Touch-panel controls adjust temperature room-by-room for perfect comfort.\n• Sleek vents disappear into ceilings and walls for minimalist beauty.\n\nFeel the future of home comfort today.",
+          "slug": "integrated-ac-floor-heating-2in1-smart-thermostat",
+          "keywords": "smart thermostat, floor heating, air conditioning, 2 in 1, climate control, NTC sensor, programmable thermostat, energy efficient, home automation, dual zone"
+        },
+        {
+          "name": "Thermostat Controller switch",
+          "sku": "HZ-TH-THECON01",
+          "specs": "Colors: Gold, Silver, Blue, Grey, Orange, Black, White, Red | Control: fresh air, floor heating, air conditioning | Power supply mode: zero live wire | Rated voltage: AC100V - 240v 50~ 60hz | Operating temperature: -20℃-45℃ | Working humidity: ≤ 85% RH (non-condensing) | Shell material: PC | flame retardant material | Panel material: Aluminum alloy CNC anodized | Wireless connection: ZigBee 3.0 | Wireless power consumption: ≤0.3W11 | UK: TUYA ZIGBEE intelligent switch, PC shell, button control, with backlight, with human body sensing, mobile APP remote control, support intelligent speaker voice control, timing switch, countdown switch, real-time status feedback, intelligent linkage, family sh",
+          "description": "Transform your home's climate control with intelligent precision. The Thermostat Controller switch brings effortless comfort to every room.\n\n• Set perfect temperatures from anywhere using your mobile device.\n• Save up to 30% on energy costs with smart scheduling automation.\n• Voice control works seamlessly with your existing smart speakers.\n• Monitor and adjust settings through smart displays throughout home.\n\nExperience the future of home climate control today.",
+          "slug": "zigbee-thermostat-switch-ac100-240v",
+          "keywords": "thermostat switch, smart thermostat, zigbee controller, HVAC switch, climate control, wireless thermostat, tuya switch, floor heating, air conditioning, home automation"
+        }
+      ]
+    },
+    {
+      "name": "Smart Control Panel",
+      "product_count": 6,
+      "products": [
+        {
+          "name": "3.5\" Screen with 3 gang Relay and IR (Wtihout Gateway)",
+          "sku": "HZ-SC-3501",
+          "specs": "Product Name: Smart Control Panel Mini 2024 new released smart control panel mini version | Description: multifunctional interactive device that integrates a screen, three physical buttons, three relay channels, and infrared remote control | Input: 100-240V, 50/60Hz | Wireless protocol: WiFi, Built in IR universal remote control | Max load ratings Tungsten/Incandescent: 200W | Max load ratings Dimmable CFL/LED: 200W | Max load ratings Ballast/Fluorescent: 200VA | Working temperature: 0 ℃ ~40 ℃ | Working Humidity: 5% ~90% RH non-condensing | Product size base excluded: 868611.5mm | Product size base included: 868635.50mm",
+          "description": "Transform your walls into command centers. Control three circuits and infrared devices from one elegant touchscreen.\n\n• Manage lights, fans, and appliances with three built-in relay switches.\n• Replace multiple remotes with universal infrared control from one panel.\n• See device status and settings on crisp 3.5-inch color display.\n• Install without hub or gateway - works independently out of box.\n\nThe panel connects seamlessly with smart speakers and voice assistants throughout your home. Control everything from mobile devices when you're away or cozy on the couch.\n\nSimplify your smart home with professional-grade control that installs in minutes.",
+          "slug": "3-5-inch-smart-control-panel-3-gang-relay-ir",
+          "keywords": "smart panel, control switch, 3 gang relay, IR remote, WiFi switch, home automation, smart display, mini panel, relay controller, wireless switch"
+        },
+        {
+          "name": "4\" touch smart voice control panel with built-in Alexa (gateway)",
+          "sku": "HZ-SC-PTZCAM01",
+          "specs": "T1E is a Tuya smart central control panel integrated with Tuya smart home gateway + built-in Alexa voice control (English, Spanish, German & French) + super Zigbee device compatibility + group dimming system | Main Features: 1. A best alternative of tuya ZigBee gateway at home, 100+ Zigbee sub-devices can be added in | 2. 3 Control modes at different distance with 3 themes | 3. Multimedia interconnection function. Add smart doorbell and smart camera, which will show the screen outside the door when someone s the bell, contributing a higher level of security to the family | 4. Support group wireless dimming lighting. Works with zigbee dimming driver, can realize single light and group lights dimming | Chinese;Chinese;English;Spanish;French;Arabic;German;Portuguese;Italian;Korean;Japanese;Hindi;Greek;Polish;Hungarian;Czech;Slovak;Hebrew | T1E | Package size:36.525.521cm | 12PC/box 3.38kg",
+          "description": "Control your entire home with a touch. Or just your voice.\n\n• Command every light, lock, and scene from one elegant 4-inch display.\n• Speak naturally to dim lights, adjust temperature, or secure your home instantly.\n• See your smart home status at a glance with vibrant touchscreen feedback.\n• Replace multiple switches with one sleek panel that controls everything.\n\nWorks seamlessly with your existing smart speakers, voice assistants, and mobile devices. Create custom scenes that activate across all your connected products simultaneously.\n\nTransform every wall into mission control for your connected life.",
+          "slug": "4-inch-alexa-smart-control-panel-gateway",
+          "keywords": "smart panel, alexa control, zigbee gateway, touch screen, voice control, home automation, smart switch, tuya gateway, wireless dimmer, security panel"
+        },
+        {
+          "name": "5\" Touch smart voice with built-in Alexa(Gateway)",
+          "sku": "HZ-SC-CONACC01",
+          "specs": "T5E is a Tuya smart central control panel integrated with Tuya smart home gateway + built-in Alexa voice control (English, Spanish, German & French) + super Zigbee device compatibility + group dimming system | Built-in Zigbee Gateway | Built-in BLE Mesh | In-wall to replace a switch | Local control (off-network) | Edge computing",
+          "description": "Command every room from a single elegant screen. Your entire home now responds to your touch and voice.\n\n• Control lights, temperature, and security with intuitive 5-inch touchscreen.\n• Ask for weather, news, or music using built-in voice assistant.\n• See visitors clearly with integrated video doorbell display.\n• Connect every smart device through powerful built-in gateway.\n\nSeamlessly integrates with existing smart speakers and voice assistants throughout your home. Manage everything from smart displays and mobile devices with one centralized hub.\n\nTransform your living space into a truly intelligent home that thinks ahead of you.",
+          "slug": "5-inch-alexa-touch-panel-zigbee-gateway",
+          "keywords": "smart panel, Alexa control, Zigbee gateway, touch screen, in-wall switch, Tuya smart, BLE mesh, home automation, voice control, smart hub"
+        },
+        {
+          "name": "8\" touch control panel with Gateway",
+          "sku": "HZ-SC-PTZCAM02",
+          "specs": "Model: TPA08Inch | Integration with Spotify enables users to enjoy a vast selection of songs anytime, perfect for relaxation or parties | Built-in High-Fidelity Speakers: Equipped with two 2W speakers, professionally tuned for rich sound quality | External Speaker Support: Allows for connection to dual-channel background music speakers for a theater-grade audio experience | Zigbee and BLE Mesh Gateways: Built-in Zigbee, Bluetooth gateway Support one-click adding Zigbee and Bluetooth sub-device, support RS485 interface | Input: 100-240V~, 50/60HZ | Working temp: 0-40°C | Working hum: 5%-90%RH (non-condensing) | Storage: 2GB RAM/16GB ROM | Screen: 8-inch 1280800 | Audio: Speaker2 Microphone2 | Wireless Protocol: Wi-Fi/Zigbee3.0/Bluetooth 4.2/BLEmesh | System: Android 11 | Operation Mode: Touch control/Physical button/Voice control/APP control | Product Size: 127.5233.5*38mm (including base)",
+          "description": "Command every room from one elegant screen. Your entire home responds to a single touch.\n\n• Control lights, temperature, and security with intuitive 8-inch HD display.\n• Gateway hub connects hundreds of devices through one centralized interface.\n• Custom scenes transform multiple settings instantly with personalized one-tap commands.\n• Sleek wall-mounted design replaces cluttered switches with minimalist glass panel.\n\nSeamlessly integrates with smart speakers, voice assistants, and mobile devices for hands-free control throughout your home.\n\nExperience the simplicity of whole-home automation that feels as natural as flipping a switch.",
+          "slug": "8-inch-smart-touch-panel-gateway-spotify",
+          "keywords": "smart control panel, 8 inch display, zigbee gateway, ble mesh, android 11, spotify speaker, wall tablet, home automation, touch screen, multi protocol hub"
+        },
+        {
+          "name": "10.1\" touch control panel with Gateway",
+          "sku": "HZ-SC-PTZCAM03",
+          "specs": "Model: GS-T2E-TPA10-M2U | Description: T2E MAX is a Tuya smart central control panel, Zigbee & Bluetooth independent chips, integrate Zigbee and Bluetooth gateway functions, support Bluetooth BLE & BLE mesh Sub-devicee, and have edge capabilities for locaalized control | Device control: Fully compatible device access and diversified control forms are compatible with almost all Tuya ecological devices | Scene control: Customs physical buttons, screen interaction, and voice interaction can trigger scenes to meet different needs in life | Technology: I-Share technology and T- Control Technology | Interface: A variety of base forms are supported, the standard base uses zero-fire wire wire w, supports dual relays, RJ45 network port and RS485 | Languages: Chinese;Chinese;English;Spanish;French;Arabic;German;Portuguese;Italian;Korean;Japanese;Hindi;Greek;Polish;Hungarian;Czech;Slovak;Hebrew",
+          "description": "Command every room from one stunning screen. Your entire smart home answers to a single touch.\n\n• Control lights, temperature, and security from a brilliant 10.1-inch display.\n• See live camera feeds while adjusting locks and lighting simultaneously.\n• Create custom scenes that set multiple devices with one tap.\n• Built-in gateway connects directly to smart devices without extra hubs.\n\nTransform your home into a responsive sanctuary where comfort and security await your command.",
+          "slug": "10-1-inch-tuya-smart-control-panel-gateway",
+          "keywords": "smart panel, touch control, tuya gateway, zigbee hub, bluetooth mesh, home automation, wall tablet, scene controller, 10 inch display, edge control"
+        },
+        {
+          "name": "3 gang rotate control panel (Gateway)",
+          "sku": "HZ-SC-PTZCAM04",
+          "specs": "Product Description: Smart knob central control screen with 3gang switch, based on WiFi Bluetooth gateway, which can control smart home devices such as curtains, air conditioners, TVs, switches, lighting dimming systems, door locks, cameras, etc. | Input: 100-240VAC, 50/60Hz | Wireless Protocol: Wi-Fi, BLE | Operation Temperature: 0~40℃ | Operation Humidity: 5% ~ 90%RH without condensation | Size: 86×86×11.5mm (panel) and 86×86×51.4mm (with base) | Load: Maximum Load Single: 200W MAX; Total 600W MAX | Screen Size: 1.6 inch | Screen Resolution: 400*400 | Screen Type: TFT Display",
+          "description": "Transform any wall into your home's command center. Three elegant rotating dials put complete control at your fingertips.\n\n• Adjust lighting, temperature, and scenes with precision dial control.\n• Gateway hub connects every smart device into unified ecosystem.\n• Sleek glass panel replaces cluttered switches with minimalist design.\n• Rotate effortlessly through custom settings for any moment.\n\nSeamlessly integrates with smart speakers, voice assistants, and mobile devices for expanded control options. Create automated routines that respond to your daily rhythms.\n\nElevate your entire smart home experience with intuitive control that feels as good as it looks.",
+          "slug": "3-gang-rotate-smart-control-panel-gateway",
+          "keywords": "smart switch, control panel, home automation, smart home hub, WiFi gateway, Bluetooth control, touchscreen panel, smart knob, 3 gang switch, lighting control"
+        }
+      ]
+    },
+    {
+      "name": "Smart DIY Breaker",
+      "product_count": 5,
+      "products": [
+        {
+          "name": "Smart 1 Gang Dry Contact Switch with power monitering (16A)",
+          "sku": "HZ-SN-CONACC06",
+          "specs": "Current: 10A/16A | Item Type: Smart Switches | Switch Type: APP control | Features: MINI | Voltage: AC 100V-240V 110V 220V 60HZ/50HZ | Controller size: 454524mm | Controller weight: 50g",
+          "description": "Transform any circuit into an intelligent switch that thinks ahead. Monitor power from anywhere while keeping complete manual control.\n\n• Control lights, pumps, or heaters remotely with real-time 16A power tracking.\n• See exact wattage draw and prevent overloads before they trip breakers.\n• Wire directly into existing circuits for invisible smart home upgrades.\n• Monitor energy costs and spot inefficient appliances instantly.\n\nTake command of every circuit in your home with professional-grade monitoring that fits in your palm.",
+          "slug": "smart-dry-contact-switch-16a-power-monitoring",
+          "keywords": "smart switch, dry contact, 16A relay, power monitor, WiFi control, mini relay, pool pump switch, garage automation, energy tracking, wireless switch"
+        },
+        {
+          "name": "Smart 2 Gang Dry Contact Switch with power monitering (16A)",
+          "sku": "HZ-SN-CONACC07",
+          "specs": "Current: 10A/16A | Item Type: Smart Switches | Switch Type: APP control | Features: MINI | Voltage: AC 100V-240V 110V 220V 60HZ/50HZ | Controller size: 454524mm | Controller weight:50g",
+          "description": "Transform any circuit into an intelligent power guardian. Monitor and control two high-load devices from anywhere with surgical precision.\n\n• Track real-time power consumption for each 16A circuit independently.\n• Receive instant alerts when equipment draws unusual current.\n• Cut power remotely to prevent damage from overloads or faults.\n• Install without rewiring—simply replace existing switch modules.\n\nSecure your home's critical circuits with professional-grade intelligence that fits in your hand.",
+          "slug": "smart-2-gang-dry-contact-switch-16a-power-monitori",
+          "keywords": "smart switch, dry contact switch, 16A switch, power monitoring switch, mini smart relay, app control switch, dual gang switch, Wi-Fi switch, DIY breaker, 240V smart relay"
+        },
+        {
+          "name": "Smart 3 Gang Dry Contact Switch with power monitering (16A)",
+          "sku": "HZ-SN-CONACC08",
+          "specs": "Current: 10A/16A | Item Type: Smart Switches | Switch Type: APP control | Features: MINI | Voltage: AC 100V-240V 110V 220V 60HZ/50HZ | Controller size: 454524mm | Controller weight:50g",
+          "description": "Transform your electrical control with intelligent switching that pays for itself. Monitor and manage three circuits from anywhere while tracking real power consumption.\n\n• Control three 16A circuits independently through your phone.\n• Track real-time energy usage and costs per connected device.\n• Install without rewelling - fits standard wall boxes perfectly.\n• Set automated schedules that slash electricity bills instantly.\n\nTake command of your home's electrical destiny today.",
+          "slug": "smart-3-gang-dry-contact-switch-16a-power-monitori",
+          "keywords": "smart switch, dry contact, 3 gang, 16A switch, power monitoring, wifi switch, app control, smart breaker"
+        },
+        {
+          "name": "Smart 4 Gang Dry Contact Switch with power monitering (16A)",
+          "sku": "HZ-SN-CONACC09",
+          "specs": "Current: 10A/16A | Item Type: Smart Switches | Switch Type: APP control | Features: MINI | Voltage: AC 100V-240V 110V 220V 60HZ/50HZ | Controller size: 454524mm | Controller weight:50g",
+          "description": "Take command of every circuit from anywhere. Your home's power now answers to you.\n\n• Control four circuits independently with 16A capacity per gang.\n• Monitor real-time power consumption for each connected circuit.\n• Transform any switch into smart control without rewiring.\n• Set schedules that slash energy bills automatically.\n\nThe Smart 4 Gang Dry Contact Switch delivers professional-grade power management in minutes.",
+          "slug": "smart-4-gang-dry-contact-switch-16a-power-monitori",
+          "keywords": "smart switch, dry contact, 16A relay, power monitor, 4 gang, Wi-Fi switch, automation switch, mini controller, AC 240V, smart home"
+        },
+        {
+          "name": "Smart Curtain Switch Module Zigbee ( 2 Channel)",
+          "sku": "HZ-SD-CONACC01",
+          "specs": "Voltage: AC110-240V 50/60Hz | Max. Load: LED 250W 2x3A | Operation frequency: 2.412GHZ-4.484GHz | Operation temp.: -10 ℃-+40℃ | Protocol: WIFI IEEE 802.11 b/g/h | Operation range: less then 100m | Dims(WxDxH): 39.239.218mm | IP rating: IP20 | Warranty: 2 years | Networking: Zigbee 3.0",
+          "description": "Transform any curtains into intelligent window dressings that respond to your daily rhythm. Experience the luxury of automated light control without replacing a single panel.\n\n• Open both curtains simultaneously with one touch from anywhere.\n• Schedule morning wake-up scenes that welcome natural sunlight gradually.\n• Create movie-time ambiance by closing curtains instantly across your space.\n• Save energy by automating curtains to block harsh afternoon heat.\n\nControl through your existing smart speakers, voice assistants, smart displays, or mobile devices for seamless integration into your connected lifestyle.\n\nInstall once, then let your curtains think for themselves while you enjoy perfect light every moment of every day.",
+          "slug": "zigbee-curtain-switch-2ch-smart-module",
+          "keywords": "zigbee curtain switch, smart curtain controller, 2 channel switch, DIY breaker, home automation, zigbee 3.0 device, wireless curtain module, AC110-240V switch"
+        }
+      ]
+    },
+    {
+      "name": "Smart Door Lock",
+      "product_count": 10,
+      "products": [
+        {
+          "name": "Door Lock with lock body and mortise",
+          "sku": "HZ-SL-VIDDOR01",
+          "specs": "Bluetooth Ceiling Speaker -Master speaker: | Product dimension: 200mm85mm | Installation dimension: 175mm100mm | FO: 63Hz | Frequency response: 55Hz~20KHz | Rated power: 20W | Sensitivity: 90dB1W/1W | Resistant: 5Ω",
+          "description": "Your door just got smarter. Welcome home to keyless living that actually works.\n\n• Unlock from anywhere with your phone instantly.\n• Grant temporary access to guests without hiding spare keys.\n• Know exactly who enters with detailed activity logs.\n• Never fumble for keys with automatic proximity unlocking.\n\nTransform your home security with intelligent access that adapts to your life.",
+          "slug": "smart-door-lock-mortise-body-hz-sl-viddor01",
+          "keywords": "smart door lock, mortise lock, keyless entry, app remote, bluetooth lock, swipe card, temporary password, emergency key, AAA battery, USB charging"
+        },
+        {
+          "name": "Smart door lock with bluetooth functio",
+          "sku": "HZ-SL-CONACC01",
+          "specs": "App remote password/Bluetooth/swipe card/mechanical key | Standard lock body: single/limited time/cycle/permanent/custom password unlocking | Low Battery Powered by 4 pcs AAA batteries | USB charging port available for running-out batteries | Emergency mechanical key available for unlocking without interface | Create one-time, periodic and temporary password with effective and expiration time in smart life APP or tuya APP",
+          "description": "Your door just got smarter. Your keys just became obsolete.\n\n• Unlock your door from anywhere with Bluetooth connectivity.\n• Share temporary access with guests through your mobile device.\n• Monitor who enters with real-time notifications sent instantly.\n• Easy installation replaces your existing deadbolt in minutes.\n\nConnect with smart speakers and voice assistants for hands-free control. Manage everything from your mobile device wherever you are.\n\nTransform your front door into the smartest part of your home.",
+          "slug": "smart-bluetooth-door-lock-fingerprint",
+          "keywords": "smart lock, bluetooth lock, fingerprint door lock, keyless entry, smart home security, electronic lock, biometric lock, app controlled lock, IC card lock, password lock"
+        },
+        {
+          "name": "Double -sided fingerprint integrated lock (bull head lock)",
+          "sku": "HZ-SL-DOUSID01",
+          "specs": "Unlocking method: fingerprint/password/IC card/mechanical key/TT lock APP | Functions: Low power voice prompt, anti-picking alarm, password contact error 5 times alarm, virtual password alarm, check the unlock history record function | Extended function: TT lock APP, TT lock hotel, hotel PMS | Battery: 1.5V (AA alkaline battery) 4pcs | Fingerprint module: semiconductor living fingerprint head | Fingerprint identification speed: ≤1s | Rejection rate: ≤0.01% | power consumption: ≤50UA | Emergency power supply: Mirco USB | Size: 37070*25MM | (If you don't need fingerprint module, then it will subtract USD2/pcs)",
+          "description": "Your door recognizes you. Your keys stay forgotten in the drawer.\n\n• Unlock with a touch on either side of the door.\n• Store family fingerprints for instant, key-free access every time.\n• Never fumble for keys while carrying groceries or kids again.\n• Double-sided sensor means entry and exit feel equally effortless.\n\nConnect to your smart speakers, displays, and mobile devices for seamless control.\n\nDouble-sided fingerprint access transforms your door into the easiest thing you'll open all day.",
+          "slug": "double-sided-fingerprint-bull-head-smart-lock",
+          "keywords": "smart door lock, fingerprint lock, biometric lock, keyless entry, home security, smart home, bull head lock, 500 DPI sensor, wireless access, touch unlock"
+        },
+        {
+          "name": "Smart door lock for wooden door",
+          "sku": "HZ-SL-CONACC02",
+          "specs": "Number of passwords for door opening: <=100 | Number of remote controls for door opening: <=10 | Resolution: 500DPI | Rejection rate: ≤0.15% | False recognition rate: ≤0.00004% | Working temperature: -10℃～60℃ | Relative humidity: 20%～93%",
+          "description": "Your door remembers you. Your keys become history.\n\n• Unlock with a touch—no more fumbling for keys in the dark.\n• Grant temporary access to guests without copying or hiding spare keys.\n• Track every entry and exit with time-stamped logs for complete peace of mind.\n• Auto-lock secures your home the moment the door closes behind you.\n\nStep into a home that welcomes you back and locks up when you leave.",
+          "slug": "smart-lock-wooden-door-fingerprint-keyless",
+          "keywords": "smart door lock, wooden door lock, fingerprint lock, keyless entry, deadbolt lock, digital lock, biometric lock, smart home security, aluminum alloy lock, tempered glass lock"
+        },
+        {
+          "name": "3D recognition smart lock (Face recognition + palm vein recognition + Security camera)",
+          "sku": "HZ-C-2KCAM03",
+          "specs": "Material: aluminum alloy+tempered glass | Applicable lock body: double tongue/single door lock body | Color: black/gold | Configuration: fingerprint, password, card, key, temporary password, optional tuya remote door opening/remote door opening, standard 10 languages | Suitable door thickness: 35mm-120mm | Single handle weight: 1.66kg | Color box size: 340x190x123mm | Outer box size: 63.5x35.5x40cm | Packing quantity: 10 sets/box | Capacity: 100 fingerprints, 199 passwords, 199 cards, 2 mechanical keys",
+          "description": "Your door recognizes you. Your home welcomes you.\n\n• 3D facial recognition opens your door in under one second.\n• Palm vein scanning works even when wearing gloves or masks.\n• Built-in security camera captures HD video of every visitor.\n• Dual biometric authentication prevents unauthorized entry completely.\n\nWelcome to the future of home security.",
+          "slug": "3d-face-palm-smart-lock-camera",
+          "keywords": "smart lock, face recognition, palm vein, security camera, biometric lock, smart door, keyless entry, 3D recognition, home security, access control"
+        },
+        {
+          "name": "Smart Door Lock",
+          "sku": "HZ-SL-CONACC03",
+          "specs": "Features: Face and body induction start | Screen: 4.5 inches | Material: high-grade zinc alloy, IML panel | Rejection rate: <0.01% | Misrecognition rate: <0.0001% | Face/palm vein/fingerprint/ic card storage capacity: 50/50/100/100 | Working power supply: 4200mAh | Working environment: humidity 20%-90%, temperature -20°C~60°C | Unlocking method: face recognition, fingerprint recognition, temporary password, password, smart card, mechanical key | Applicable door thickness: 40-120mm",
+          "description": "Your door unlocks itself as you arrive. Your home welcomes you before you touch the handle.\n\n• Unlock from anywhere when guests arrive early.\n• Never hide keys under mats again.\n• Check lock status while lying in bed.\n• Grant temporary access to cleaners and dog walkers.\n\nControl everything through smart speakers, voice assistants, smart displays, or mobile devices. Your door becomes part of your connected home ecosystem.\n\nLet your door recognize you, protect you, and welcome you home every day.",
+          "slug": "zinc-alloy-smart-fingerprint-door-lock",
+          "keywords": "smart lock, fingerprint door lock, biometric lock, keypad lock, keyless entry, security lock, smart home lock, IC card access"
+        },
+        {
+          "name": "24*240 lock body",
+          "sku": "HZ-SL-2424001",
+          "specs": "Material: Smart door lock with Zinc alloy material | Master code and users: 1 group of master code, 100 groups of fingerprint users | Fingerprint scanning time: ≤0.1s | Smart fingerprint recognition function: 360° fingerprint detection; from young to elder, a person only need to record his finerprint one time, then he can unlock the door through his whole life | Anti-peeping technology: Aopt phantom password technology, you can add some numbers before/after you input the real password, which can avoid other people peep your password | Unlock ways: fingerprint, anti-peeping password, fingerprint+password, mechanical key, IC card",
+          "description": "Your door just got smarter. The 24240 lock body transforms every entry into an experience of effortless security.\n\n• Unlock instantly with your fingerprint in under a second.\n• Grant temporary access codes to guests from anywhere.\n• Monitor every entry and exit with detailed activity logs.\n• Auto-lock ensures your door always secures itself behind you.\n\nThe 24240 lock body makes lost keys and hidden spare copies history.",
+          "slug": "24x240-smart-lock-body-stainless",
+          "keywords": "smart lock, door lock, 24x240mm, stainless steel, mortise lock, national standard, home security, keyless entry, lock body, smart home"
+        },
+        {
+          "name": "3D face+video doorbell Smart Automatic lock",
+          "sku": "HZ-SS-VIDDOR07",
+          "specs": "Lock body size: 24*240mm | Special national standard lock body | Stainless steel material",
+          "description": "Your door just got smarter than your phone. 3D face+video doorbell Smart Automatic lock recognizes you instantly and welcomes you home.\n\n• See every visitor in crystal-clear video before you answer.\n• 3D facial recognition unlocks for family in under a second.\n• Never fumble for keys—your face is your new key.\n• Know who's at your door from anywhere in your home.\n\nThe front door that knows your face and keeps strangers out.",
+          "slug": "3d-face-video-doorbell-smart-lock",
+          "keywords": "smart lock, video doorbell, face recognition, biometric lock, keyless entry, wifi lock, security door, fingerprint door, automatic lock, home security"
+        },
+        {
+          "name": "WiFi smart door lock with camera (comes with lockbody)",
+          "sku": "HZ-C-BATWIF01",
+          "specs": "7 ways to unlock: ① 3D face recognition unlock ② fingerprint unlock the door ③ Password unlock ④ RFID card unlock ⑤ Mechanical key unlock ⑥ Mobile APP ⑦ Video doorbell unlock | Material: Aluminum alloy | Touch password screen virtual password function display screen fingerprint password double protection | Lock core: C-level blade anti-theft lock core | Color: Starry gray",
+          "description": "See who's there before they knock. Lock or unlock from anywhere life takes you.\n\n• Crystal-clear camera shows every visitor in real-time.\n• Instant phone alerts when motion triggers the sensor.\n• One-tap entry for family, temporary codes for guests.\n• Complete lockbody included, installs with standard tools.\n\nYour front door just got smarter than ever.",
+          "slug": "wifi-smart-lock-camera-doorbell",
+          "keywords": "smart door lock, wifi lock, camera doorbell, fingerprint lock, keyless entry, tuya app, smart home security, video door lock"
+        },
+        {
+          "name": "Smart Lock (lock box)",
+          "sku": "HZ-SL-CONACC04",
+          "specs": "Guest photo capture and notification: When the guest s the doorbell, the smart door lock will capture the photo of the guest and send it to the APP of the host's mobile phone, and the host's mobile phone will also receive a video popover to view the real-time situation of the door. If it is someone you know, you can directly unlock the door remotely on the phone | Lock opening notification: Every time the lock is opened, the mobile APP will receive push information | Compatible apps: Work with Tuya mobile APP or Smart Life APP | Unlock methods: Fingerprint, anti-peeping password, fingerprint+password, mechanical key, IC card, mobile APP",
+          "description": "Your door unlocks itself when you approach. Your home welcomes you before you even reach for your keys.\n\n• Unlock from anywhere with your phone or share digital keys instantly.\n• Always know who arrives with instant notifications and detailed entry logs.\n• Never hide keys again with secure temporary codes for guests.\n• Works without internet using backup keys when power outages strike.\n\nCreate schedules that automatically lock your door at night and unlock for deliveries. Connect to smart speakers for voice control, smart displays for visual confirmation, and mobile devices for remote access.\n\nSmart Lock transforms your front door into a personal doorman that knows exactly when to let you in.",
+          "slug": "smart-lock-box-ip65-aluminum-100-keys",
+          "keywords": "smart lock box, key lock box, smart door lock, bluetooth lock, IP65 lockbox, aluminum lock, key storage, outdoor lockbox, 100 key capacity, secure key box"
+        }
+      ]
+    },
+    {
+      "name": "Smart Door Lock Body",
+      "product_count": 3,
+      "products": [
+        {
+          "name": "Square 5050 mortise (304 Stainless Steel)",
+          "sku": "HZ-SD-SQU50501",
+          "specs": "Storage capacity: 100 pcs (not included) | Materials: Aluminum alloy | Surface treatment: Spray painting process | Battery life: 12 months(AAA)/24 months(CR123A) | Operating temperature: -20°C~55°C | Working environment humidity: 40%RH~85%RH | Salt spray test: 96 hours | Installation: Hooks, self-tapping screws, expansion screws | Supported gateways: Bluetooth Gateway | Certification: CE, FCC, RoHS, IP65",
+          "description": "Your door becomes the guardian of your home.\n\n• 304 stainless steel resists corrosion for decades of reliable protection.\n• 5050 mortise design integrates flush with your door for clean aesthetics.\n• Precision-engineered mechanism operates smoothly millions of cycles.\n• Universal compatibility works with existing smart lock systems.\n\nSquare makes your door the smartest part of your home.",
+          "slug": "square-5050-mortise-lock-304-stainless",
+          "keywords": "mortise lock, 304 stainless steel, smart door lock, square lock, ANSI Grade 1, door hardware, stainless lock, smart home, keyless entry, security lock"
+        },
+        {
+          "name": "Single deadbolt 24*240mm size (Full 304 Stainless Steel)",
+          "sku": "HZ-SL-SINDEA01",
+          "specs": "Shape: Square | Type: 5050 mortise | Material: (304 Stainless Steel)",
+          "description": "Transform your front door into a fortress of modern security. This single deadbolt delivers unbreakable protection wrapped in timeless elegance.\n\n• Full 304 stainless steel construction resists corrosion and forced entry attempts.\n• 24x240mm precision sizing ensures seamless installation in standard door preparations.\n• Single deadbolt mechanism provides reliable one-point locking security.\n• Surgical-grade steel maintains flawless appearance through years of weather exposure.\n\nWorks beautifully with any smart lock system you choose. The universal design pairs perfectly with voice assistants, smart displays, and mobile devices for complete home integration.\n\nSecure your home with the strength that lasts a lifetime.",
+          "slug": "single-deadbolt-24x240mm-304-stainless-steel",
+          "keywords": "deadbolt, smart lock, stainless steel, 304 steel, door lock, security lock, single cylinder, 24mm deadbolt, 240mm lock, smart home"
+        },
+        {
+          "name": "Cylindrical 40*388 Mortise (Full 304 Stainless Steel)",
+          "sku": "HZ-SD-CYL4001",
+          "specs": "Single deadbolt | 24*240mm size | (Full 304 Stainless Steel) | Hole spacing 3585",
+          "description": "Transform your door into an impenetrable fortress of modern security. The Cylindrical 40388 Mortise delivers uncompromising protection with timeless elegance.\n\n• Full 304 stainless steel construction resists corrosion and forced entry attempts.\n• Precision-engineered cylindrical design ensures smooth, reliable operation every time.\n• 40388mm dimensions fit standard door preparations perfectly.\n• Heavy-duty mortise mechanism provides superior strength over standard deadbolts.\n\nSeamlessly integrates with your existing smart home ecosystem through compatible smart locks and voice assistants. Control access from anywhere using your mobile devices and smart displays.\n\nSecurity meets sophistication in every turn of the handle.",
+          "slug": "40x388-304-stainless-mortise-lock-body",
+          "keywords": "mortise lock, smart lock body, 304 stainless steel, deadbolt, 6068 hole spacing, cylindrical lock, security hardware, door lock mechanism, premium lock body, stainless steel mortise"
+        }
+      ]
+    },
+    {
+      "name": "Smart Gateway",
+      "product_count": 4,
+      "products": [
+        {
+          "name": "Wall socket Gateway",
+          "sku": "HZ-SG-WALSOC01",
+          "specs": "Features: Remote Control, Voice Control, Time Mode, Circuit Protection, Leakage Protection, Electricity Consumption, Real-Time Power/Current/Voltage, Temperature Protection, Operation Log, DIN Rail Installation, Maintenance Mode | Standards: IEC/EN 61009, IEC/EN 50557, EN 301 489, EN 300 328, EN IEC 61000 | Poles: 3P | Frequency: 50/60Hz | Current Frame(A): 16, 20, 32, 40, 63 | Rated Residual Operating Current(mA): 30, 100, 300, 500 | Residual Current Type: AC, A | Curve Code: B, C, D | Rated Insulation Voltage(V): AC 500V | Breaking Capacity(kA): 10kA | Mounting: DIN Rail 35mm",
+          "description": "Transform any wall outlet into your home's command center. Wall socket Gateway brings intelligence to every room.\n\n• Creates a mesh network that reaches every corner of your home.\n• Connects lights, locks, and sensors through one central hub.\n• Plugs directly into outlets without cords or clutter.\n• Manages up to 128 devices simultaneously with instant response.\n\nWall socket Gateway turns your house into a truly intelligent home.",
+          "slug": "wall-socket-gateway-wifi-zigbee-smart-hub",
+          "keywords": "smart gateway, wall socket hub, zigbee gateway, wifi hub, smart home bridge, wireless controller, automation hub, mesh network"
+        },
+        {
+          "name": "ZIGBEE Gateway（wired RJ45 port)",
+          "sku": "HZ-SG-WIRWIF01",
+          "specs": "Status indicator: 1 LED (Wi-Fi+Zigbee) | Operation button: 1 button (reset) | Power supply: AC100-240V | Working current: <1A | Working temperature: -10℃-55℃ | Working humidity: 10%-90% RH (non-condensing) | Storage temperature: -20℃-60℃ | Storage humidity: 5%-90% RH (non-condensing) | Wireless technology: Wi-Fi 802.11 b/g/n (Zigbee 802.15.4), support Bluetooth | Zigbee Parameters Wireless frequency: 2.400-2.480GHz | Transmit power: nominal 10dBm | Number of channels: CH1-CH26 | Channel transmission rate: 250Kbps | Other parameters Wireless encryption: AES 128bit encryption, WPA-PSK/WPA2-PSK, WPA/WPA2 security mechanism | Network management: Remote App configuration | Maximum number of connections: Max Node=50",
+          "description": "Your smart home finally speaks one language. Connect everything through one reliable hub.\n\n• Wirelessly links Zigbee lights, locks, sensors, and switches across every room.\n• RJ45 ethernet keeps commands instant and connection rock-solid.\n• Manages up to 128 devices without slowing your Wi-Fi.\n• Automates scenes and schedules that respond before you ask.\n\nPair with smart speakers, displays, or mobile devices to control your entire home with a word or tap.\n\nOne gateway. Total control. Welcome to the connected home that simply works.",
+          "slug": "zigbee-gateway-rj45-wired-hub",
+          "keywords": "zigbee gateway, smart hub, RJ45 gateway, home automation hub, Zigbee 3.0, mesh network, IoT controller, smart home bridge, wired gateway"
+        },
+        {
+          "name": "Matter gateway",
+          "sku": "HZ-SG-MATGAT01",
+          "specs": "Wireless parameters Chip: EFR32MG1B232 | Standard: IEEE 802.15.4 | Frequency band: 2.4～2.485GHz | Maximum output power: 19dBm | Dynamic output power: >35dB | Open line-of-sight transmission distance: >300m | Frequency error: ±15ppm | Theoretical transmission rate: 250kbps | Receiving sensitivity: Typical value - 102dBm, PER<10% | Total number of channels: 16 | Channel number: 11~26 | Network topology: Support star, tree, mesh network | Antenna: Default PCB onboard antenna | Hardware parameters Chip: RTL8196E | Main frequency: 400MHz | Chip architecture: MIPS | Operating system: Linux 3.10 | Flash: 128Mbit | DDR: 256Mbit | USB: 1 USB Host/Device, 1 USB PHY | UART: 1 Debug, 1 Data | GPIO: 16 | WAN: 1 10/100M Ethernet port (RJ45 interface) | Timer: 2 hardware timers, 1 watchdog | Indicator: 1 power indicator, 1 network indicator | Button: 1 reset button | Power parameters Adapter: 110V~240V AC, 5V/1A DC | Working voltage: 1.8V~3.3V | Environmental parameters Working temperature: -10℃-55℃ | Working humidity: 10%-90% RH (non-condensing) | Storage temperature: -20℃-60℃ | Storage humidity: 5%-90% RH (non-condensing) | Other parameters Protocol: Support Zigbee 3.0 protocol, Zigbee sub-devices can be added | Firmware upgrade: Support OTA",
+          "description": "Your smart home just got smarter. One hub connects everything.\n\n• Seamlessly bridges Matter devices across all your smart home ecosystems.\n• Future-proof your setup with the new universal smart home standard.\n• Control lights, locks, and sensors from any mobile device instantly.\n• Set automations that work even when internet goes offline.\n\nTransform your house into a truly connected home today.\n\nWorks with your existing smart speakers, displays, and voice assistants. Control everything through your preferred mobile devices and tablets.",
+          "slug": "matter-zigbee-gateway-gs-mzhub",
+          "keywords": "matter gateway, zigbee hub, smart home hub, apple homekit, alexa compatible, google assistant, 128 devices, lan connection, usb-c power, multi-protocol"
+        },
+        {
+          "name": "Wall socket Gateway",
+          "sku": "",
+          "specs": "",
+          "description": "",
+          "slug": "",
+          "keywords": ""
+        }
+      ]
+    },
+    {
+      "name": "Smart Music Control System",
+      "product_count": 3,
+      "products": [
+        {
+          "name": "Wired Ceiling speakers",
+          "sku": "HZ-SM-WIRWIF01",
+          "specs": "",
+          "description": "",
+          "slug": "wired-ceiling-speakers-525-silk-dome-40w",
+          "keywords": "ceiling speakers, wired speakers, home audio, 5.25 speakers, 40W speakers, in-wall speakers, surround sound, smart speakers, audio system, room speakers"
+        },
+        {
+          "name": "Bluetooth ceiling speakers (master)",
+          "sku": "HZ-SM-DOMCAM01",
+          "specs": "Bass: 5.25\" polypropylene diaphragm, rubber surround, 12oz magnet, 25mm (1\") voice coil | Tweeter: Natural silk dome diaphragm, 25mm (1\") voice coil, ferrofluid cooling, NdFeB magnets | Crossover: Modified phenolic resin PCB board, -12dB/Oct low-pass filter, -12dB/Oct high-pass filter, treble PTC overload protection | Resonant frequency: 65Hz | Frequency response: 50Hz-20KHz | Sensitivity: 86dB/W/M | Recommended amplifier power: 10-80W (rated power 40W) | Impedance: 8Ω | Hole size: 185mm(7.29\") | Accessories: Aluminum mesh, aluminum mesh hook, perforated template, spray paint card and instruction manual | Price note: The price is for one piece, and one box included 2 pieces, so the unit price should be multiplied by 2",
+          "description": "Music disappears into your ceiling. Sound fills your entire home.\n\n• Stream wireless audio to any room from your phone or tablet.\n• Control multiple speaker pairs independently throughout your home.\n• Hide speakers completely for clean, minimalist interior design.\n• Enjoy rich, room-filling sound without sacrificing floor space.\n\nThe master unit connects seamlessly with smart speakers, voice assistants, and mobile devices for effortless whole-home audio control.\n\nTransform every room into a private concert hall.",
+          "slug": "bluetooth-ceiling-speaker-master-20w",
+          "keywords": "bluetooth ceiling speaker, smart home audio, 20w ceiling speaker, wireless ceiling speakers, master speaker, home automation audio, flush mount speaker, multi room audio, kitchen ceiling speaker, 90db speaker"
+        },
+        {
+          "name": "Bluetooth ceiling speakers (slave)",
+          "sku": "HZ-SM-DOMCAM02",
+          "specs": "Product: Bluetooth Ceiling Speaker -Master speaker | Product dimension: 200mm85mm | Installation dimension: 175mm100mm | FO: 63Hz | Frequency response: 55Hz~20KHz | Rated power: 20W | Sensitivity: 90dB1W/1W | Resistant: 5Ω",
+          "description": "Music follows you through every room without a single visible speaker. Your ceiling becomes an invisible symphony that responds to your every mood.\n\n• Fill every corner with rich, wireless sound from above.\n• Control music from any mobile device in your hand.\n• Sync multiple rooms for seamless whole-home audio experience.\n• Install flush with ceiling for clean, modern aesthetic.\n\nConnect effortlessly with your existing smart speakers and voice assistants throughout your home. Stream directly from your mobile device or any Bluetooth-enabled audio source with simple pairing.\n\nTransform your living space into a sophisticated sound sanctuary where music flows as naturally as air.",
+          "slug": "bluetooth-ceiling-speaker-slave-20w",
+          "keywords": "bluetooth ceiling speaker, ceiling speaker, slave speaker, 20w speaker, in ceiling audio, whole home sound, smart speaker, wireless ceiling speaker, 55hz-20khz, home audio system"
+        }
+      ]
+    },
+    {
+      "name": "Smart Sensors",
+      "product_count": 13,
+      "products": [
+        {
+          "name": "Smart Humidity&Temperature sensor with IR",
+          "sku": "HZ-SN-CONACC01",
+          "specs": "Input: DC 5V/1A (Micro USB without adapter) | Infrared frequency: 38KHz | Coverage: 360° | Infrared remote control distance: 10m | Connection: Wi-Fi 2.4GHz | Application: Doodle Smart or Smart Life | Temperature measurement range: 0℃-60℃ | Three-in-one: Infrared remote control + temperature + humidity three functions are integrated together | You can control these devices remotely with a single tap on your phone's APP | Infrared remote control: You can use your smartphone to control household appliances, such as set-top boxes, TV boxes, televisions, air conditioners, fans, DVDS, etc. It is compatible with most brands on the market. See the list of supported brands in the app for details. In addition, it also has a learning function, which can copy the key function of the original remote control into the App | Built-in temperature and humidity sensor and built-in display: With the built-in sensor, you can always know the temperature and humidity in the room. And do subsequent automation according to their values. For example, turn on the air conditioner when the temperature is above 26°C, and turn on the humidifier when the humidity is below 50%. (Note: Cannot view history) | Massive infrared code library: Support 4000+ brand, 50000+ cloud infrared code, the cloud continues to update the supported device library | Voice control: By connecting to Amazon Alexa and Google Home, you can control your home appliances by voice. For example: -Alexa, turn on the TV; -OK Google, set the air conditioning temperature to 25 degrees | Family sharing function: Share and control with family members | 360° range: Smart devices can be controlled remotely within a 360 degree range of 10 meters in diameter. It is recommended to place one piece of this product in each room, which is more convenient | Wifi+ Bluetooth dual mode: Connect to the network faster. Connecting to the Internet is twice as fast as using Wifi alone",
+          "description": "Transform any room into the perfect climate sanctuary. Know temperature and humidity at a glance, then command your comfort with built-in infrared control.\n\n• Track temperature and humidity changes in real time.\n• Automate fans, heaters, and humidifiers via invisible IR signals.\n• Receive instant alerts when levels drift from your comfort zone.\n• Create custom scenes for sleep, work, and relaxation modes.\n\nPair with smart speakers or displays for voice commands and mobile devices for remote monitoring.\n\nPlace it once, enjoy perfect air forever.",
+          "slug": "smart-humidity-temperature-ir-sensor-360-control",
+          "keywords": "smart sensor, humidity sensor, temperature sensor, IR remote, wifi sensor, home automation, smart home, 360 control, voice control, app control"
+        },
+        {
+          "name": "Smart Door Windows Sensor -WiFi",
+          "sku": "HZ-SN-BATWIF01",
+          "specs": "Dual mode WiFi+ Bluetooth is more stable and faster | Sound and light alarm: 80DB sound alarm and red light warning to scare away intruders | Multiple mode selection: You can choose with light alarm sound, no light alarm sound, no light alarm sound, light alarm sound. A variety of options, suitable for a variety of scenarios, time use. | Alarm duration: can be manually set within 5 seconds to 180 seconds. | APP remote control: Remote setup and disarming through mobile APP at any time | One-key defense: You can set one-key defense, which is more convenient to use. | Voice control: When used with Amazon Alexa and Google Home, you can check whether the doors and Windows are open or closed | Sharing function: Share with family, common control | Offline function: When the device is offline, the APP will remind the device to be offline after 30 minutes | Low battery reminder function: The product uses 2 AAA batteries (not included), when the battery is low, the phone will remind you to replace the battery | History: You can check the time the doors and Windows were opened to see if anyone else entered the house",
+          "description": "Know the moment your world changes. Never wonder what's happening at home again.\n\n• Instant alerts when doors or windows open unexpectedly.\n• Monitor every entry point from anywhere via WiFi.\n• Battery-powered sensor installs in minutes without wires.\n• Track activity history to see exactly when access occurred.\n\nConnect to your smart speakers for voice updates about home security. Check status instantly on smart displays or mobile devices wherever you are.\n\nTransform every door and window into an intelligent guardian that never sleeps.",
+          "slug": "smart-door-window-sensor-wifi-alarm",
+          "keywords": "door sensor, window sensor, wifi alarm, smart sensor, home security, bluetooth sensor, wireless alarm, alexa sensor, google home sensor, intrusion alert"
+        },
+        {
+          "name": "Smart Door Windows Sensor",
+          "sku": "HZ-SN-CONACC02",
+          "specs": "Product name: Zigbee door and window sensor | Wireless protocol: Zigbee 3.0 | Working voltage: 3V | Sensing distance: ≥15mm | Standby current: ≤4uA | Battery type: CR2032 | Standby time: ≥12 months | Working temperature: -10～55℃ | Working humidity: 0%～99%RH | Wireless distance: ≥100 meters (open distance) | Installation: 3M adhesive | Product net weight: 25g | Product size: 50×25×11mm 30×15×10mm | Zigbee3.0 wireless protocol | Highly sensitive Hall sensor, detects door opening/closing | One-touch quick device addition | Extremely long standby time | Multi-scenario installation and use | Supports intelligent linkage with other devices | Easy to install and easy to use",
+          "description": "Your home tells you when doors and windows open. Security meets simplicity in one intelligent sensor.\n\n• Instant alerts when doors or windows open unexpectedly.\n• Know the moment kids arrive home from school.\n• Monitor vacation homes without costly security systems.\n• Battery-powered sensor installs in minutes without wires.\n\nTransform every entrance into a smart entrance today.",
+          "slug": "zigbee-door-window-sensor-wireless",
+          "keywords": "door sensor, window sensor, zigbee sensor, smart sensor, home security, wireless sensor, automation sensor, hall sensor, CR2032 battery, smart home"
+        },
+        {
+          "name": "Smart Motion Sensor - WIFI",
+          "sku": "HZ-SN-BATWIF02",
+          "specs": "Detection distance: 5 m | Detection angle: 150 degrees | Battery specifications: AAA1.5V x 3 | Working temperature: -10-45℃ | Working humidity: 10%-90%RH (no condensation)",
+          "description": "Motion becomes meaningful. Your home awakens to every presence.\n\n• Detects movement instantly with 7-meter range and 170° wide-angle coverage.\n• Sends immediate alerts to your phone when motion triggers day or night.\n• Tracks activity patterns with time-stamped logs for complete awareness.\n• Runs continuously for up to 6 months on a single battery charge.\n\nTransform every movement into meaningful home intelligence.",
+          "slug": "smart-motion-sensor-wifi-5m-detection",
+          "keywords": "motion sensor, wifi sensor, smart sensor, home security, PIR sensor, wireless sensor, automation device, smart home"
+        },
+        {
+          "name": "Smart Motion Sensor - zigbee",
+          "sku": "HZ-SN-BATWIF03",
+          "specs": "Product name: Zigbee light + human motion sensor | Wireless protocol: Zigbee 3.0 | Sensing range: ≥135 ° | Sensing distance: ≥10m | Standby current: ≤12uA | Working voltage: 3V | Battery type: AA~A x2 | Light range: 0 4000LUX | Accuracy: 50LUX | Standby time: ≥24 months | Working temperature: -10～55℃ | Working humidity: 0%～99%RH | Wireless distance: ≥100 meters (open distance) | Installation: 3M adhesive | Product net weight: 22g | Product size: 72×32×18mm | Zigbee3.0 wireless protocol | Detect light in the environment | Support custom lighting ranges and intelligent linkage devices | Quickly add devices with one click | Highly sensitive infrared detection detectors for more accurate detection | Adopt airflow suppression technology to avoid false alarms in complex environments | Quickly detect human movement to avoid detection delays and omissions | Extremely long standby time | Support intelligent linkage with other devices | Multi-scenario use | Easy to install and easy to use",
+          "description": "Your home just got eyes. See every movement, even when you're miles away.\n\n• Detects motion instantly and sends alerts to your phone immediately.\n• Zigbee connection keeps working even when internet goes down.\n• Battery lasts years without replacement or maintenance needed.\n• Triggers lights, cameras, and sirens automatically when motion detected.\n\nKnow the moment something moves. Peace of mind that never blinks.",
+          "slug": "zigbee-motion-sensor-smart-home",
+          "keywords": "zigbee sensor, motion detector, smart sensor, home automation, wireless sensor, pir sensor, light sensor, zigbee 3.0, battery sensor, smart home"
+        },
+        {
+          "name": "Smart motion sensor ceiling mounted mm wave(4)",
+          "sku": "HZ-SN-DOMCAM01",
+          "specs": "Product name: Human presence detector | Wireless protocol: Zigbee3.0 | Millimeter wave module: 24GHZ/5.8GHZ | Optional temperature range: -10～55℃ | Humidity range: 0%～99%RH | Working voltage: AC85~250V | Light detection value: 0~3000 LUX | Static detection distance: 0~6 meters | Motion detection distance: 0~10 meters | Sensing angle: >90 degrees | Wireless distance: ≥100 meters (open distance) | Product net weight: 27g | Product size: 60×60×38mm",
+          "description": "Your home now knows you're there before you turn on a light.\n\n• Detects movement through walls and around corners with millimeter wave precision.\n• Mounts discreetly on ceiling for whole-room coverage without furniture blocking view.\n• Triggers lights, fans, and security systems the instant someone enters or leaves.\n• Works in darkness, daylight, or steamy bathrooms where cameras fail.\n\nConnects seamlessly with smart speakers, voice assistants, smart displays, and mobile devices for instant home automation.\n\nEvery room becomes thoughtfully responsive the moment you walk in.",
+          "slug": "ceiling-mm-wave-motion-sensor",
+          "keywords": "motion sensor, ceiling sensor, mm wave, presence detector, smart sensor, zigbee sensor, 24ghz sensor, home automation"
+        },
+        {
+          "name": "Smart motion sensor mm wave(5) human presence sensor",
+          "sku": "HZ-SN-CONACC03",
+          "specs": "Product name: Zigbee light + human motion sensor | Wireless protocol: Zigbee 3.0 | Sensing range: ≥135 ° | Sensing distance: ≥10m | Standby current: ≤12uA | Working voltage: 3V | Battery type: AA~A x2 | Light range: 0 4000LUX | Accuracy: 50LUX | Standby time: ≥24 months | Working temperature: -10～55℃ | Working humidity: 0%～99%RH | Wireless distance: ≥100 meters (open distance) | Installation: 3M adhesive | Product net weight: 22g | Product size 72×32×18mm",
+          "description": "Feel your rooms come alive the moment you enter. This sensor knows you're there before you even move.\n\n• Detects breathing-level presence through walls and furniture.\n• Triggers lights the instant you step into darkness.\n• Saves energy by knowing when rooms empty completely.\n• Reacts to motion while sensing stationary occupants.\n\nTransform every space into a home that anticipates your needs.",
+          "slug": "mm-wave-human-presence-sensor-zigbee",
+          "keywords": "motion sensor, presence sensor, mm wave sensor, smart sensor, zigbee sensor, human detection, wireless sensor, home automation"
+        },
+        {
+          "name": "Smart Water Valve",
+          "sku": "HZ-SS-CONACC01",
+          "specs": "Valve pressure: 1.6MPA | Rated torque: 30-60kg.CM | Rated speed: 76rpm | Scheduled time for start and stop | Low noise | Auto stop when blocked | Support Amazon Echo voice control",
+          "description": "Stop water damage before it starts. Control every drop from anywhere.\n\n• Shut off water instantly when leaks are detected automatically.\n• Monitor usage patterns and catch hidden leaks early.\n• Prevent costly damage with 24/7 intelligent leak protection.\n• Save hundreds on water bills through smart usage insights.\n\nProtect your home and your wallet with intelligent water management that never sleeps.",
+          "slug": "smart-water-valve-16mpa-leak-protection",
+          "keywords": "smart valve, water valve, leak protection, home automation, smart sensor, water shutoff, voice control, leak detection, vacation mode, emergency valve"
+        },
+        {
+          "name": "Smart Gas sensor",
+          "sku": "HZ-SN-CONACC04",
+          "specs": "Zigbee standard: Zigbee 3.0 | Detection gas: Liquefied gas, natural gas | Alarm concentration: 8%LEL methane (natural gas) | Concentration error: ±3%LEL | Alarm method: sound and light alarm, mobile phone notification | Built-in siren: ≥80dB | Power input: DC 5V/1A | Working temperature: -10～55℃ | Wireless distance: ≥50 meters (open distance) | Installation: 3M glue/screw fixation | Product net weight: 68g | Product size: Φ86×29mm",
+          "description": "Breathe easy knowing your home is always protected. Smart Gas sensor transforms silent danger into instant awareness.\n\n• Detects hazardous gas leaks before they become dangerous.\n• Sends real-time alerts directly to your mobile devices instantly.\n• Monitors air quality continuously with precision sensor technology.\n• Provides peace of mind through 24/7 automatic protection.\n\nProtect what matters most with intelligent gas detection that never sleeps.",
+          "slug": "smart-gas-sensor-zigbee-3-0",
+          "keywords": "gas sensor, smart sensor, natural gas detector, LPG alarm, Zigbee 3.0, kitchen safety, methane detector, leak alert"
+        },
+        {
+          "name": "Smart Smoke sensor",
+          "sku": "HZ-SN-CONACC05",
+          "specs": "cloud platform APP alarm information push | High sensitivity, low power consumption, strong stability | Ultra long life battery power supply | Install to use, no wiring plug trouble | Ceiling installation | Live alarm with ultra loud buzzer | 360*all-round alarm | ABS flame retardant shell material | Using high-performance microprocessor | Power supply: DC9Valkaline battery (6LR61/9V) | Quiescent current: <10uA(wifi) <20uA(independent) | Alarm current: <100mA(wifi)<150mA(independent) | Sensitivity:0.05~2.0dB/m(independent) | Working temperature: 0~+50°C | Relative humidity: ≤95%RH, no condensation | Alarm sound:>80dB | Battery low voltage alarm:<7.0V±0.2V | Product size: 107x107x48mm(LxHxD)",
+          "description": "Breathe easier knowing your home watches over you. Smart Smoke sensor transforms silent danger into instant protection.\n\n• Detects smoke faster than traditional alarms with precision sensors.\n• Sends instant alerts to your phone when danger strikes anywhere.\n• Ten-year battery life eliminates midnight chirps forever.\n• Automatic self-testing ensures protection you can trust completely.\n\nProtect what matters most with intelligence that never sleeps.",
+          "slug": "smart-smoke-sensor-tuya-ceiling",
+          "keywords": "smart smoke detector, wifi smoke alarm, battery smoke sensor, ceiling fire alarm, tuya smart sensor, 9v smoke detector, wireless smoke alarm, home safety device"
+        },
+        {
+          "name": "IR Universal Remote Control - zigbee (battery)",
+          "sku": "HZ-SS-BATSOL01",
+          "specs": "Input power: 3A battery x2 | Standby power: ≤0.5W | Control distance: ≤8m (finally affected by the environment) | Infrared frequency: 38KHZ | Working temperature: 0°C~50°C | Working humidity: ≤85% RH (no condensation) | Wireless protocol: Zigbee | Executive standard: GB/T9254- -2008 | Product Size: 68x68x27mm",
+          "description": "Control every infrared device from anywhere. Your entire entertainment center lives in your pocket.\n\n• Replace every remote with one sleek zigbee controller.\n• Battery power means no cords cluttering your living space.\n• Works through walls and cabinets for hidden device control.\n• Program complex sequences for movie night in one touch.\n\nConnects seamlessly to your smart home hub and responds to voice assistants through smart speakers. Control everything from smart displays or mobile devices with a simple command.\n\nTransform your living room into a wireless command center today.",
+          "slug": "zigbee-ir-universal-remote-battery",
+          "keywords": "zigbee remote, IR remote, universal remote, battery remote, smart home remote, 38khz remote, automation remote, smart sensor, wireless remote, smart control"
+        },
+        {
+          "name": "IR Universal Remote Control - zigbee gs-zs06-z",
+          "sku": "HZ-SS-IRUNI01",
+          "specs": "WiFi/Zigbee IR remote controller for TV/AC | Unit weight: 26g | LED indicator: blue | Infrared range: less than 10m | Size: 505019mm | Type C input: DC5V/1A | Infrared frequency: 35KHZ | WiFi frequency: IEEE802.15.4, 2.4GHz",
+          "description": "Control every infrared device in your home from anywhere. One small sensor replaces every remote you own.\n\n• Command televisions, air conditioners, fans through walls and cabinets.\n• Create custom scenes that adjust multiple devices simultaneously.\n• Schedule appliances to turn on before you arrive home.\n• Place anywhere with battery power, no wiring required.\n\nTransform your entire entertainment center and climate system into one elegant, invisible network.",
+          "slug": "zigbee-ir-universal-remote-gs-zs06-z",
+          "keywords": "zigbee remote, IR controller, smart remote, wifi remote, AC remote, TV remote, universal remote, smart home, automation hub, infrared control"
+        },
+        {
+          "name": "IR Universal Remote Control",
+          "sku": "HZ-SS-IRUNI02",
+          "specs": "WiFi/Zigbee IR remote controller for TV/AC | Unit weight: 26g | LED indicator: blue | Infrared range: less than 10m | Size: 505019mm | Type C input: DC5V/1A | Infrared frequency: 35KHZ | WiFi frequency: IEEE802.15.4, 2.4GHz",
+          "description": "Replace your coffee table clutter with one elegant remote that commands everything.\n\n• Control every infrared device from a single, intuitive interface.\n• Program custom scenes that dim lights and adjust temperature simultaneously.\n• Automate daily routines to power devices on and off without lifting a finger.\n• Monitor energy usage patterns to identify and eliminate waste.\n\nThe remote pairs seamlessly with smart speakers, voice assistants, and mobile devices for effortless whole-home control.\n\nOne remote. Every device. Total command.",
+          "slug": "zigbee-wifi-ir-universal-remote-control",
+          "keywords": "IR remote, universal remote, smart remote, Zigbee remote, WiFi remote, TV remote, AC remote, smart home, 35KHz IR, 2.4GHz"
+        }
+      ]
+    },
+    {
+      "name": "Smart Switch",
+      "product_count": 5,
+      "products": [
+        {
+          "name": "1 Gang Display Light switch",
+          "sku": "HZ-LT-SPOTLT01",
+          "specs": "Name: Screen display Lighting switch | Standard: UK, EU standard | Control button: 1gang | Input voltage: 100V-240V AC 50-60HZ | Communication method: WiFi, ZigBee | WIFI standard: 802.11b/g/n 2.4GHZ | W: N+L line | Load power: ≤600W (N+L line) | Wireless power consumption: ≤0.3W | Control method: manual button control/APP control/AI voice control | Panel material: PC flame retardant material | Size: 868634mm | Color: White/Black/Grey",
+          "description": "Light becomes effortless. One touch transforms every moment at home.\n\n• Control any light from your phone or the sleek wall display.\n• Set schedules that welcome you home and dim for bedtime.\n• See real-time status so you always know which lights are on.\n• Replace any standard switch in minutes with existing wiring.\n\nThe 1 Gang Display Light switch brings intelligent lighting to every room without complexity.",
+          "slug": "1-gang-display-smart-light-switch",
+          "keywords": "smart switch, display switch, 1 gang switch, WiFi light switch, ZigBee switch, UK EU standard, voice control light, app controlled switch, 600W load, flame retardant"
+        },
+        {
+          "name": "2 Gang Display Light switch",
+          "sku": "HZ-LT-SPOTLT02",
+          "specs": "Name: Screen display Lighting switch | Standard: UK, EU standard | Control button: 2gang | Input voltage: 100V-240V AC 50-60HZ | Communication method: WiFi, ZigBee | WIFI standard: 802.11b/g/n 2.4GHZ | W: N+L line | Load power: ≤600W (N+L line) | Wireless power consumption: ≤0.3W | Control method: manual button control/APP control/AI voice control | Panel material: PC flame retardant material | Size: 868634mm | Color: White/Black/Grey",
+          "description": "Transform any room into a perfectly lit sanctuary with intelligent control at your fingertips.\n\n• Set automated schedules that welcome you home with warm light.\n• Dim both circuits independently to create the perfect ambiance.\n• Control two separate lighting zones from one sleek wall switch.\n• Save energy by ensuring lights are never left on unnecessarily.\n\nElevate your everyday lighting from ordinary to extraordinary with intelligent control that adapts to your life.",
+          "slug": "2-gang-display-smart-light-switch-wifi-zigbee",
+          "keywords": "smart switch, 2 gang switch, wifi light switch, zigbee switch, display switch, EU switch, UK switch, touch screen switch, home automation, 600W switch"
+        },
+        {
+          "name": "3 Gang Display Light switch",
+          "sku": "HZ-LT-SPOTLT03",
+          "specs": "Name: Screen display Lighting switch | Standard: UK, EU standard | Control button: 3gang | Input voltage: 100V-240V AC 50-60HZ | Communication method: WiFi, ZigBee | WIFI standard: 802.11b/g/n 2.4GHZ | W: N+L line | Load power: ≤600W (N+L line) | Wireless power consumption: ≤0.3W | Control method: manual button control/APP control/AI voice control | Panel material: PC flame retardant material | Size: 868634mm | Color: White/Black/Grey",
+          "description": "Control three lights from one elegant wall command center.\n\n• Control three separate lights independently from one sleek wall panel.\n• Create perfect ambiance with dimming and brightness adjustments.\n• Schedule automatic lighting that follows your daily routine.\n• Save energy by turning off forgotten lights remotely.\n\nThe 3 Gang Display Light switch brings sophisticated lighting control to every room in your home.",
+          "slug": "3-gang-display-smart-light-switch",
+          "keywords": "smart switch, 3 gang switch, WiFi light switch, ZigBee switch, UK light switch, EU light switch, voice control switch, app control lighting, 600W smart switch"
+        },
+        {
+          "name": "4 Gang Display Light switch",
+          "sku": "HZ-LT-SPOTLT04",
+          "specs": "Name: Screen display Lighting switch | Standard: UK, EU standard | Control button: 4gang | Input voltage: 100V-240V AC 50-60HZ | Communication method: WiFi, ZigBee | WIFI standard: 802.11b/g/n 2.4GHZ | W: N+L line | Load power: ≤600W (N+L line) | Wireless power consumption: ≤0.3W | Control method: manual button control/APP control/AI voice control | Panel material: PC flame retardant material | Size: 868634mm | Color: White/Black/Grey",
+          "description": "Transform every room with perfect lighting control. One elegant switch commands your entire lighting scene.\n\n• Control four light zones independently from one stunning glass display.\n• Create custom scenes that set mood instantly with gentle taps.\n• Adjust brightness precisely to match every moment of your day.\n• Replace four traditional switches with one sleek, modern design.\n\nElevate your home with lighting that responds to your life.",
+          "slug": "4-gang-display-light-switch-uk-eu",
+          "keywords": "smart switch, 4 gang switch, wifi light switch, zigbee switch, uk eu standard, voice control switch, app control switch, 600w load switch, flame retardant switch"
+        },
+        {
+          "name": "Smart switch PC",
+          "sku": "HZ-SS-CONACC02",
+          "specs": "Colors: Grey, Black, White | Control: 4 street lamp control | Power supply mode: zero live wire | Rated voltage: AC100V - 240V 50 ~ 60Hz | Operating temperature: -20℃-45℃ | Working humidity: ≤ 85% RH (non-condensing) | Shell material: PC | Flame retardant material | Panel material: PC | Wireless connection: ZigBee 3.0 | Power consumption: ≤0.3W | Other functions: You can set binding through the APP to control 8 scenes, 4 dimming lights, and 4 curtains | Product function introduction: UK: TUYA ZIGBEE intelligent switch, PC shell, button control, with backlight, with human body sensing, mobile APP remote control, support intelligent speaker voice control, timing switch, countdown switch, real-time status feedback, intelligent linkage, family sh",
+          "description": "Transform any space into a responsive, connected room with one sleek wall tap. Smart switch PC puts instant command of lights, fans, and outlets at your fingertips.\n\n• Schedule sunrise-to-sunset lighting that follows your daily rhythm.\n• Cut standby power and watch monthly utility bills shrink.\n• Create movie, dinner, or bedtime scenes with a single press.\n• Control from couch or across town using mobile devices.\n\nPair with smart speakers or voice assistants for hands-free operation. Set automations through smart displays and manage everything from mobile devices with ease.\n\nUpgrade to Smart switch PC and feel your whole home click into perfect sync.",
+          "slug": "smart-switch-pc-zigbee-4-control",
+          "keywords": "zigbee switch, smart switch, PC switch, lamp controller, home automation, voice control, wireless switch, scene control"
+        }
+      ]
+    },
+    {
+      "name": "Smart lighting System and Dimming Controller",
+      "product_count": 18,
+      "products": [
+        {
+          "name": "Zigbee Intelligent LED driver",
+          "sku": "HZ-SL-ZIGINT01",
+          "specs": "Smart Garage Controller: This product is suitable for dry contact motor controlled garage doors | Input: AC100-240V 50/60HZ | Output: NO | Power: 300W | Electricity: 16A",
+          "description": "Transform any space with intelligent lighting that responds to your every need. The Zigbee Intelligent LED driver brings professional-grade control to your fingertips.\n\n• Create perfect ambiance with smooth 0-100% dimming precision.\n• Connect up to 64 drivers for whole-home lighting orchestration.\n• Enjoy flicker-free performance that protects eyes and enhances comfort.\n• Save energy automatically with intelligent brightness optimization.\n\nExperience lighting that thinks ahead and adapts to you.",
+          "slug": "zigbee-intelligent-led-driver-dimming",
+          "keywords": "zigbee driver, led dimmer, smart lighting, color temperature, constant voltage, downlight controller, spot light dimmer, warm cold light, 15W driver, AC85-265V"
+        },
+        {
+          "name": "Dimming and color adjustment Constant current dial 0-10V/ 1-10V PWM 10V All-in-one",
+          "sku": "HZ-SL-COLNIV01",
+          "specs": "Control: down lamp and spot lamp cold light and warm light | Driver Type: constant voltage dimming driver | Power: Color Temperature adjustment 7W 9W 12W 15W | Input Voltage: AC85-265V | Output Voltage: DC21V-36V | Output Current: 7W 150mA 9W 200mA 12W 260mA | Size: 1003623 MM",
+          "description": "Transform every room with perfect light. Dial in brightness and color to match your moment.\n\n• Smooth 0-10V dimming creates cinema-level ambiance instantly.\n• Precision PWM control delivers flicker-free LED performance always.\n• Single dial adjusts both intensity and color temperature seamlessly.\n• Professional-grade constant current drives any LED load reliably.\n\nOwn the light. Command every shade.",
+          "slug": "all-in-one-dimming-color-controller-0-10v-pwm",
+          "keywords": "dimming controller, color adjustment, 0-10V driver, PWM dimmer, smart lighting, LED controller, constant current, 1-10V dimmer, RGB controller, home automation"
+        },
+        {
+          "name": "zigbee light strip driver RGB+C+W",
+          "sku": "HZ-LT-SPOTLT05",
+          "specs": "120*45+:25mm | AC85-265V | >85 | >0.9 | DC9-40V | 150-600mA士 3% - Dimming and color adjustment | Constant current dial 0-10V/1-10V PWM 10V | All-in-one",
+          "description": "Transform any space with cinematic color. Your room becomes a living canvas of light.\n\n• Paint walls with 16 million colors plus pure whites.\n• Fade from vibrant party scenes to warm evening glows.\n• Sync lighting to movies for immersive home theater.\n• Wake gently as sunrise colors gradually fill your bedroom.\n\nBring your walls to life with light that moves and breathes with you.",
+          "slug": "zigbee-rgbcw-light-strip-driver-240w",
+          "keywords": "zigbee driver, light strip controller, RGBCW dimmer, smart lighting, LED driver, 24V controller, wireless dimmer, Zigbee 3.0"
+        },
+        {
+          "name": "TV background light",
+          "sku": "HZ-LT-SPOTLT06",
+          "specs": "Rated power: 12V-120W/24V-240W | Input voltage: DC12-24V | Output current: 10ADC | Support RGBCW light strip",
+          "description": "Transform your viewing experience with intelligent ambient lighting that moves with your entertainment. Watch movies come alive as colors extend beyond the screen.\n\n• Dynamic backlighting automatically syncs to on-screen action for total immersion.\n• Dimming controller lets you set perfect brightness for any viewing environment.\n• Reduces eye strain during extended viewing sessions with balanced ambient glow.\n• Custom color zones create personalized lighting scenes for every genre.\n\nControl everything through your existing smart home setup using voice commands or mobile devices. The system integrates seamlessly with smart speakers and displays throughout your home.\n\nElevate every movie night with professional theater lighting that responds to your entertainment.",
+          "slug": "tuya-wifi-tv-background-rgbic-light",
+          "keywords": "TV backlight, RGBIC LED, WiFi light strip, Alexa light, ambient lighting, cinema glow, smart home lighting, color sync"
+        },
+        {
+          "name": "RGBCW Smart Zigbee Bulb",
+          "sku": "HZ-LT-CONACC01",
+          "specs": "WIFI TV background light synchronized LED light with camera color RGBIC full range fantasy | color support alexa voc ie control | Number of LED Beads 30 beads/m (beads/m) | Luminous Flux per Bead 24lm (lm) | Beam Angle 180 degrees (degrees) | Power Factor 12V 2A | Dimmable Yes | Effective Lifespan 87600H (H) | Size 20318162mm (mm) | Weight 400g (g) | Protection Level Not Waterproof | Certification EU CE Certification | Application Scope TV Background | Special Service Switchable Multiple Color Modes | Color Temperature RGB (K) | Color Rendering Index RGB",
+          "description": "Transform every room with the perfect light. Create instant ambiance that matches your mood perfectly.\n\n• Paint walls with millions of colors from warm amber to cool daylight.\n• Dim from bright focus lighting to gentle evening glow with precision control.\n• Set automated schedules that wake you gently and wind down evenings.\n• Control every bulb individually or group entire rooms with seamless synchronization.\n\nSync with your smart speakers and voice assistants for hands-free control. Adjust brightness, change colors, or turn lights on from anywhere using your smart displays or mobile devices.\n\nExperience lighting that thinks with you. Your home becomes more beautiful, efficient, and perfectly lit.",
+          "slug": "rgbcw-zigbee-smart-bulb-9w-e27",
+          "keywords": "smart bulb, zigbee bulb, RGBCW bulb, color changing bulb, 9W LED, voice control light, home automation lighting, tunable white bulb, security lighting, smart home light"
+        },
+        {
+          "name": "RGB COB low voltage light strip (5 meters per roll)",
+          "sku": "HZ-LT-SPOTLT07",
+          "specs": "Zigbee 3.0 | Power: 9W 850LM | Size: 60*114mm | Voltage: 85-265V | Working temp.: -25℃ to 45℃ | Connector: E27, E26, B22 | Ra:80 PF:0.5290 | Needs to work with gateway, Support Amazon, Google, Xiaodu and other major smart speakers",
+          "description": "Transform any room into a living canvas of color. Your walls, furniture, and ceilings become dynamic light sculptures that shift with your mood.\n\n• Five continuous meters of seamless COB illumination wraps corners without hotspots.\n• Dial brightness from candlelight glow to vibrant party pulse in seconds.\n• Low-voltage design keeps surfaces cool and safe for everyday living.\n• Trim every few inches for perfect custom fits under cabinets or behind screens.\n\nInstall once, then paint your space with light whenever inspiration strikes.",
+          "slug": "rgb-cob-low-voltage-5m-light-strip",
+          "keywords": "RGB light strip, COB LED strip, 24V LED tape, 5m LED roll, smart lighting, IP20 strip, 576 LEDs/m, low voltage strip, color changing lights, home automation"
+        },
+        {
+          "name": "24V Transformer Power Supply",
+          "sku": "HZ-SL-24VTRA01",
+          "specs": "LED TYPE: COB-576L-10MM | Voltage: DC24V | Color: RGB | Waterproof: IP20 | LED Quantity: 576led/m | Length: 5M/ROLL",
+          "description": "Transform any space with perfectly controlled lighting. Create the perfect ambiance while saving energy effortlessly.\n\n• Delivers stable 24V power for consistent, flicker-free illumination throughout your home.\n• Integrates seamlessly with dimming controllers for smooth brightness adjustments from 0-100%.\n• Powers multiple smart lighting zones simultaneously without voltage drops or performance issues.\n• Built-in protection circuits ensure safe operation and extend your lighting system's lifespan.\n\nConnect with smart speakers or mobile devices to control your lighting system remotely. Voice assistants respond instantly to adjust brightness levels hands-free throughout your day.\n\nExperience professional-grade lighting control that transforms your living spaces into personalized environments.",
+          "slug": "24v-100w-smart-light-transformer",
+          "keywords": "24V transformer, LED power supply, smart lighting, dimmer controller, 100W driver, DC 24V, 110-240V input, color temperature, sunrise simulation, security lighting"
+        },
+        {
+          "name": "24V Transformer Power Supply",
+          "sku": "HZ-SL-24VTRA02",
+          "specs": "Power:100W | Color Temperature: 3000K-6000K | Voltage: DC24V | Power supply: 110V-240V",
+          "description": "Transform your living spaces with perfectly balanced lighting that adapts to every moment. The 24V Transformer Power Supply delivers whisper-quiet, flicker-free illumination that sets the perfect mood.\n\n• Powers sophisticated dimming systems with rock-steady 24V output for responsive control.\n• Eliminates harsh lighting jumps with smooth, seamless brightness transitions throughout your home.\n• Runs cool and silent while delivering consistent power to multiple lighting zones simultaneously.\n• Integrates effortlessly with existing smart lighting setups for instant ambiance enhancement.\n\nExperience lighting that feels as intuitive as natural daylight, perfectly tailored to your lifestyle.",
+          "slug": "24v-transformer-power-supply-150w",
+          "keywords": "24V transformer, LED power supply, smart lighting, dimmer controller, 150W driver, DC 24V, home automation, LED strip power"
+        },
+        {
+          "name": "24V Transformer Power Supply",
+          "sku": "HZ-SL-24VTRA03",
+          "specs": "Power: 150W | Color Temperature: 3000K-6000K | Voltage: DC24V",
+          "description": "Transform your lighting from ordinary to extraordinary. The 24V Transformer Power Supply delivers seamless dimming control that sets the perfect mood for every moment.\n\n• Whisper-quiet dimming from 0-100% with zero flicker technology.\n• Powers expansive lighting systems up to 240 watts total capacity.\n• Cool-touch operation prevents overheating for ultimate safety.\n• Precision voltage regulation extends LED lifespan significantly.\n\nElevate every space with lighting that thinks as beautifully as it shines.",
+          "slug": "24v-200w-300w-transformer-power-supply",
+          "keywords": "24v transformer, 200w power supply, 300w led driver, DC24V dimmer, smart lighting, RGBW controller, sunrise wake light, cinema scene lighting, security strobe, home automation"
+        },
+        {
+          "name": "RGBW/WW-5050-60D (10 meters)",
+          "sku": "HZ-SL-RGBWW01",
+          "specs": "Power: 200W/300W | Color Temperature: 3000K-6000K | Voltage: DC24V",
+          "description": "Transform every room with cinematic color and warm white ambiance. Ten meters of intelligent lighting puts complete atmosphere control at your fingertips.\n\n• Create millions of colors plus tunable warm white for perfect mood setting.\n• Smooth dimming from bright task lighting to gentle midnight glow.\n• 60 LEDs per meter deliver seamless, professional-grade illumination.\n• Ten-meter length spans entire rooms with single continuous strip.\n\nRGBW/WW-5050-60D turns ordinary spaces into extraordinary experiences with light that moves to your life.",
+          "slug": "rgbw-ww-5050-60d-10m-five-in-one-led-strip",
+          "keywords": "RGBW LED strip, 5050 LED, 10m LED strip, smart lighting, dimmable LED, DC24V strip, RGB warm white, daylight LED, home automation, cinematic lighting"
+        },
+        {
+          "name": "RGB COB low voltage light strip (5 meters per roll)",
+          "sku": "HZ-LT-SPOTLT08",
+          "specs": "4 RGB+3000K+6000K five-in-one | 24W/m | DC24V | three-year warranty | 10 meters per roll",
+          "description": "Transform any room into a living canvas of color. Five meters of seamless light bend to your every mood.\n\n• Continuous COB dots create fluid, shadow-free illumination across entire surfaces.\n• Dial brightness from midnight whisper to celebration glare with smooth precision.\n• Low-voltage ribbon runs cool, safe for bedrooms, shelves, and tight alcoves.\n• Cut every few inches for custom lengths that fit furniture edges perfectly.\n\nPair with smart speakers or voice assistants for hands-free commands, set scenes from mobile devices, or schedule shifts through smart displays.\n\nUnroll, stick, plug in—watch ordinary walls glow alive with your imagination.",
+          "slug": "rgb-cob-low-voltage-5m-strip",
+          "keywords": "RGB strip, COB LED, 24V light, 5M roll, smart lighting, neon glow, IP20 strip, 576 LEDs/m, mood lighting, home cinema"
+        },
+        {
+          "name": "RGBCW Smart Zigbee Bulb (round)",
+          "sku": "HZ-LT-CONACC02",
+          "specs": "LED TYPE: COB-576L-10MM | Voltage: DC24V | Color: RGB | Waterproof: IP20 | LED Quantity: 576led/m | Length: 5M/ROLL",
+          "description": "Transform every room with perfect light. Your home becomes a canvas of color and comfort.\n\n• Create any mood with millions of colors plus warm to cool whites.\n• Dim from bright task lighting to gentle evening ambiance instantly.\n• Set automated schedules that wake you gently and welcome you home.\n• Control every bulb individually or group entire rooms with one command.\n\nExperience lighting that adapts to your life, not the other way around.",
+          "slug": "rgbcw-zigbee-smart-bulb-round",
+          "keywords": "smart bulb, RGBCW bulb, zigbee bulb, color changing bulb, 9W LED bulb, E27 bulb, tuya smart, home automation, voice control, smart lighting"
+        },
+        {
+          "name": "RGBCW Smart Zigbee Bulb (flat)",
+          "sku": "HZ-LT-CONACC03",
+          "specs": "Zigbee 3.0 | Power: 9W 850LM | Size: 60*114mm | Voltage 85-265V | Working temp.: -25℃ to 45℃ | Connector: E27, E26, B22 | Ra:80 PF:0.5290 | Needs to work with gateway, Support Amazon, Google, Xiaodu and other major smart speakers",
+          "description": "Transform every room with perfect light. Your home becomes a canvas of color and comfort.\n\n• Set the ideal mood with millions of colors plus warm to cool whites.\n• Dim from bright focus to gentle glow without any wall switches.\n• Create automated lighting schedules that welcome you home daily.\n• Control every bulb individually or group entire rooms instantly.\n\nExperience lighting that adapts to your life, not the other way around.",
+          "slug": "rgbcw-zigbee-gu10-smart-bulb-flat",
+          "keywords": "zigbee bulb, smart bulb, RGBCW bulb, GU10 LED, 5W LED bulb, tunable white bulb, Zigbee 3.0 light, color changing bulb, smart home lighting"
+        },
+        {
+          "name": "COB 2colors low voltage light strip (10 meters per roll)",
+          "sku": "HZ-LT-COLNIV01",
+          "specs": "Zigbee 3.0 | Power: 5W 450LM | Size: 45*57mm | Voltage: 85-265V | Working temp.: -25℃ to 45℃ | Connector: GU10 | Certificate: CE/FCC ID/Rohs | Support Amazon, Google, Xiaodu and other major smart speakers",
+          "description": "Transform any space with seamless color. Your lighting now adapts to every moment.\n\n• Switch between two elegant colors instantly.\n• Ten meters of continuous, dot-free illumination.\n• Low voltage design installs safely anywhere.\n• Create perfect ambiance without replacing bulbs.\n\nOne strip delivers endless lighting possibilities.",
+          "slug": "cob-2color-low-voltage-light-strip-10m",
+          "keywords": "COB light strip, 24V LED strip, dual color temperature, 2700K 6500K, IP20 LED, smart lighting, CRI95 strip, 10m roll, dimmable COB, low voltage"
+        },
+        {
+          "name": "Intelligent Dimmable LED Light Strip Driver & Power Supply 2 in 1",
+          "sku": "HZ-LT-SPOTLT09",
+          "specs": "Product name: COB smart light strip | Specifications: DC 24V-684D-10mm | Color temperature: dual color temperature 2700K+6500K | Power: 9+9W/meter | Waterproof level: IP20 | Packing quantity: 10 meters/roll | CRI: 95 | 240220",
+          "description": "Transform any space with perfect lighting control. One sleek device delivers endless ambiance possibilities.\n\n• Create instant atmosphere from bright work light to cozy evening glow.\n• Precise dimming gives you complete command over every moment.\n• Clean installation with integrated driver and power supply.\n• Smooth transitions enhance movies, dinner, and daily routines.\n\nExperience lighting that adapts to your life, not the other way around.",
+          "slug": "intelligent-dimmable-led-driver-power-supply-60w",
+          "keywords": "led driver, dimmable driver, smart lighting, zigbee controller, 24v power supply, color temperature, constant voltage, 60w led, strip light driver, wireless dimmer"
+        },
+        {
+          "name": "Smart dimmable downlight (RGB)",
+          "sku": "HZ-LT-CONACC04",
+          "specs": "Product Name: Intelligent Dimmable LED Light Strip Driver & Power Supply 2 in 1 | Function: LED light strip Dimming & color temperature adjustment (Cold & Warm color temperature) | Rated Power: 60W | Model: MYS-DDQ157 | Working voltage: AC85-245V 50/60Hz PF≥0.5 | Output current: 2.5A | Output voltage: DC24V 2.5A (Max) -- DC36V for downlight can be made also | Ta: 45℃ Te: 75℃ | Driver mode: Constant voltage and current | Product size: 1504030mm | Wireless protocol: ZigBee | Additional power supply needed: No need, this driver has integrated power supply in it",
+          "description": "Transform any room with a tap. Color and brightness bend to your mood.\n\n• Paint walls with millions of saturated RGB colors instantly.\n• Glide from 1% to 100% brightness for perfect ambiance.\n• Schedule lights to wake you gently or welcome you home.\n• Group multiple downlights and control them as one seamless scene.\n\nSet the scene once; live it forever.",
+          "slug": "smart-rgb-dimmable-downlight-zigbee",
+          "keywords": "smart downlight, RGB downlight, ZigBee light, dimmable ceiling light, E26 smart bulb, E27 LED, 15W RGB, 1050 lumen, recessed lighting, smart home lighting"
+        },
+        {
+          "name": "ZigBee mini dimmer switch N&L wire 1CH",
+          "sku": "HZ-SL-ZIGMIN01",
+          "specs": "Lamp head type: E26 E27 | Control type: IEEE 802.15.4, ZigBee 3.0 | Usage requirements: used with ZigBee gateway | Product size: 12558125 mm | Net weight: 170g | Input voltage range: 90-250V 50/60HZ | Output power: 5W/7W/9W12W, 15W | Lumen: 1050lm | Opening size: 90-110mm | Service life: 40000H",
+          "description": "Transform any room with perfect light control. This miniature dimmer brings cinematic ambiance to your fingertips.\n\n• Dial brightness from 0-100% with surgical precision.\n• Create warm movie nights or bright work sessions instantly.\n• Replace bulky switches with this invisible 1-channel controller.\n• Save energy while extending bulb life through smart dimming.\n\nConnect to voice assistants for hands-free commands. Works seamlessly with smart displays and mobile devices for total control.\n\nYour lights, your mood, your command—effortlessly.",
+          "slug": "zigbee-mini-dimmer-switch-no-neutral-150w",
+          "keywords": "ZigBee dimmer, mini dimmer switch, smart light dimmer, no neutral wire, 150W dimmer, ZigBee 3.0 switch, wireless dimmer, AC dimmer controller"
+        },
+        {
+          "name": "ZigBee mini dimmer switch N&L wire 2 CH",
+          "sku": "HZ-SL-ZIGMIN02",
+          "specs": "Operating voltage :AC100-240V 50/60Hz | Maximum load :1 channel :230V150W 120V 80W | Wireless protocol :Zigbee3.0IEEE 802.15.4",
+          "description": "Transform any room with perfect lighting control. This mini dimmer brings professional ambiance to your fingertips.\n\n• Set the ideal mood from bright productivity to romantic dimness.\n• Control two separate lighting zones independently from one switch.\n• Smooth dimming creates stunning visual effects without flickering.\n• Compact design fits standard boxes, no neutral wire required.\n\nConnect to your smart speakers and voice assistants for hands-free control. Adjust brightness from your mobile devices anywhere in your home.\n\nExperience lighting that adapts to every moment of your life.",
+          "slug": "zigbee-mini-dimmer-2ch-nl-wire",
+          "keywords": "zigbee dimmer, smart dimmer switch, 2 channel dimmer, mini light dimmer, zigbee 3.0 switch, wireless dimmer, dual channel dimmer, ac dimmer switch, smart lighting controller"
+        }
+      ]
+    }
+  ],
+  "launch_context": {
+    "channel": "dtc",
+    "has_existing_brand": true,
+    "has_existing_content": true,
+    "target_regions": [
+      "North America",
+      "Europe",
+      "Middle East",
+      "Asia-Pacific"
+    ],
+    "budget_tier": "standard",
+    "timeline": "standard"
+  }
+}

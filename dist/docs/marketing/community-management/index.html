@@ -1,0 +1,680 @@
+<!DOCTYPE html><html lang="en" data-theme="dark"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Community Management | HeyZack Wiki</title><meta name="description" content="Discord and Facebook Group engagement scripts, moderation templates, and daily discussion prompts"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="apple-touch-icon" href="/favicon.svg"><meta name="theme-color" content="#E82F89"><script>
+    const theme = localStorage.getItem('theme') || 
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  </script><link rel="stylesheet" href="/_astro/_slug_.CeFtj3OB.css">
+<style>.breadcrumb[data-astro-cid-qaanghzh]{margin-bottom:var(--space-6)}.breadcrumb-list[data-astro-cid-qaanghzh]{display:flex;align-items:center;gap:var(--space-2);list-style:none;padding:0;margin:0;font-size:var(--text-sm)}.breadcrumb-item[data-astro-cid-qaanghzh]{display:flex;align-items:center;gap:var(--space-2)}.breadcrumb-link[data-astro-cid-qaanghzh]{color:var(--color-text-tertiary);text-decoration:none;transition:color .15s ease}.breadcrumb-link[data-astro-cid-qaanghzh]:hover{color:var(--color-accent)}.breadcrumb-separator[data-astro-cid-qaanghzh]{color:var(--color-text-tertiary)}.breadcrumb-current[data-astro-cid-qaanghzh]{color:var(--color-text-secondary);font-weight:500}.toc[data-astro-cid-xvrfupwn]{position:sticky;top:var(--space-8);padding-left:var(--space-6);border-left:1px solid var(--color-divider)}.toc-title[data-astro-cid-xvrfupwn]{font-size:var(--text-xs);font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--color-text-tertiary);margin-bottom:var(--space-3)}.toc-list[data-astro-cid-xvrfupwn]{list-style:none;padding:0;margin:0}.toc-item[data-astro-cid-xvrfupwn]{margin-bottom:var(--space-2)}.toc-depth-3[data-astro-cid-xvrfupwn]{padding-left:var(--space-4)}.toc-link[data-astro-cid-xvrfupwn]{font-size:var(--text-sm);color:var(--color-text-tertiary);text-decoration:none;transition:color .15s ease;display:block;line-height:1.4}.toc-link[data-astro-cid-xvrfupwn]:hover{color:var(--color-accent)}.doc-layout[data-astro-cid-fz5pa65a]{display:grid;grid-template-columns:1fr 220px;gap:var(--space-10);max-width:100%}@media(max-width:1200px){.doc-layout[data-astro-cid-fz5pa65a]{grid-template-columns:1fr}.article-toc[data-astro-cid-fz5pa65a]{display:none}}.article[data-astro-cid-fz5pa65a]{max-width:720px;margin:0 auto;width:100%}.article-header[data-astro-cid-fz5pa65a]{margin-bottom:var(--space-8);padding-bottom:var(--space-6);border-bottom:1px solid var(--color-divider);text-align:center}.article-header[data-astro-cid-fz5pa65a] h1[data-astro-cid-fz5pa65a]{margin-bottom:var(--space-3);background:var(--gradient-brand);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.article-description[data-astro-cid-fz5pa65a]{font-size:var(--text-lg);color:var(--color-text-secondary);margin:0;line-height:1.6}.article-content[data-astro-cid-fz5pa65a]{line-height:var(--leading-relaxed)}.article-content[data-astro-cid-fz5pa65a] h2,.article-content[data-astro-cid-fz5pa65a] h3{scroll-margin-top:var(--space-8)}@media(max-width:768px){.article-header[data-astro-cid-fz5pa65a]{text-align:left}.article-description[data-astro-cid-fz5pa65a]{font-size:var(--text-base)}}
+</style></head> <body> <!-- Mobile Header --> <header class="mobile-header"> <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <line x1="3" y1="6" x2="21" y2="6"></line> <line x1="3" y1="12" x2="21" y2="12"></line> <line x1="3" y1="18" x2="21" y2="18"></line> </svg> </button> <a href="/" class="mobile-logo"> <img src="/logo.svg" alt="HeyZack" width="28" height="28"> <span>HeyZack</span> </a> </header> <!-- Overlay --> <div class="sidebar-overlay" id="sidebarOverlay"></div> <div class="layout"> <aside class="sidebar" id="sidebar"> <nav class="navigation" data-astro-cid-pux6a34n> <div class="nav-header" data-astro-cid-pux6a34n> <a href="/" class="logo" data-astro-cid-pux6a34n> <img src="/logo.svg" alt="HeyZack" class="logo-icon" width="32" height="32" data-astro-cid-pux6a34n> <span class="logo-text" data-astro-cid-pux6a34n>HeyZack</span> </a> </div> <div class="nav-content" data-astro-cid-pux6a34n> <!-- Products Section --> <div class="nav-category" data-astro-cid-pux6a34n> <h3 class="nav-category-title" data-astro-cid-pux6a34n>Products</h3> <ul class="nav-list" data-astro-cid-pux6a34n> <li data-astro-cid-pux6a34n> <a href="/products" class="nav-link" data-astro-cid-pux6a34n> <svg class="hz-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" data-astro-cid-patnjmll><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/></svg>  All Products (128)
+</a> </li> </ul> </div> <div class="nav-category" data-astro-cid-pux6a34n> <h3 class="nav-category-title" data-astro-cid-pux6a34n>home</h3> <ul class="nav-list" data-astro-cid-pux6a34n> <li data-astro-cid-pux6a34n> <a href="/docs/index" class="nav-link" data-astro-cid-pux6a34n> HeyZack Wiki </a> </li> </ul> </div><div class="nav-category" data-astro-cid-pux6a34n> <h3 class="nav-category-title" data-astro-cid-pux6a34n>getting-started</h3> <ul class="nav-list" data-astro-cid-pux6a34n> <li data-astro-cid-pux6a34n> <a href="/docs/getting-started/quickstart" class="nav-link" data-astro-cid-pux6a34n> Quick Start Guide </a> </li> </ul> </div><div class="nav-category" data-astro-cid-pux6a34n> <h3 class="nav-category-title" data-astro-cid-pux6a34n>brand</h3> <ul class="nav-list" data-astro-cid-pux6a34n> <li data-astro-cid-pux6a34n> <a href="/docs/brand/positioning" class="nav-link" data-astro-cid-pux6a34n> Brand Positioning </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/brand/voice-tone" class="nav-link" data-astro-cid-pux6a34n> Voice &amp; Tone Guide </a> </li> </ul> </div><div class="nav-category" data-astro-cid-pux6a34n> <h3 class="nav-category-title" data-astro-cid-pux6a34n>audience</h3> <ul class="nav-list" data-astro-cid-pux6a34n> <li data-astro-cid-pux6a34n> <a href="/docs/audience/b2b-personas" class="nav-link" data-astro-cid-pux6a34n> B2B Personas: Property Managers &amp; Hospitality </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/audience/primary-persona" class="nav-link" data-astro-cid-pux6a34n> Primary Persona: Tech-Savvy Homeowners </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/audience/secondary-personas" class="nav-link" data-astro-cid-pux6a34n> Secondary Personas: Energy-Conscious &amp; Safety-Focused </a> </li> </ul> </div><div class="nav-category" data-astro-cid-pux6a34n> <h3 class="nav-category-title" data-astro-cid-pux6a34n>Marketing</h3> <ul class="nav-list" data-astro-cid-pux6a34n> <li data-astro-cid-pux6a34n> <a href="/docs/marketing/ad-creative" class="nav-link" data-astro-cid-pux6a34n> Ad Creative Library </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/marketing/community-management" class="nav-link active" data-astro-cid-pux6a34n> Community Management </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/marketing/campaign-copy" class="nav-link" data-astro-cid-pux6a34n> Campaign Copy </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/marketing/email-templates" class="nav-link" data-astro-cid-pux6a34n> Email Templates </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/marketing/engagement-playbook" class="nav-link" data-astro-cid-pux6a34n> Engagement Playbook </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/marketing/social-content" class="nav-link" data-astro-cid-pux6a34n> Social Content Calendar </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/marketing/influencer-outreach" class="nav-link" data-astro-cid-pux6a34n> Influencer Outreach </a> </li> </ul> </div><div class="nav-category" data-astro-cid-pux6a34n> <h3 class="nav-category-title" data-astro-cid-pux6a34n>heyzackv2</h3> <ul class="nav-list" data-astro-cid-pux6a34n> <li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/product" class="nav-link" data-astro-cid-pux6a34n> Product Brief </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/ads/pre-launch-ads-b2b" class="nav-link" data-astro-cid-pux6a34n> Pre-Launch Ads - B2B </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/campaigns/campaign-page-b2b" class="nav-link" data-astro-cid-pux6a34n> Campaign Page - B2B </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/emails/launch-sequence" class="nav-link" data-astro-cid-pux6a34n> Launch Email Sequence </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/engagement/community-management" class="nav-link" data-astro-cid-pux6a34n> Community Management </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/messaging/messaging-framework" class="nav-link" data-astro-cid-pux6a34n> Messaging Framework </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/personas/tech-savvy-tyler" class="nav-link" data-astro-cid-pux6a34n> Tech-Savvy Persona: Tyler </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/social/content-calendar-30day" class="nav-link" data-astro-cid-pux6a34n> 30-Day Content Calendar </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/positioning/positioning-summary" class="nav-link" data-astro-cid-pux6a34n> Positioning Summary </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/voice/voice-b2c" class="nav-link" data-astro-cid-pux6a34n> Voice Guide - B2C </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2c-campaign/canva-brief" class="nav-link" data-astro-cid-pux6a34n> B2C Campaign - Canva Brief </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2b-pitch/canva-brief" class="nav-link" data-astro-cid-pux6a34n> B2B Pitch - Canva Brief </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2b-campaign/canva-brief" class="nav-link" data-astro-cid-pux6a34n> B2B Campaign - Canva Brief </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/visual-direction" class="nav-link" data-astro-cid-pux6a34n> Visual Direction </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/product-overview/canva-brief" class="nav-link" data-astro-cid-pux6a34n> Product Overview - Canva Brief </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/ads/pre-launch-ads-b2c" class="nav-link" data-astro-cid-pux6a34n> Pre-Launch Ads - B2C </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/campaigns/campaign-page-b2c" class="nav-link" data-astro-cid-pux6a34n> Campaign Page - B2C </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/engagement/influencer-outreach" class="nav-link" data-astro-cid-pux6a34n> Influencer Outreach </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/emails/pre-launch-sequence" class="nav-link" data-astro-cid-pux6a34n> Pre-Launch Email Sequence </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/personas/energy-conscious-emma" class="nav-link" data-astro-cid-pux6a34n> Energy-Conscious Persona: Emma </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/pitch-deck-outline" class="nav-link" data-astro-cid-pux6a34n> Pitch Deck Outline </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/voice/voice-b2b" class="nav-link" data-astro-cid-pux6a34n> Voice Guide - B2B </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2c-campaign/gamma-prompt" class="nav-link" data-astro-cid-pux6a34n> B2C Campaign - Gamma Prompt </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2b-pitch/gamma-prompt" class="nav-link" data-astro-cid-pux6a34n> B2B Pitch - Gamma Prompt </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2b-campaign/gamma-prompt" class="nav-link" data-astro-cid-pux6a34n> B2B Campaign - Gamma Prompt </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/product-overview/gamma-prompt" class="nav-link" data-astro-cid-pux6a34n> Product Overview - Gamma Prompt </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/campaigns/press-release" class="nav-link" data-astro-cid-pux6a34n> Press Release </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/engagement/short-form-hooks" class="nav-link" data-astro-cid-pux6a34n> Short-Form Video Hooks </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/personas/safety-focused-sarah" class="nav-link" data-astro-cid-pux6a34n> Safety-Focused Persona: Sarah </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2c-campaign/notebooklm-prompt" class="nav-link" data-astro-cid-pux6a34n> B2C Campaign - NotebookLM Prompt </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2b-pitch/notebooklm-prompt" class="nav-link" data-astro-cid-pux6a34n> B2B Pitch - NotebookLM Prompt </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2b-campaign/notebooklm-prompt" class="nav-link" data-astro-cid-pux6a34n> B2B Campaign - NotebookLM Prompt </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/product-overview/notebooklm-prompt" class="nav-link" data-astro-cid-pux6a34n> Product Overview - NotebookLM Prompt </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/engagement/review-responses" class="nav-link" data-astro-cid-pux6a34n> Review Responses </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/personas/property-manager-patricia" class="nav-link" data-astro-cid-pux6a34n> Property Manager Persona: Patricia </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2c-campaign/source" class="nav-link" data-astro-cid-pux6a34n> B2C Campaign - Source Document </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2b-pitch/source" class="nav-link" data-astro-cid-pux6a34n> B2B Pitch - Source Document </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/b2b-campaign/source" class="nav-link" data-astro-cid-pux6a34n> B2B Campaign - Source Document </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/slides/product-overview/source" class="nav-link" data-astro-cid-pux6a34n> Product Overview - Source Document </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/heyzackv2/personas/hospitality-hugo" class="nav-link" data-astro-cid-pux6a34n> Hospitality Persona: Hugo </a> </li> </ul> </div><div class="nav-category" data-astro-cid-pux6a34n> <h3 class="nav-category-title" data-astro-cid-pux6a34n>Foundation/Product</h3> <ul class="nav-list" data-astro-cid-pux6a34n> <li data-astro-cid-pux6a34n> <a href="/docs/product/specifications" class="nav-link" data-astro-cid-pux6a34n> Technical Specifications </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/product/features" class="nav-link" data-astro-cid-pux6a34n> Features &amp; Benefits </a> </li><li data-astro-cid-pux6a34n> <a href="/docs/product/overview" class="nav-link" data-astro-cid-pux6a34n> Product Overview </a> </li> </ul> </div> </div> </nav>  </aside> <main class="main-content"> <div class="content-wrapper">  <div class="doc-layout" data-astro-cid-fz5pa65a> <article class="article" data-astro-cid-fz5pa65a> <nav class="breadcrumb" aria-label="Breadcrumb" data-astro-cid-qaanghzh> <ol class="breadcrumb-list" data-astro-cid-qaanghzh> <li class="breadcrumb-item" data-astro-cid-qaanghzh>  <a href="/" class="breadcrumb-link" data-astro-cid-qaanghzh>Home</a> <span class="breadcrumb-separator" data-astro-cid-qaanghzh>/</span>  </li><li class="breadcrumb-item" data-astro-cid-qaanghzh>  <a href="/docs" class="breadcrumb-link" data-astro-cid-qaanghzh>Docs</a> <span class="breadcrumb-separator" data-astro-cid-qaanghzh>/</span>  </li><li class="breadcrumb-item" data-astro-cid-qaanghzh>  <a href="/docs/marketing" class="breadcrumb-link" data-astro-cid-qaanghzh>Marketing</a> <span class="breadcrumb-separator" data-astro-cid-qaanghzh>/</span>  </li><li class="breadcrumb-item" data-astro-cid-qaanghzh> <span class="breadcrumb-current" data-astro-cid-qaanghzh>Community Management</span> </li> </ol> </nav>  <header class="article-header" data-astro-cid-fz5pa65a> <h1 data-astro-cid-fz5pa65a>Community Management</h1> <p class="article-description" data-astro-cid-fz5pa65a>Discord and Facebook Group engagement scripts, moderation templates, and daily discussion prompts</p> </header> <div class="article-content" data-astro-cid-fz5pa65a>  <h1 id="community-management">Community Management</h1>
+<p>Ready-to-use scripts for Discord server and Facebook Group management. Includes channel structure, welcome messages, daily prompts, and moderation templates. Aligned with the <a href="../brand/voice-tone.md">HeyZack Brand Voice</a>.</p>
+<hr>
+<h2 id="discord-server-setup">Discord Server Setup</h2>
+<h3 id="recommended-channel-structure">Recommended Channel Structure</h3>
+<h4 id="b2b-channels">B2B Channels</h4>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>📋 B2B PROPERTY MANAGERS</span></span>
+<span class="line"><span>├── #pm-welcome (Rules, Getting Started)</span></span>
+<span class="line"><span>├── #pm-portfolio-talk (Multi-property management)</span></span>
+<span class="line"><span>├── #pm-roi-showcase (Energy savings data)</span></span>
+<span class="line"><span>├── #pm-tech-questions (Installation, troubleshooting)</span></span>
+<span class="line"><span>└── #pm-feature-requests (Vote on enterprise features)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>🏨 B2B HOSPITALITY</span></span>
+<span class="line"><span>├── #hospitality-welcome</span></span>
+<span class="line"><span>├── #guest-experience (Automation ideas for hotels/Airbnb)</span></span>
+<span class="line"><span>├── #hospitality-roi (Revenue impact discussions)</span></span>
+<span class="line"><span>└── #hospitality-integrations (PMS, booking platforms)</span></span></code></pre>
+<h4 id="b2c-channels">B2C Channels</h4>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>B2C HOMEOWNERS</span></span>
+<span class="line"><span>├── #home-welcome (Rules, Getting Started)</span></span>
+<span class="line"><span>├── #setup-help (Installation questions)</span></span>
+<span class="line"><span>├── #automation-ideas (Share your favorite automations)</span></span>
+<span class="line"><span>├── #energy-savings (Post your bill reductions)</span></span>
+<span class="line"><span>├── #show-off (Home setup photos/videos)</span></span>
+<span class="line"><span>└── #smart-home-refugees (For those fleeing SmartThings/Nest)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>🔧 TECHNICAL</span></span>
+<span class="line"><span>├── #integrations (Nest, Ring, Philips Hue compatibility)</span></span>
+<span class="line"><span>├── #feature-requests (Vote on upcoming features)</span></span>
+<span class="line"><span>└── #beta-testing (Early access program)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>📢 ANNOUNCEMENTS</span></span>
+<span class="line"><span>├── #campaign-updates (Launch day, stretch goals, shipping)</span></span>
+<span class="line"><span>├── #media-mentions (Press, reviews, YouTuber coverage)</span></span>
+<span class="line"><span>└── #weekly-digest (Curated highlights)</span></span></code></pre>
+<hr>
+<h2 id="welcome-messages">Welcome Messages</h2>
+<h3 id="b2b-property-manager-welcome-auto-dm">B2B Property Manager Welcome (Auto-DM)</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Hey [Name]! 👋 </span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Welcome to the HeyZack B2B community—where property managers and hospitality </span></span>
+<span class="line"><span>operators swap war stories and smart building strategies.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Quick Start:**</span></span>
+<span class="line"><span>1. Head to #pm-portfolio-talk and introduce yourself (how many properties </span></span>
+<span class="line"><span>   you manage)</span></span>
+<span class="line"><span>2. Check #pm-roi-showcase to see real energy savings from other operators</span></span>
+<span class="line"><span>3. Got a specific building challenge? Drop it in #pm-tech-questions</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Exclusive Perk:** B2B backers get priority access to our portfolio </span></span>
+<span class="line"><span>dashboard beta (drops Q2 2026).</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Looking forward to learning from your experience!</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>— The HeyZack Team</span></span></code></pre>
+<hr>
+<h3 id="b2c-homeowner-welcome-auto-dm">B2C Homeowner Welcome (Auto-DM)</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Welcome to the HeyZack family!</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>We're the smart home community for people who've been burned by buggy </span></span>
+<span class="line"><span>ecosystems and false promises. You're in good company.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Start Here:**</span></span>
+<span class="line"><span>1. Introduce yourself in #home-welcome (what brought you to HeyZack?)</span></span>
+<span class="line"><span>2. Peek at #show-off to see what's possible (real homes, not marketing renders)</span></span>
+<span class="line"><span>3. Got setup questions? #setup-help has your back</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Pro Tip:** Check #automation-ideas for creative ways to use HeyZack that </span></span>
+<span class="line"><span>we never thought of.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Can't wait to see what you build!</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>— Team HeyZack</span></span></code></pre>
+<hr>
+<h3 id="server-pin-post-rules">Server Pin Post (Rules)</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>— **COMMUNITY RULES &#x26; ETIQUETTE**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**The Golden Rules:**</span></span>
+<span class="line"><span>1. **Be Helpful, Not Judgmental** – No "stupid questions" exist here</span></span>
+<span class="line"><span>2. **Share Real Results** – Energy savings? Post your before/after bills</span></span>
+<span class="line"><span>3. **Stay On-Topic** – Use the right channels (B2B in B2B, B2C in B2C)</span></span>
+<span class="line"><span>4. **No Spam** – Promoting your own products = instant ban</span></span>
+<span class="line"><span>5. **Respect Privacy** – Don't share others' personal info without consent</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Community Perks:**</span></span>
+<span class="line"><span>• Early access to beta features</span></span>
+<span class="line"><span>• Direct line to product team</span></span>
+<span class="line"><span>• Exclusive backer-only stretch goals</span></span>
+<span class="line"><span>• Monthly "Setup of the Month" spotlight ($100 HeyZack credit)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Need Help?**</span></span>
+<span class="line"><span>Ping @CommunityTeam or DM a moderator.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Let's build something amazing together. →</span></span></code></pre>
+<hr>
+<h2 id="daily-discussion-prompts-30-day-rotation">Daily Discussion Prompts (30-Day Rotation)</h2>
+<h3 id="week-1-discovery--problem-identification">Week 1: Discovery &#x26; Problem Identification</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Day</th><th>Channel</th><th>Prompt</th></tr></thead><tbody><tr><td>1 (Mon)</td><td>#pm-portfolio-talk / #home-welcome</td><td>”Introduce yourself! Where are you based, and what’s the #1 thing driving you crazy about your current automation?“</td></tr><tr><td>2 (Tue)</td><td>#pm-portfolio-talk</td><td>”Property managers: What’s the most expensive ‘emergency’ service call you’ve had that HeyZack could have prevented?“</td></tr><tr><td>3 (Wed)</td><td>#home-welcome</td><td>”How many different apps are you juggling for your smart home right now? (My record is 9 😅)“</td></tr><tr><td>4 (Thu)</td><td>#energy-savings</td><td>”Energy bill confession time: What’s the highest monthly bill you’ve ever paid?“</td></tr><tr><td>5 (Fri)</td><td>#show-off</td><td>”<strong>Fun Friday:</strong> Show us your current smart home setup—the good, the bad, and the ‘why did I buy this?‘“</td></tr><tr><td>6 (Sat)</td><td>#automation-ideas</td><td>”What’s one automation you WISH existed but you’ve never seen anyone build?“</td></tr><tr><td>7 (Sun)</td><td>#energy-savings</td><td>”<strong>Sunday Reflection:</strong> If HeyZack saves you 25% on energy costs, what would you do with that extra money?”</td></tr></tbody></table>
+<hr>
+<h3 id="week-2-product-education--features">Week 2: Product Education &#x26; Features</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Day</th><th>Channel</th><th>Prompt</th></tr></thead><tbody><tr><td>8 (Mon)</td><td>#setup-help</td><td>”What’s your biggest question about how HeyZack’s AI learning actually works?“</td></tr><tr><td>9 (Tue)</td><td>#integrations</td><td>”Poll Time! Which integration should we prioritize? (🔥 Nest, ⚡ Ring, 💡 Philips Hue, ❄️ Ecobee)“</td></tr><tr><td>10 (Wed)</td><td>#guest-experience</td><td>”Hospitality operators: What’s the one thing guests complain about most that automation could fix?“</td></tr><tr><td>11 (Thu)</td><td>#feature-requests</td><td>”If you could add ONE feature to HeyZack that doesn’t exist yet, what would it be?“</td></tr><tr><td>12 (Fri)</td><td>#automation-ideas</td><td>”<strong>Wrong Answers Only:</strong> What is the smart thermostat <em>really</em> for? 😂“</td></tr><tr><td>13 (Sat)</td><td>#pm-portfolio-talk</td><td>”Portfolio managers: What’s the ideal number of buildings to manage with zero additional staff?“</td></tr><tr><td>14 (Sun)</td><td>#home-welcome</td><td>”<strong>Sunday Wins:</strong> Share one thing HeyZack will help you finally accomplish.”</td></tr></tbody></table>
+<hr>
+<h3 id="week-3-community-building--social-proof">Week 3: Community Building &#x26; Social Proof</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Day</th><th>Channel</th><th>Prompt</th></tr></thead><tbody><tr><td>15 (Mon)</td><td>#show-off</td><td>”<strong>Setup Showcase Monday:</strong> Post a photo of where you plan to install your first HeyZack device!“</td></tr><tr><td>16 (Tue)</td><td>#pm-roi-showcase</td><td>”Property managers: What ROI metric do you use to justify new tech to ownership?“</td></tr><tr><td>17 (Wed)</td><td>#smart-home-refugees</td><td>”<strong>Refugee Stories:</strong> What was the breaking point that made you give up on SmartThings/Nest/Wink? 🛋️”</td></tr><tr><td>18 (Thu)</td><td>#energy-savings</td><td>”Let’s calculate: [Monthly Bill] × 0.25 = $___. Post your number! 💰“</td></tr><tr><td>19 (Fri)</td><td>#automation-ideas</td><td>”<strong>Friday Challenge:</strong> Describe your dream ‘Movie Night’ automation in 10 words or less.”</td></tr><tr><td>20 (Sat)</td><td>#hospitality-integrations</td><td>”Hospitality crew: Do you use a PMS? Which one? Let’s talk integrations.”</td></tr><tr><td>21 (Sun)</td><td>#home-welcome</td><td>”<strong>Lazy Sunday:</strong> What’s one task you wish HeyZack could do FOR you so you can relax?”</td></tr></tbody></table>
+<hr>
+<h3 id="week-4-campaign-momentum--fomo">Week 4: Campaign Momentum &#x26; FOMO</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Day</th><th>Channel</th><th>Prompt</th></tr></thead><tbody><tr><td>22 (Mon)</td><td>#campaign-updates</td><td>”🚨 <strong>72 Hours to Early Bird Pricing!</strong> What’s the ONE device you’re backing first?“</td></tr><tr><td>23 (Tue)</td><td>#pm-portfolio-talk</td><td>”If you could deploy HeyZack in ONE building first to prove ROI, which property and why?“</td></tr><tr><td>24 (Wed)</td><td>#feature-requests</td><td>”<strong>Stretch Goal Voting:</strong> React to help decide! (🎯 Guest mode, 🔐 Security rules, 🌡️ Multi-zone climate)“</td></tr><tr><td>25 (Thu)</td><td>#show-off</td><td>”Who’s planning the most AMBITIOUS HeyZack setup? (100+ devices? Whole building?)“</td></tr><tr><td>26 (Fri)</td><td>#automation-ideas</td><td>”<strong>Fun Friday:</strong> Design the ultimate ‘I’m Home’ automation. Go wild. No limits.”</td></tr><tr><td>27 (Sat)</td><td>#energy-savings</td><td>”Real talk: How much would you need to save per month for HeyZack to ‘pay for itself’?“</td></tr><tr><td>28 (Sun)</td><td>#home-welcome</td><td>”<strong>Countdown:</strong> Campaign ends in 48 hours. What’s #1 you’re most excited about?”</td></tr></tbody></table>
+<hr>
+<h3 id="week-5-ongoing-themes">Week 5+: Ongoing Themes</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Day</th><th>Theme</th><th>Prompt</th></tr></thead><tbody><tr><td>Mon</td><td>Motivation Monday</td><td>”What’s one goal you’re achieving this week (home or work)?”</td></tr><tr><td>Tue</td><td>Tech Tuesday</td><td>”Share a smart home tip that has nothing to do with HeyZack.”</td></tr><tr><td>Wed</td><td>Wins Wednesday</td><td>”Celebrate a win from this week—big or small!”</td></tr><tr><td>Thu</td><td>Throwback Thursday</td><td>”What was your first ‘smart’ device ever? (Mine was a Clapper 😂)“</td></tr><tr><td>Fri</td><td>Feature Friday</td><td>”If you could name a HeyZack feature, what would you call it?”</td></tr><tr><td>Sat</td><td>Stretch Goal Saturday</td><td>”Vote on the next stretch goal unlock!”</td></tr><tr><td>Sun</td><td>Sunday Reset</td><td>”How will HeyZack give you more time to relax?”</td></tr></tbody></table>
+<hr>
+<h2 id="event-announcements">Event Announcements</h2>
+<h3 id="launch-day-announcement">Launch Day Announcement</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>🚨 **WE'RE LIVE!** 🚨</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>The HeyZack campaign just went live on [Kickstarter/Indiegogo]!</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>🔗 **Back Now:** [Campaign Link]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Early Bird Perks (First 500 Backers):**</span></span>
+<span class="line"><span>• 40% off retail pricing</span></span>
+<span class="line"><span>• Lifetime priority support</span></span>
+<span class="line"><span>• Exclusive launch backer badge</span></span>
+<span class="line"><span>• First in line for shipping (Q2 2026)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Let's make history together.** Comment below when you back—we're tracking </span></span>
+<span class="line"><span>the first 100 backers for a special surprise 🎁</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Tag someone who needs to see this! ⬇️</span></span></code></pre>
+<hr>
+<h3 id="stretch-goal-unlocked">Stretch Goal Unlocked</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>🎉 **STRETCH GOAL UNLOCKED!** 🎉</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>You absolute legends just unlocked: **[Feature Name]**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**What This Means:**</span></span>
+<span class="line"><span>[Explain feature in 2-3 sentences]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Why It Matters:**</span></span>
+<span class="line"><span>[Benefit for B2B / B2C backers]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Next Stretch Goal:** $[Amount] = [Next Feature]</span></span>
+<span class="line"><span>**Current Progress:** [Progress Bar] 67% there!</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Keep sharing, keep backing—we're just getting started! →</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>React with 🔥 if you're pumped!</span></span></code></pre>
+<hr>
+<h3 id="mid-campaign-update">Mid-Campaign Update</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>📊 **MID-CAMPAIGN CHECK-IN**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Holy smokes. Here's where we're at:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>[+] **[X] Backers** (Blew past our goal!)</span></span>
+<span class="line"><span>[+] **$[Amount] Raised** (You're incredible)</span></span>
+<span class="line"><span>[+] **[X] Countries** represented (Global movement!)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Most Popular Pledge:** [Bundle Name] ([X]% of backers chose this)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**New This Week:**</span></span>
+<span class="line"><span>🎬 Watch: [Team Member] answers your top 10 questions</span></span>
+<span class="line"><span>📸 Sneak Peek: Behind-the-scenes manufacturing tour</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Ending Soon:**</span></span>
+<span class="line"><span>⏰ Early Bird pricing expires in **72 HOURS**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Share with 1 person who needs HeyZack: [Campaign Link]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>— Your grateful HeyZack team ❤️</span></span></code></pre>
+<hr>
+<h3 id="final-48-hours-push">Final 48 Hours Push</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>⏰ **FINAL 48 HOURS** ⏰</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>This is it. Campaign ends [Day, Date] at [Time Zone].</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**What Happens After Campaign Ends:**</span></span>
+<span class="line"><span>✗ No more discounted pricing</span></span>
+<span class="line"><span>✗ No more launch backer exclusives</span></span>
+<span class="line"><span>✗ You'll pay full retail (40-50% more)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Last Chance Perks:**</span></span>
+<span class="line"><span>• Lock in 40% off forever</span></span>
+<span class="line"><span>• Lifetime priority support</span></span>
+<span class="line"><span>• First batch shipping (Q2 2026)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Haven't backed yet?** [Campaign Link]</span></span>
+<span class="line"><span>**Want to upgrade your pledge?** Go to campaign page → Manage Pledge</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Tag 3 people who are still on the fence. Let's finish strong! 💪</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>React with ⚡ if you're locked in!</span></span></code></pre>
+<hr>
+<h2 id="moderation-response-templates">Moderation Response Templates</h2>
+<h3 id="scenario-1-price-objection">Scenario 1: Price Objection</h3>
+<p><strong>User says:</strong> “This seems expensive for what it is.”</p>
+<p><strong>Response:</strong></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Hey [Name]! Fair question—let's break it down:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**What You're Paying For:**</span></span>
+<span class="line"><span>- Commercial-grade components (IP65 rated, -20°C to 60°C)</span></span>
+<span class="line"><span>- Genuine AI learning (not just timers)</span></span>
+<span class="line"><span>- No monthly subscriptions (competitors charge $5-15/mo per device)</span></span>
+<span class="line"><span>- Bank-level encryption + local storage options</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Cost Comparison:**</span></span>
+<span class="line"><span>- Nest setup (thermostat + 3 cameras + doorbell): ~$1,100 + $30/mo = $1,460 Year 1</span></span>
+<span class="line"><span>- HeyZack equivalent: $780 total, $0/mo = $780 Year 1</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Plus, average backer saves $47/month on energy = pays for itself in 16 months.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Does that help clarify?</span></span></code></pre>
+<hr>
+<h3 id="scenario-2-shipping-delay-concerns">Scenario 2: Shipping Delay Concerns</h3>
+<p><strong>User says:</strong> “How do I know you’ll actually ship on time?”</p>
+<p><strong>Response:</strong></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Totally understand the skepticism—crowdfunding delays are infamous.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**What We've Done Differently:**</span></span>
+<span class="line"><span>• Manufacturing partner locked in (producing for 8+ years)</span></span>
+<span class="line"><span>• Prototypes already functional (not vaporware)</span></span>
+<span class="line"><span>• Conservative timeline (Q2 2026 = buffer built in)</span></span>
+<span class="line"><span>• Weekly production updates (you'll see EXACTLY where we're at)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**If We Miss Our Date:**</span></span>
+<span class="line"><span>Partial refunds for every 30 days of delay (detailed in campaign FAQs).</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Check out the 'Manufacturing Roadmap' section on the campaign page—we're </span></span>
+<span class="line"><span>serious about transparency. Questions?</span></span></code></pre>
+<hr>
+<h3 id="scenario-3-technical-compatibility-question">Scenario 3: Technical Compatibility Question</h3>
+<p><strong>User says:</strong> “Will this work with my existing Nest thermostat?”</p>
+<p><strong>Response:</strong></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Great question! Short answer: **Yes.**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>HeyZack works alongside your Nest via the unified app—you'll control both </span></span>
+<span class="line"><span>from one interface. The AI learns patterns from both systems.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Pro Tip:** If you ever want to replace the Nest, HeyZack thermostats </span></span>
+<span class="line"><span>integrate natively and cost 60% less. But zero pressure—we're designed </span></span>
+<span class="line"><span>to play nice with what you already own.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Full compatibility list: [Link]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Running another device brand? Let me know—I'll confirm!</span></span></code></pre>
+<hr>
+<h3 id="scenario-4-privacysecurity-concern">Scenario 4: Privacy/Security Concern</h3>
+<p><strong>User says:</strong> “How do I know my camera footage isn’t being sold?”</p>
+<p><strong>Response:</strong></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>**We're glad you asked.** Privacy is non-negotiable for us.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Here's Our Policy (Plain English):**</span></span>
+<span class="line"><span>1. **Local Storage Default:** Cameras record to SD cards—footage never </span></span>
+<span class="line"><span>   touches our servers unless YOU enable cloud backup</span></span>
+<span class="line"><span>2. **You Own Your Data:** We don't analyze, monetize, or share footage. Period.</span></span>
+<span class="line"><span>3. **Bank-Level Encryption:** All cloud data is AES-256 encrypted</span></span>
+<span class="line"><span>4. **Transparent Policy:** No legal jargon—read it at [Link]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Business Model Clarity:**</span></span>
+<span class="line"><span>We make money selling hardware, NOT subscriptions or data harvesting.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Annual third-party security audits (results published publicly).</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Does that address your concern?</span></span></code></pre>
+<hr>
+<h3 id="scenario-5-fud--trolling">Scenario 5: FUD / Trolling</h3>
+<p><strong>User says:</strong> “This is just another Kickstarter scam.”</p>
+<p><strong>Response:</strong></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>We get it—crowdfunding skepticism is healthy. You should vet every campaign.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Here's What We Can Point You To:**</span></span>
+<span class="line"><span>- Functional prototypes (video demos in #media-mentions)</span></span>
+<span class="line"><span>- Manufacturing partner with 8-year track record</span></span>
+<span class="line"><span>- Transparent team bios (LinkedIn profiles linked on campaign)</span></span>
+<span class="line"><span>- Refund policy clearly stated in FAQs</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>If you have specific concerns, we're happy to address them. But if you're </span></span>
+<span class="line"><span>just here to troll, we'll politely ask you to move along—this community </span></span>
+<span class="line"><span>is for constructive discussion.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Anyone else have *genuine* questions about credibility? We're an open book.</span></span></code></pre>
+<hr>
+<h3 id="scenario-6-feature-request-overload">Scenario 6: Feature Request Overload</h3>
+<p><strong>User says:</strong> “You NEED to add [Feature X] or I’m not backing.”</p>
+<p><strong>Response:</strong></p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Love the passion! Feature requests are how we get better.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Here's How We Prioritize:**</span></span>
+<span class="line"><span>1. Drop it in #feature-requests with your use case details</span></span>
+<span class="line"><span>2. Community upvotes (React with 👍)</span></span>
+<span class="line"><span>3. Product team reviews top 10 monthly</span></span>
+<span class="line"><span>4. High-demand features → roadmap</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Reality Check:** We can't promise every feature will make it in </span></span>
+<span class="line"><span>(engineering tradeoffs are real), but we DO read every request.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>[Feature X] specifically: Let's get the community's take. Everyone </span></span>
+<span class="line"><span>interested in [Feature X], react to [User]'s message with 🔥!</span></span></code></pre>
+<hr>
+<h2 id="facebook-group-setup">Facebook Group Setup</h2>
+<h3 id="pin-post-group-rules">Pin Post (Group Rules)</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>— **WELCOME TO THE HEYZACK COMMUNITY**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Who We Are:**</span></span>
+<span class="line"><span>A community for property managers, hospitality operators, and homeowners </span></span>
+<span class="line"><span>who are done with fragmented systems and want automation that actually *learns*.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Group Rules:**</span></span>
+<span class="line"><span>1. **Be Respectful** – No personal attacks, even about thermostat brands 😄</span></span>
+<span class="line"><span>2. **Stay On Topic** – HeyZack, smart home/building automation, energy efficiency</span></span>
+<span class="line"><span>3. **No Spam** – Promoting your own products = removal (1st) or ban (repeat)</span></span>
+<span class="line"><span>4. **Share Real Results** – Energy bill screenshots, setup photos = gold</span></span>
+<span class="line"><span>5. **Help Others** – Answer questions if you know the answer</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**What to Expect:**</span></span>
+<span class="line"><span>📅 Weekly discussion themes (polls, case studies, challenges)</span></span>
+<span class="line"><span>🎁 Monthly giveaways for top contributors</span></span>
+<span class="line"><span>📢 Exclusive campaign updates + backer perks</span></span>
+<span class="line"><span>🛠️ Direct access to the HeyZack product team</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**New Here?** Comment below with:</span></span>
+<span class="line"><span>- Name + Location</span></span>
+<span class="line"><span>- Property manager, hospitality operator, or homeowner?</span></span>
+<span class="line"><span>- What's your #1 automation frustration right now?</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Let's build something amazing together! →</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>— The HeyZack Team</span></span></code></pre>
+<hr>
+<h2 id="weekly-facebook-themes">Weekly Facebook Themes</h2>
+<h3 id="week-1-the-energy-bill-challenge">Week 1: The Energy Bill Challenge</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>💰 **WEEKLY THEME: The Energy Bill Challenge**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Post a screenshot of your most recent energy bill (blur personal info!), </span></span>
+<span class="line"><span>and let's calculate how much HeyZack could save you.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Formula:**</span></span>
+<span class="line"><span>[Monthly Bill] × 0.25 = [Potential Savings]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Example:**</span></span>
+<span class="line"><span>$240/month × 0.25 = $60/month = $720/year saved</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Bonus:** The person with the HIGHEST bill gets a personal energy audit </span></span>
+<span class="line"><span>from our team (and probably the most to gain from HeyZack 😅).</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Drop your bill screenshot or total amount below! 👇</span></span></code></pre>
+<hr>
+<h3 id="week-2-worst-smart-home-fail">Week 2: Worst Smart Home Fail</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>😂 **WEEKLY THEME: Worst Smart Home Fail**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Share your most frustrating smart home story:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>- The automation that woke your family at 3 AM</span></span>
+<span class="line"><span>- The "smart" lock that locked you OUT</span></span>
+<span class="line"><span>- The 7 apps you need just to turn on a light</span></span>
+<span class="line"><span>- The $300 gadget that stopped working after an update</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Prize:** Best story wins a $50 Amazon gift card + our eternal sympathy.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Comment below—therapy session is OPEN! 🛋️</span></span></code></pre>
+<hr>
+<h3 id="week-3-setup-showcase">Week 3: Setup Showcase</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>📸 **WEEKLY THEME: Setup Showcase**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Show off your current smart home/building setup!</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**We Want to See:**</span></span>
+<span class="line"><span>- Your control panel/dashboard</span></span>
+<span class="line"><span>- The "command center" of your home/property</span></span>
+<span class="line"><span>- The device you're most proud of</span></span>
+<span class="line"><span>- The corner of shame (devices you regret 😂)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Most Impressive Setup** (as voted by reactions) wins a feature on our </span></span>
+<span class="line"><span>blog + $100 HeyZack credit.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Post photos in the comments! 👇</span></span></code></pre>
+<hr>
+<h3 id="week-4-property-manager-roi-stories-b2b">Week 4: Property Manager ROI Stories (B2B)</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>💼 **WEEKLY THEME: Property Manager ROI Stories**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Property managers &#x26; facility operators: Let's talk numbers.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>**Share Your Experience:**</span></span>
+<span class="line"><span>- How many properties do you manage?</span></span>
+<span class="line"><span>- What's your annual energy cost across portfolio?</span></span>
+<span class="line"><span>- Have you tried smart building tech before? What worked/didn't work?</span></span>
+<span class="line"><span>- What ROI proof do you need to show ownership?</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Best insight wins a 1-on-1 consultation with our B2B solutions architect.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Comment below! 👇</span></span></code></pre>
+<hr>
+<h2 id="poll-templates">Poll Templates</h2>
+<h3 id="poll-1-device-priority">Poll 1: Device Priority</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>📊 **POLL: What Should We Build Next?**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Help us prioritize! If you could ONLY choose ONE new HeyZack device:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>🚪 Smart Garage Door Opener (WiFi + obstacle detection)</span></span>
+<span class="line"><span>🔌 Smart Power Strips (per-outlet control + monitoring)</span></span>
+<span class="line"><span>🎵 Multi-Room Audio System (whole-home music)</span></span>
+<span class="line"><span>💧 Smart Leak Detectors (water + freeze sensors)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Vote by reacting:</span></span>
+<span class="line"><span>🚪 = Garage Door | 🔌 = Power Strips | 🎵 = Audio | 💧 = Leak Detectors</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Most votes by Friday = moves to top of roadmap!</span></span></code></pre>
+<hr>
+<h3 id="poll-2-community-feature">Poll 2: Community Feature</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>📊 **POLL: What Community Feature Would You Use Most?**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>🎥 Monthly live Q&#x26;A with the HeyZack team</span></span>
+<span class="line"><span>📚 Weekly tutorial videos</span></span>
+<span class="line"><span>🏆 Monthly automation challenges with prizes</span></span>
+<span class="line"><span>👥 Local meetups in your city</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Vote with reactions!</span></span></code></pre>
+<hr>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="../brand/voice-tone.md">Brand Voice &#x26; Tone Guidelines</a></li>
+<li><a href="./engagement-playbook.md">Engagement Playbook</a></li>
+<li><a href="./influencer-outreach.md">Influencer Outreach</a></li>
+</ul>  </div> </article> <aside class="article-toc" data-astro-cid-fz5pa65a> <aside class="toc" data-astro-cid-xvrfupwn><h4 class="toc-title" data-astro-cid-xvrfupwn>On this page</h4><nav data-astro-cid-xvrfupwn><ul class="toc-list" data-astro-cid-xvrfupwn><li class="toc-item toc-depth-2" data-astro-cid-xvrfupwn><a href="#discord-server-setup" class="toc-link" data-astro-cid-xvrfupwn>Discord Server Setup</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#recommended-channel-structure" class="toc-link" data-astro-cid-xvrfupwn>Recommended Channel Structure</a></li><li class="toc-item toc-depth-2" data-astro-cid-xvrfupwn><a href="#welcome-messages" class="toc-link" data-astro-cid-xvrfupwn>Welcome Messages</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#b2b-property-manager-welcome-auto-dm" class="toc-link" data-astro-cid-xvrfupwn>B2B Property Manager Welcome (Auto-DM)</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#b2c-homeowner-welcome-auto-dm" class="toc-link" data-astro-cid-xvrfupwn>B2C Homeowner Welcome (Auto-DM)</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#server-pin-post-rules" class="toc-link" data-astro-cid-xvrfupwn>Server Pin Post (Rules)</a></li><li class="toc-item toc-depth-2" data-astro-cid-xvrfupwn><a href="#daily-discussion-prompts-30-day-rotation" class="toc-link" data-astro-cid-xvrfupwn>Daily Discussion Prompts (30-Day Rotation)</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#week-1-discovery--problem-identification" class="toc-link" data-astro-cid-xvrfupwn>Week 1: Discovery &amp; Problem Identification</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#week-2-product-education--features" class="toc-link" data-astro-cid-xvrfupwn>Week 2: Product Education &amp; Features</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#week-3-community-building--social-proof" class="toc-link" data-astro-cid-xvrfupwn>Week 3: Community Building &amp; Social Proof</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#week-4-campaign-momentum--fomo" class="toc-link" data-astro-cid-xvrfupwn>Week 4: Campaign Momentum &amp; FOMO</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#week-5-ongoing-themes" class="toc-link" data-astro-cid-xvrfupwn>Week 5+: Ongoing Themes</a></li><li class="toc-item toc-depth-2" data-astro-cid-xvrfupwn><a href="#event-announcements" class="toc-link" data-astro-cid-xvrfupwn>Event Announcements</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#launch-day-announcement" class="toc-link" data-astro-cid-xvrfupwn>Launch Day Announcement</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#stretch-goal-unlocked" class="toc-link" data-astro-cid-xvrfupwn>Stretch Goal Unlocked</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#mid-campaign-update" class="toc-link" data-astro-cid-xvrfupwn>Mid-Campaign Update</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#final-48-hours-push" class="toc-link" data-astro-cid-xvrfupwn>Final 48 Hours Push</a></li><li class="toc-item toc-depth-2" data-astro-cid-xvrfupwn><a href="#moderation-response-templates" class="toc-link" data-astro-cid-xvrfupwn>Moderation Response Templates</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#scenario-1-price-objection" class="toc-link" data-astro-cid-xvrfupwn>Scenario 1: Price Objection</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#scenario-2-shipping-delay-concerns" class="toc-link" data-astro-cid-xvrfupwn>Scenario 2: Shipping Delay Concerns</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#scenario-3-technical-compatibility-question" class="toc-link" data-astro-cid-xvrfupwn>Scenario 3: Technical Compatibility Question</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#scenario-4-privacysecurity-concern" class="toc-link" data-astro-cid-xvrfupwn>Scenario 4: Privacy/Security Concern</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#scenario-5-fud--trolling" class="toc-link" data-astro-cid-xvrfupwn>Scenario 5: FUD / Trolling</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#scenario-6-feature-request-overload" class="toc-link" data-astro-cid-xvrfupwn>Scenario 6: Feature Request Overload</a></li><li class="toc-item toc-depth-2" data-astro-cid-xvrfupwn><a href="#facebook-group-setup" class="toc-link" data-astro-cid-xvrfupwn>Facebook Group Setup</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#pin-post-group-rules" class="toc-link" data-astro-cid-xvrfupwn>Pin Post (Group Rules)</a></li><li class="toc-item toc-depth-2" data-astro-cid-xvrfupwn><a href="#weekly-facebook-themes" class="toc-link" data-astro-cid-xvrfupwn>Weekly Facebook Themes</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#week-1-the-energy-bill-challenge" class="toc-link" data-astro-cid-xvrfupwn>Week 1: The Energy Bill Challenge</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#week-2-worst-smart-home-fail" class="toc-link" data-astro-cid-xvrfupwn>Week 2: Worst Smart Home Fail</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#week-3-setup-showcase" class="toc-link" data-astro-cid-xvrfupwn>Week 3: Setup Showcase</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#week-4-property-manager-roi-stories-b2b" class="toc-link" data-astro-cid-xvrfupwn>Week 4: Property Manager ROI Stories (B2B)</a></li><li class="toc-item toc-depth-2" data-astro-cid-xvrfupwn><a href="#poll-templates" class="toc-link" data-astro-cid-xvrfupwn>Poll Templates</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#poll-1-device-priority" class="toc-link" data-astro-cid-xvrfupwn>Poll 1: Device Priority</a></li><li class="toc-item toc-depth-3" data-astro-cid-xvrfupwn><a href="#poll-2-community-feature" class="toc-link" data-astro-cid-xvrfupwn>Poll 2: Community Feature</a></li><li class="toc-item toc-depth-2" data-astro-cid-xvrfupwn><a href="#see-also" class="toc-link" data-astro-cid-xvrfupwn>See Also</a></li></ul></nav></aside> </aside> </div>  </div> </main> </div> <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" data-astro-cid-x3pjskd3> <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-x3pjskd3> <circle cx="12" cy="12" r="5" data-astro-cid-x3pjskd3></circle> <line x1="12" y1="1" x2="12" y2="3" data-astro-cid-x3pjskd3></line> <line x1="12" y1="21" x2="12" y2="23" data-astro-cid-x3pjskd3></line> <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" data-astro-cid-x3pjskd3></line> <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" data-astro-cid-x3pjskd3></line> <line x1="1" y1="12" x2="3" y2="12" data-astro-cid-x3pjskd3></line> <line x1="21" y1="12" x2="23" y2="12" data-astro-cid-x3pjskd3></line> <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" data-astro-cid-x3pjskd3></line> <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" data-astro-cid-x3pjskd3></line> </svg> <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-x3pjskd3> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-astro-cid-x3pjskd3></path> </svg> </button>  <script type="module">const n=document.getElementById("theme-toggle");n?.addEventListener("click",()=>{const t=document.documentElement,e=t.getAttribute("data-theme")==="dark"?"light":"dark";t.setAttribute("data-theme",e),localStorage.setItem("theme",e)});</script> <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebarOverlay');
+    
+    function toggleSidebar() {
+      sidebar.classList.toggle('open');
+      overlay.classList.toggle('active');
+      document.body.classList.toggle('sidebar-open');
+    }
+    
+    menuToggle?.addEventListener('click', toggleSidebar);
+    overlay?.addEventListener('click', toggleSidebar);
+    
+    // Close sidebar on navigation
+    sidebar?.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 1024) {
+          sidebar.classList.remove('open');
+          overlay.classList.remove('active');
+          document.body.classList.remove('sidebar-open');
+        }
+      });
+    });
+  </script> </body> </html> 

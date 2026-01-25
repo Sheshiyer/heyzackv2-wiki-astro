@@ -1,0 +1,183 @@
+---
+import { getCollection } from 'astro:content';
+import productCatalog from '../data/product_catalog.json';
+import Icon from './Icon.astro';
+
+const docs = await getCollection('docs');
+const currentPath = Astro.url.pathname;
+
+// Group docs by category
+const categories = docs.reduce((acc, doc) => {
+  const category = doc.data.category || 'General';
+  if (!acc[category]) acc[category] = [];
+  acc[category].push(doc);
+  return acc;
+}, {} as Record<string, typeof docs>);
+
+// Sort each category by order
+Object.keys(categories).forEach(cat => {
+  categories[cat].sort((a, b) => (a.data.order || 999) - (b.data.order || 999));
+});
+
+// Define category order
+const categoryOrder = ['home', 'getting-started', 'product', 'brand', 'audience', 'marketing', 'heyzackv2'];
+const sortedCategories = Object.keys(categories).sort((a, b) => {
+  const aIndex = categoryOrder.indexOf(a.toLowerCase());
+  const bIndex = categoryOrder.indexOf(b.toLowerCase());
+  if (aIndex === -1 && bIndex === -1) return a.localeCompare(b);
+  if (aIndex === -1) return 1;
+  if (bIndex === -1) return -1;
+  return aIndex - bIndex;
+});
+
+const { product_stats } = productCatalog;
+---
+
+<nav class="navigation">
+  <div class="nav-header">
+    <a href="/" class="logo">
+      <img src="/logo.svg" alt="HeyZack" class="logo-icon" width="32" height="32" />
+      <span class="logo-text">HeyZack</span>
+    </a>
+  </div>
+  
+  <div class="nav-content">
+    <!-- Products Section -->
+    <div class="nav-category">
+      <h3 class="nav-category-title">Products</h3>
+      <ul class="nav-list">
+        <li>
+          <a href="/products" class:list={['nav-link', { active: currentPath === '/products' || currentPath === '/products/' }]}>
+            <Icon name="package" size={16} /> All Products ({product_stats.total_products})
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+    {sortedCategories.map(category => (
+      <div class="nav-category">
+        <h3 class="nav-category-title">{category}</h3>
+        <ul class="nav-list">
+          {categories[category].map(doc => {
+            const href = `/docs/${doc.slug}`;
+            const isActive = currentPath === href || currentPath === `${href}/`;
+            return (
+              <li>
+                <a href={href} class:list={['nav-link', { active: isActive }]}>
+                  {doc.data.title}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    ))}
+  </div>
+</nav>
+
+<style>
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .nav-header {
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--color-divider);
+    margin-bottom: var(--space-4);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    color: var(--color-text-primary);
+    font-weight: 700;
+    font-size: var(--text-xl);
+    text-decoration: none;
+    transition: opacity 150ms ease;
+  }
+  
+  .logo:hover {
+    opacity: 0.85;
+  }
+  
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+  
+  .logo-text {
+    background: var(--gradient-brand);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .nav-content {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: var(--space-2);
+  }
+  
+  .nav-content::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  .nav-content::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .nav-content::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 2px;
+  }
+  
+  .nav-category {
+    margin-bottom: var(--space-6);
+  }
+  
+  .nav-category-title {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-tertiary);
+    margin-bottom: var(--space-2);
+    padding: 0 var(--space-2);
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-sm);
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    text-decoration: none;
+    transition: all 150ms ease;
+  }
+  
+  .nav-link:hover {
+    background: var(--color-bg-tertiary);
+    color: var(--color-text-primary);
+  }
+  
+  .nav-link.active {
+    background: linear-gradient(135deg, rgba(36, 57, 132, 0.15) 0%, rgba(232, 47, 137, 0.1) 100%);
+    color: var(--color-brand-pink);
+    font-weight: 500;
+  }
+  
+  [data-theme="dark"] .nav-link.active {
+    background: linear-gradient(135deg, rgba(74, 111, 217, 0.2) 0%, rgba(232, 47, 137, 0.15) 100%);
+    color: var(--color-accent-hover);
+  }
+</style>

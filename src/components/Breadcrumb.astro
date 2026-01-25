@@ -1,0 +1,81 @@
+---
+const pathname = Astro.url.pathname;
+const segments = pathname.split('/').filter(Boolean);
+
+interface Crumb {
+  label: string;
+  href: string;
+}
+
+const crumbs: Crumb[] = [
+  { label: 'Home', href: '/' }
+];
+
+let path = '';
+for (const segment of segments) {
+  path += `/${segment}`;
+  const label = segment
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+  crumbs.push({ label, href: path });
+}
+---
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list">
+    {crumbs.map((crumb, index) => (
+      <li class="breadcrumb-item">
+        {index < crumbs.length - 1 ? (
+          <>
+            <a href={crumb.href} class="breadcrumb-link">{crumb.label}</a>
+            <span class="breadcrumb-separator">/</span>
+          </>
+        ) : (
+          <span class="breadcrumb-current">{crumb.label}</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<style>
+  .breadcrumb {
+    margin-bottom: var(--space-6);
+  }
+  
+  .breadcrumb-list {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: var(--text-sm);
+  }
+  
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+  
+  .breadcrumb-link {
+    color: var(--color-text-tertiary);
+    text-decoration: none;
+    transition: color 150ms ease;
+  }
+  
+  .breadcrumb-link:hover {
+    color: var(--color-accent);
+  }
+  
+  .breadcrumb-separator {
+    color: var(--color-text-tertiary);
+  }
+  
+  .breadcrumb-current {
+    color: var(--color-text-secondary);
+    font-weight: 500;
+  }
+</style>

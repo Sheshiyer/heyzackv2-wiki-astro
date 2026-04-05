@@ -1,9 +1,27 @@
 ---
-title: "Launch Email Sequence"
-description: "Complete email cadence for Kickstarter launch week - Day 1 through Day 14"
-category: "heyzackv2"
+title: Launch Email Sequence
+description: Complete email cadence for Kickstarter launch week - Day 1 through Day 14
+summary: Complete email cadence for Kickstarter launch week Day 1 through Day 14
+category: heyzackv2
+docId: heyzackv2-emails-launch-sequence
+docType: email
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/emails/launch-sequence/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["emails", "launch", "kickstarter", "marketing"]
+tags:
+  - emails
+  - launch
+  - kickstarter
+  - marketing
 lastUpdated: "2026-02-15"
 ---
 

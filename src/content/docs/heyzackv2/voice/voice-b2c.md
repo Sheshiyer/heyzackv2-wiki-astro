@@ -1,9 +1,29 @@
 ---
-title: "Voice Guide - B2C"
-description: "Brand voice template for B2C marketing copy - friendly, reassuring, intelligent-but-not-technical"
-category: "heyzackv2"
+title: Voice Guide - B2C
+description: Brand voice template for B2C marketing copy - friendly, reassuring, intelligent-but-not-technical
+summary: Brand voice template for B2C marketing copy friendly, reassuring, intelligent but not technical
+category: heyzackv2
+docId: heyzackv2-voice-voice-b2c
+docType: reference
+audience:
+  - b2c
+status: active
+canonicalPath: /docs/heyzackv2/voice/voice-b2c/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/primary-persona
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["voice", "B2C", "copywriting", "brand", "tone"]
+tags:
+  - voice
+  - B2C
+  - copywriting
+  - brand
+  - tone
 lastUpdated: "2026-01-25"
 ---
 

@@ -1,9 +1,27 @@
 ---
-title: "Pre-Launch Email Sequence"
-description: "Email sequence for T-7 days through launch - VIP, B2B, and B2C segments"
-category: "heyzackv2"
+title: Pre-Launch Email Sequence
+description: Email sequence for T-7 days through launch - VIP, B2B, and B2C segments
+summary: Email sequence for T 7 days through launch VIP, B2B, and B2C segments
+category: heyzackv2
+docId: heyzackv2-emails-pre-launch-sequence
+docType: email
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/emails/pre-launch-sequence/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["emails", "pre-launch", "kickstarter", "marketing"]
+tags:
+  - emails
+  - pre-launch
+  - kickstarter
+  - marketing
 lastUpdated: "2026-02-08"
 ---
 

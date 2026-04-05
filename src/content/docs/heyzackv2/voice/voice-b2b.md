@@ -1,9 +1,29 @@
 ---
-title: "Voice Guide - B2B"
-description: "Brand voice template for B2B marketing copy - data-driven, professional, efficient"
-category: "heyzackv2"
+title: Voice Guide - B2B
+description: Brand voice template for B2B marketing copy - data-driven, professional, efficient
+summary: Brand voice template for B2B marketing copy data driven, professional, efficient
+category: heyzackv2
+docId: heyzackv2-voice-voice-b2b
+docType: reference
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/voice/voice-b2b/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["voice", "B2B", "copywriting", "brand", "tone"]
+tags:
+  - voice
+  - B2B
+  - copywriting
+  - brand
+  - tone
 lastUpdated: "2026-01-25"
 ---
 

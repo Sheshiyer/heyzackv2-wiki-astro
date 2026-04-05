@@ -1,11 +1,34 @@
 ---
 title: Social Content Calendar
 description: 30-day pre-launch social media content calendar with posts for Twitter/X, LinkedIn, Instagram, TikTok, and Reddit
+summary: 30 day pre launch social media content calendar with posts for Twitter/X, LinkedIn, Instagram, TikTok, and Reddit
 category: marketing
-tags: [social-media, content-calendar, Twitter, LinkedIn, Instagram, TikTok, Reddit, B2B, B2C]
+docId: marketing-social-content
+docType: reference
+audience:
+  - all
+status: active
+canonicalPath: /docs/marketing/social-content/
+related:
+  - brand/voice-tone
+  - brand/positioning
+  - product/overview
+  - heyzackv2/product
+ingestPriority: 4
+chunkStrategy: heading
+tags:
+  - social-media
+  - content-calendar
+  - Twitter
+  - LinkedIn
+  - Instagram
+  - TikTok
+  - Reddit
+  - B2B
+  - B2C
 sources:
   - /heyzackv2/social/content_calendar_30day.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Social Content Calendar

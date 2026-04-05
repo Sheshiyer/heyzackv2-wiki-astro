@@ -1,13 +1,34 @@
 ---
 title: Campaign Copy
 description: Kickstarter/Indiegogo campaign page copy for B2B and B2C audiences, plus press release for launch
+summary: Kickstarter/Indiegogo campaign page copy for B2B and B2C audiences, plus press release for launch
 category: marketing
-tags: [campaign, crowdfunding, Kickstarter, press-release, B2B, B2C, landing-page]
+docId: marketing-campaign-copy
+docType: campaign
+audience:
+  - all
+status: active
+canonicalPath: /docs/marketing/campaign-copy/
+related:
+  - brand/voice-tone
+  - brand/positioning
+  - product/overview
+  - heyzackv2/product
+ingestPriority: 4
+chunkStrategy: heading
+tags:
+  - campaign
+  - crowdfunding
+  - Kickstarter
+  - press-release
+  - B2B
+  - B2C
+  - landing-page
 sources:
   - /heyzackv2/campaigns/campaign_page_b2b.md
   - /heyzackv2/campaigns/campaign_page_b2c.md
   - /heyzackv2/campaigns/press_release.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Campaign Copy

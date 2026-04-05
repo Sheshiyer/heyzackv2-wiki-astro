@@ -1,9 +1,28 @@
 ---
-title: "Community Management"
-description: "Discord and Facebook Group engagement scripts, moderation templates, and daily discussion prompts"
-category: "heyzackv2"
+title: Community Management
+description: Discord and Facebook Group engagement scripts, moderation templates, and daily discussion prompts
+summary: Discord and Facebook Group engagement scripts, moderation templates, and daily discussion prompts
+category: heyzackv2
+docId: heyzackv2-engagement-community-management
+docType: playbook
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/engagement/community-management/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["engagement", "community", "discord", "facebook", "moderation"]
+tags:
+  - engagement
+  - community
+  - discord
+  - facebook
+  - moderation
 lastUpdated: "2026-01-25"
 ---
 

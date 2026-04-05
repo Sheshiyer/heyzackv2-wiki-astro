@@ -1,9 +1,26 @@
 ---
-title: "Pitch Deck Outline"
-description: "Slide-by-slide outline for HeyZack investor and partner pitch decks"
-category: "heyzackv2"
+title: Pitch Deck Outline
+description: Slide-by-slide outline for HeyZack investor and partner pitch decks
+summary: Slide by slide outline for HeyZack investor and partner pitch decks
+category: heyzackv2
+docId: heyzackv2-slides-pitch-deck-outline
+docType: slide
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/slides/pitch-deck-outline/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["slides", "pitch", "investor", "presentation"]
+tags:
+  - slides
+  - pitch
+  - investor
+  - presentation
 lastUpdated: "2026-01-25"
 ---
 

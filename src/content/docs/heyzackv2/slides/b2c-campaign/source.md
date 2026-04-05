@@ -1,9 +1,29 @@
 ---
-title: "B2C Campaign - Source Document"
-description: "Complete source document for the HeyZack B2C crowdfunding campaign deck"
-category: "heyzackv2"
+title: B2C Campaign - Source Document
+description: Complete source document for the HeyZack B2C crowdfunding campaign deck
+summary: Complete source document for the HeyZack B2C crowdfunding campaign deck
+category: heyzackv2
+docId: heyzackv2-slides-b2c-campaign-source
+docType: slide
+audience:
+  - b2c
+status: active
+canonicalPath: /docs/heyzackv2/slides/b2c-campaign/source/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/primary-persona
+  - heyzackv2/voice/voice-b2c
+ingestPriority: 3
+chunkStrategy: heading
 order: 4
-tags: ["slides", "source", "b2c", "crowdfunding", "campaign"]
+tags:
+  - slides
+  - source
+  - b2c
+  - crowdfunding
+  - campaign
 lastUpdated: "2026-01-25"
 ---
 

@@ -1,7 +1,21 @@
 ---
 title: "B2B Personas: Property Managers & Hospitality"
-description: "Portfolio Patricia and Hospitality Hugo - Commercial operators seeking scalable building automation without enterprise complexity or pricing"
+description: Portfolio Patricia and Hospitality Hugo - Commercial operators seeking scalable building automation without enterprise complexity or pricing
+summary: Portfolio Patricia and Hospitality Hugo Commercial operators seeking scalable building automation without enterprise complexity or pricing
 category: audience
+docId: audience-b2b-personas
+docType: persona
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/audience/b2b-personas/
+related:
+  - audience/primary-persona
+  - audience/secondary-personas
+  - product/overview
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 4
+chunkStrategy: heading
 tags:
   - persona
   - b2b
@@ -12,7 +26,7 @@ tags:
 sources:
   - heyzackv2/personas/persona_property_managers.md
   - heyzackv2/personas/persona_hospitality.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # B2B Personas: Property Managers & Hospitality

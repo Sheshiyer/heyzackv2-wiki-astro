@@ -1,7 +1,21 @@
 ---
 title: "Secondary Personas: Energy-Conscious & Safety-Focused"
-description: "Eco-Efficient Emma and Safety-First Sarah - Secondary B2C audiences prioritizing utility savings, environmental impact, and family safety"
+description: Eco-Efficient Emma and Safety-First Sarah - Secondary B2C audiences prioritizing utility savings, environmental impact, and family safety
+summary: Eco Efficient Emma and Safety First Sarah Secondary B2C audiences prioritizing utility savings, environmental impact, and family safety
 category: audience
+docId: audience-secondary-personas
+docType: persona
+audience:
+  - b2c
+status: active
+canonicalPath: /docs/audience/secondary-personas/
+related:
+  - audience/primary-persona
+  - audience/b2b-personas
+  - product/overview
+  - heyzackv2/voice/voice-b2c
+ingestPriority: 4
+chunkStrategy: heading
 tags:
   - persona
   - b2c
@@ -12,7 +26,7 @@ tags:
 sources:
   - heyzackv2/personas/persona_energy_conscious.md
   - heyzackv2/personas/persona_safety_focused.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Secondary Personas: Energy-Conscious & Safety-Focused

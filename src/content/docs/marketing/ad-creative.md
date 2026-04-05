@@ -1,12 +1,34 @@
 ---
 title: Ad Creative Library
 description: Complete pre-launch ad copy library for B2B property managers and B2C homeowners, organized by category and audience segment
+summary: Complete pre launch ad copy library for B2B property managers and B2C homeowners, organized by category and audience segment
 category: marketing
-tags: [advertising, copy, B2B, B2C, pre-launch, Facebook, LinkedIn, Google Display]
+docId: marketing-ad-creative
+docType: reference
+audience:
+  - all
+status: active
+canonicalPath: /docs/marketing/ad-creative/
+related:
+  - brand/voice-tone
+  - brand/positioning
+  - product/overview
+  - heyzackv2/product
+ingestPriority: 4
+chunkStrategy: heading
+tags:
+  - advertising
+  - copy
+  - B2B
+  - B2C
+  - pre-launch
+  - Facebook
+  - LinkedIn
+  - Google Display
 sources:
   - /heyzackv2/ads/pre_launch_ads_b2b.md
   - /heyzackv2/ads/pre_launch_ads_b2c.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Ad Creative Library

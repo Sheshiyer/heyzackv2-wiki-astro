@@ -1,9 +1,33 @@
 ---
-title: "Pre-Launch Ads - B2C"
-description: "39 B2C ad variants targeting Tech-Savvy Homeowners, Energy-Conscious Consumers, and Safety-Focused Families across 8 categories"
-category: "heyzackv2"
+title: Pre-Launch Ads - B2C
+description: 39 B2C ad variants targeting Tech-Savvy Homeowners, Energy-Conscious Consumers, and Safety-Focused Families across 8 categories
+summary: 39 B2C ad variants targeting Tech Savvy Homeowners, Energy Conscious Consumers, and Safety Focused Families across 8 categories
+category: heyzackv2
+docId: heyzackv2-ads-pre-launch-ads-b2c
+docType: reference
+audience:
+  - b2c
+status: active
+canonicalPath: /docs/heyzackv2/ads/pre-launch-ads-b2c/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/primary-persona
+  - heyzackv2/voice/voice-b2c
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["ads", "B2C", "homeowners", "energy", "safety", "pre-launch", "Facebook", "Instagram", "Reddit"]
+tags:
+  - ads
+  - B2C
+  - homeowners
+  - energy
+  - safety
+  - pre-launch
+  - Facebook
+  - Instagram
+  - Reddit
 lastUpdated: "2026-01-25"
 ---
 

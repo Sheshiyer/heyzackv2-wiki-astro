@@ -1,7 +1,7 @@
 ---
 title: Features & Benefits
 description: Comprehensive feature-by-feature breakdown of HeyZack's smart automation platform, including technical capabilities and customer benefits for both B2B and B2C markets.
-summary: Feature-by-feature reference for HeyZack capabilities and the B2B/B2C benefits each feature delivers.
+summary: Feature by feature reference for HeyZack capabilities and the B2B/B2C benefits each feature delivers.
 category: product
 docId: product-features
 docType: reference
@@ -25,7 +25,7 @@ tags:
 sources:
   - heyzackv2/product.md
   - heyzackv2/messaging/mds_master.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Features & Benefits

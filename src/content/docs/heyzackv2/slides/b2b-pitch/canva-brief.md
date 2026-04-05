@@ -1,9 +1,29 @@
 ---
-title: "B2B Pitch - Canva Brief"
-description: "Canva design brief for the HeyZack B2B investor pitch deck"
-category: "heyzackv2"
+title: B2B Pitch - Canva Brief
+description: Canva design brief for the HeyZack B2B investor pitch deck
+summary: Canva design brief for the HeyZack B2B investor pitch deck
+category: heyzackv2
+docId: heyzackv2-slides-b2b-pitch-canva-brief
+docType: slide
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/slides/b2b-pitch/canva-brief/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["slides", "canva", "b2b", "investor", "pitch-deck"]
+tags:
+  - slides
+  - canva
+  - b2b
+  - investor
+  - pitch-deck
 lastUpdated: "2026-01-25"
 ---
 

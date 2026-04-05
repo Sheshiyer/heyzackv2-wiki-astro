@@ -1,9 +1,29 @@
 ---
 title: "Energy-Conscious Persona: Emma"
-description: "Detailed buyer persona dossier for Eco-Efficient Emma - energy-conscious consumers seeking visibility and savings"
-category: "heyzackv2"
+description: Detailed buyer persona dossier for Eco-Efficient Emma - energy-conscious consumers seeking visibility and savings
+summary: Detailed buyer persona dossier for Eco Efficient Emma energy conscious consumers seeking visibility and savings
+category: heyzackv2
+docId: heyzackv2-personas-energy-conscious-emma
+docType: persona
+audience:
+  - b2c
+status: active
+canonicalPath: /docs/heyzackv2/personas/energy-conscious-emma/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/primary-persona
+  - heyzackv2/voice/voice-b2c
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["personas", "B2C", "energy", "sustainability", "cost-savings"]
+tags:
+  - personas
+  - B2C
+  - energy
+  - sustainability
+  - cost-savings
 lastUpdated: "2026-01-25"
 ---
 

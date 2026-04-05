@@ -1,9 +1,29 @@
 ---
-title: "Campaign Page - B2B"
-description: "Complete Kickstarter/Indiegogo campaign page copy for commercial property managers and hospitality operators"
-category: "heyzackv2"
+title: Campaign Page - B2B
+description: Complete Kickstarter/Indiegogo campaign page copy for commercial property managers and hospitality operators
+summary: Complete Kickstarter/Indiegogo campaign page copy for commercial property managers and hospitality operators
+category: heyzackv2
+docId: heyzackv2-campaigns-campaign-page-b2b
+docType: campaign
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/campaigns/campaign-page-b2b/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["campaigns", "B2B", "property-managers", "hospitality", "kickstarter"]
+tags:
+  - campaigns
+  - B2B
+  - property-managers
+  - hospitality
+  - kickstarter
 lastUpdated: "2026-01-25"
 ---
 

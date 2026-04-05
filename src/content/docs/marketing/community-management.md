@@ -1,7 +1,21 @@
 ---
 title: Community Management
 description: Discord and Facebook Group engagement scripts, moderation templates, and daily discussion prompts
+summary: Discord and Facebook Group engagement scripts, moderation templates, and daily discussion prompts
 category: marketing
+docId: marketing-community-management
+docType: playbook
+audience:
+  - all
+status: active
+canonicalPath: /docs/marketing/community-management/
+related:
+  - brand/voice-tone
+  - brand/positioning
+  - product/overview
+  - heyzackv2/product
+ingestPriority: 4
+chunkStrategy: heading
 tags:
   - community
   - discord
@@ -11,7 +25,7 @@ tags:
   - discussion-prompts
 sources:
   - heyzackv2/engagement/community_management.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Community Management

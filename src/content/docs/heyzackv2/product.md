@@ -1,18 +1,28 @@
 ---
-title: "Product Brief"
-description: "Complete brand snapshot, product portfolio, technical specifications, and market positioning for HeyZack AI-Powered Smart Home & Building Automation"
-summary: "Long-form product brief covering portfolio breadth, technical specs, positioning, and target markets."
-category: "heyzackv2"
-docId: "heyzackv2-product-brief"
-docType: "overview"
-audience: ["all"]
-status: "active"
-canonicalPath: "/docs/heyzackv2/product/"
-related: ["product/overview", "product/features", "product/specifications", "brand/positioning"]
+title: Product Brief
+description: Complete brand snapshot, product portfolio, technical specifications, and market positioning for HeyZack AI-Powered Smart Home & Building Automation
+summary: Long form product brief covering portfolio breadth, technical specs, positioning, and target markets.
+category: heyzackv2
+docId: heyzackv2-product-brief
+docType: overview
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/product/
+related:
+  - product/overview
+  - product/features
+  - product/specifications
+  - brand/positioning
 ingestPriority: 5
-chunkStrategy: "heading"
+chunkStrategy: heading
 order: 1
-tags: ["product", "brief", "brand", "portfolio", "specifications"]
+tags:
+  - product
+  - brief
+  - brand
+  - portfolio
+  - specifications
 lastUpdated: "2026-01-25"
 ---
 

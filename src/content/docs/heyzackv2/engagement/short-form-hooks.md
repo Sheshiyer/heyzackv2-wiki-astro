@@ -1,9 +1,29 @@
 ---
-title: "Short-Form Video Hooks"
-description: "TikTok, Reels, and Shorts hooks optimized for viral engagement"
-category: "heyzackv2"
+title: Short-Form Video Hooks
+description: TikTok, Reels, and Shorts hooks optimized for viral engagement
+summary: TikTok, Reels, and Shorts hooks optimized for viral engagement
+category: heyzackv2
+docId: heyzackv2-engagement-short-form-hooks
+docType: playbook
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/engagement/short-form-hooks/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
 order: 3
-tags: ["engagement", "social", "tiktok", "reels", "video", "hooks"]
+tags:
+  - engagement
+  - social
+  - tiktok
+  - reels
+  - video
+  - hooks
 lastUpdated: "2026-01-25"
 ---
 

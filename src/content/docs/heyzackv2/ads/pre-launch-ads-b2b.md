@@ -1,9 +1,32 @@
 ---
-title: "Pre-Launch Ads - B2B"
-description: "39 B2B ad variants for property managers and hospitality operators across 8 categories including problem/agitation, solution/benefit, social proof, and launch countdown"
-category: "heyzackv2"
+title: Pre-Launch Ads - B2B
+description: 39 B2B ad variants for property managers and hospitality operators across 8 categories including problem/agitation, solution/benefit, social proof, and launch countdown
+summary: 39 B2B ad variants for property managers and hospitality operators across 8 categories including problem/agitation, solution/benefit, social proof, and launch countdown
+category: heyzackv2
+docId: heyzackv2-ads-pre-launch-ads-b2b
+docType: reference
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/ads/pre-launch-ads-b2b/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["ads", "B2B", "property-managers", "hospitality", "pre-launch", "LinkedIn", "Facebook", "Google Display"]
+tags:
+  - ads
+  - B2B
+  - property-managers
+  - hospitality
+  - pre-launch
+  - LinkedIn
+  - Facebook
+  - Google Display
 lastUpdated: "2026-01-25"
 ---
 

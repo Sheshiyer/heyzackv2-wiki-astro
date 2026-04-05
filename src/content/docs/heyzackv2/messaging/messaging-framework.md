@@ -1,9 +1,26 @@
 ---
-title: "Messaging Framework"
-description: "Master messaging document with value propositions, proof points, and objection handling for B2B and B2C"
-category: "heyzackv2"
+title: Messaging Framework
+description: Master messaging document with value propositions, proof points, and objection handling for B2B and B2C
+summary: Master messaging document with value propositions, proof points, and objection handling for B2B and B2C
+category: heyzackv2
+docId: heyzackv2-messaging-messaging-framework
+docType: reference
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/messaging/messaging-framework/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["messaging", "value-proposition", "copywriting", "objections"]
+tags:
+  - messaging
+  - value-proposition
+  - copywriting
+  - objections
 lastUpdated: "2026-01-25"
 ---
 

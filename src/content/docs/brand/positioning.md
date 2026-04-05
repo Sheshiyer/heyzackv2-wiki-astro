@@ -1,7 +1,19 @@
 ---
 title: Brand Positioning
 description: HeyZack's strategic brand positioning using the Customer-Based Brand Equity (CBBE) framework, covering both B2B and B2C markets
+summary: HeyZack's strategic brand positioning using the Customer Based Brand Equity (CBBE) framework, covering both B2B and B2C markets
 category: brand
+docId: brand-positioning
+docType: reference
+audience:
+  - all
+status: active
+canonicalPath: /docs/brand/positioning/
+related:
+  - brand/voice-tone
+  - product/overview
+ingestPriority: 5
+chunkStrategy: heading
 tags:
   - positioning
   - CBBE
@@ -10,7 +22,7 @@ tags:
   - B2C
 sources:
   - heyzackv2/positioning/positioning_summary.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Brand Positioning

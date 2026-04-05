@@ -1,9 +1,29 @@
 ---
 title: "Tech-Savvy Persona: Tyler"
-description: "Detailed buyer persona dossier for Tech-Forward Tyler - tech-savvy homeowners seeking unified, intelligent smart home automation"
-category: "heyzackv2"
+description: Detailed buyer persona dossier for Tech-Forward Tyler - tech-savvy homeowners seeking unified, intelligent smart home automation
+summary: Detailed buyer persona dossier for Tech Forward Tyler tech savvy homeowners seeking unified, intelligent smart home automation
+category: heyzackv2
+docId: heyzackv2-personas-tech-savvy-tyler
+docType: persona
+audience:
+  - b2c
+status: active
+canonicalPath: /docs/heyzackv2/personas/tech-savvy-tyler/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/primary-persona
+  - heyzackv2/voice/voice-b2c
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["personas", "B2C", "tech-savvy", "homeowners", "early-adopter"]
+tags:
+  - personas
+  - B2C
+  - tech-savvy
+  - homeowners
+  - early-adopter
 lastUpdated: "2026-01-25"
 ---
 

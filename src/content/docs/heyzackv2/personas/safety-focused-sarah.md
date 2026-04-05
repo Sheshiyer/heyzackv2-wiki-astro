@@ -1,9 +1,29 @@
 ---
 title: "Safety-Focused Persona: Sarah"
-description: "Detailed buyer persona dossier for Safety-First Sarah - families seeking comprehensive home and family safety monitoring"
-category: "heyzackv2"
+description: Detailed buyer persona dossier for Safety-First Sarah - families seeking comprehensive home and family safety monitoring
+summary: Detailed buyer persona dossier for Safety First Sarah families seeking comprehensive home and family safety monitoring
+category: heyzackv2
+docId: heyzackv2-personas-safety-focused-sarah
+docType: persona
+audience:
+  - b2c
+status: active
+canonicalPath: /docs/heyzackv2/personas/safety-focused-sarah/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/primary-persona
+  - heyzackv2/voice/voice-b2c
+ingestPriority: 3
+chunkStrategy: heading
 order: 3
-tags: ["personas", "B2C", "safety", "security", "families"]
+tags:
+  - personas
+  - B2C
+  - safety
+  - security
+  - families
 lastUpdated: "2026-01-25"
 ---
 

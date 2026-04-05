@@ -1,7 +1,19 @@
 ---
 title: Voice & Tone Guide
 description: Unified brand voice and tone guidelines for HeyZack communications across B2B and B2C audiences
+summary: Unified brand voice and tone guidelines for HeyZack communications across B2B and B2C audiences
 category: brand
+docId: brand-voice-tone
+docType: reference
+audience:
+  - all
+status: active
+canonicalPath: /docs/brand/voice-tone/
+related:
+  - brand/positioning
+  - product/overview
+ingestPriority: 5
+chunkStrategy: heading
 tags:
   - voice
   - tone
@@ -12,7 +24,7 @@ tags:
 sources:
   - heyzackv2/voice/voice_b2b.md
   - heyzackv2/voice/voice_b2c.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Voice & Tone Guide

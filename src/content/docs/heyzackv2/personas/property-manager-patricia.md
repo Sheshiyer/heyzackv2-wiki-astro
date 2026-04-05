@@ -1,9 +1,29 @@
 ---
 title: "Property Manager Persona: Patricia"
-description: "Detailed buyer persona dossier for Portfolio Patricia - commercial property managers seeking portfolio-scale automation"
-category: "heyzackv2"
+description: Detailed buyer persona dossier for Portfolio Patricia - commercial property managers seeking portfolio-scale automation
+summary: Detailed buyer persona dossier for Portfolio Patricia commercial property managers seeking portfolio scale automation
+category: heyzackv2
+docId: heyzackv2-personas-property-manager-patricia
+docType: persona
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/personas/property-manager-patricia/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 4
-tags: ["personas", "B2B", "property-managers", "commercial", "real-estate"]
+tags:
+  - personas
+  - B2B
+  - property-managers
+  - commercial
+  - real-estate
 lastUpdated: "2026-01-25"
 ---
 

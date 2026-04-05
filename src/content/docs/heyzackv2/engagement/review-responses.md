@@ -1,9 +1,27 @@
 ---
-title: "Review Responses"
-description: "Templates for responding to reviews across platforms - 5-star to 1-star"
-category: "heyzackv2"
+title: Review Responses
+description: Templates for responding to reviews across platforms - 5-star to 1-star
+summary: Templates for responding to reviews across platforms 5 star to 1 star
+category: heyzackv2
+docId: heyzackv2-engagement-review-responses
+docType: playbook
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/engagement/review-responses/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
 order: 4
-tags: ["engagement", "reviews", "reputation", "customer-service"]
+tags:
+  - engagement
+  - reviews
+  - reputation
+  - customer-service
 lastUpdated: "2026-01-25"
 ---
 

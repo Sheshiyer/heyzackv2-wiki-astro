@@ -42,3 +42,19 @@
 - Implemented generator scripts under `scripts/`
 - Verified `npm run build:ingest`, `npm run check:ingest`, and `npm run build`
 - Verified shipped outputs in `dist/llms.txt` and `dist/ingest/`
+
+## Session Task - Full Metadata Backfill
+
+### Plan
+
+- [x] Inspect current explicit metadata coverage across the corpus
+- [x] Add a reusable metadata sync path for all docs
+- [x] Backfill explicit metadata across all 57 Markdown docs
+- [x] Verify metadata sync, ingestion build, and full site build
+- [ ] Commit and push the backfill changes
+
+### Result
+
+- Added `npm run sync:metadata` for deterministic corpus-wide metadata normalization
+- Verified 57/57 docs now contain explicit `docId`, `summary`, `canonicalPath`, and `related`
+- Verified `npm run build:ingest`, `npm run check:ingest`, `npm run build:site`, and `npm run build`

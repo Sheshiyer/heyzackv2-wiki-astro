@@ -1,9 +1,29 @@
 ---
-title: "Campaign Page - B2C"
-description: "Complete Kickstarter/Indiegogo campaign page copy for tech-savvy homeowners, energy-conscious consumers, and safety-focused families"
-category: "heyzackv2"
+title: Campaign Page - B2C
+description: Complete Kickstarter/Indiegogo campaign page copy for tech-savvy homeowners, energy-conscious consumers, and safety-focused families
+summary: Complete Kickstarter/Indiegogo campaign page copy for tech savvy homeowners, energy conscious consumers, and safety focused families
+category: heyzackv2
+docId: heyzackv2-campaigns-campaign-page-b2c
+docType: campaign
+audience:
+  - b2c
+status: active
+canonicalPath: /docs/heyzackv2/campaigns/campaign-page-b2c/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/primary-persona
+  - heyzackv2/voice/voice-b2c
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["campaigns", "B2C", "homeowners", "kickstarter", "consumer"]
+tags:
+  - campaigns
+  - B2C
+  - homeowners
+  - kickstarter
+  - consumer
 lastUpdated: "2026-01-25"
 ---
 

@@ -1,9 +1,29 @@
 ---
-title: "B2B Pitch - Gamma Prompt"
-description: "Gamma.app prompt for generating the HeyZack B2B investor pitch deck"
-category: "heyzackv2"
+title: B2B Pitch - Gamma Prompt
+description: Gamma.app prompt for generating the HeyZack B2B investor pitch deck
+summary: Gamma.app prompt for generating the HeyZack B2B investor pitch deck
+category: heyzackv2
+docId: heyzackv2-slides-b2b-pitch-gamma-prompt
+docType: slide
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/slides/b2b-pitch/gamma-prompt/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["slides", "gamma", "b2b", "investor", "pitch-deck"]
+tags:
+  - slides
+  - gamma
+  - b2b
+  - investor
+  - pitch-deck
 lastUpdated: "2026-01-25"
 ---
 

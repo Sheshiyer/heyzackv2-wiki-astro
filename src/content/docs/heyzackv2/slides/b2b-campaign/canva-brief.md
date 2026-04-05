@@ -1,9 +1,29 @@
 ---
-title: "B2B Campaign - Canva Brief"
-description: "Canva design brief for the HeyZack B2B property management campaign deck"
-category: "heyzackv2"
+title: B2B Campaign - Canva Brief
+description: Canva design brief for the HeyZack B2B property management campaign deck
+summary: Canva design brief for the HeyZack B2B property management campaign deck
+category: heyzackv2
+docId: heyzackv2-slides-b2b-campaign-canva-brief
+docType: slide
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/slides/b2b-campaign/canva-brief/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["slides", "canva", "b2b", "design-brief", "property-management"]
+tags:
+  - slides
+  - canva
+  - b2b
+  - design-brief
+  - property-management
 lastUpdated: "2026-01-25"
 ---
 

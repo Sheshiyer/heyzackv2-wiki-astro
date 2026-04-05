@@ -1,9 +1,26 @@
 ---
-title: "30-Day Content Calendar"
-description: "Pre-launch social media content calendar across Twitter, LinkedIn, Instagram, TikTok, and Reddit"
-category: "heyzackv2"
+title: 30-Day Content Calendar
+description: Pre-launch social media content calendar across Twitter, LinkedIn, Instagram, TikTok, and Reddit
+summary: Pre launch social media content calendar across Twitter, LinkedIn, Instagram, TikTok, and Reddit
+category: heyzackv2
+docId: heyzackv2-social-content-calendar-30day
+docType: reference
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/social/content-calendar-30day/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["social", "content-calendar", "marketing", "pre-launch"]
+tags:
+  - social
+  - content-calendar
+  - marketing
+  - pre-launch
 lastUpdated: "2026-01-25"
 ---
 

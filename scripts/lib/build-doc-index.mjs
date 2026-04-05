@@ -37,7 +37,7 @@ export async function collectMarkdownFiles(rootDir) {
   return files.flat().sort((left, right) => left.localeCompare(right));
 }
 
-function parseFrontmatter(source) {
+export function parseFrontmatter(source) {
   if (!source.startsWith('---\n')) {
     return { data: {}, body: source.trim() };
   }
@@ -193,6 +193,88 @@ function deriveIngestPriority(explicitPriority, slug) {
   return 3;
 }
 
+function unique(values) {
+  return [...new Set(values.filter(Boolean))];
+}
+
+function deriveRelatedSlugs(doc, availableSlugs) {
+  const candidates = [];
+  const add = (...slugs) => {
+    candidates.push(...slugs);
+  };
+
+  if (doc.slug === 'index') {
+    add('product/overview', 'product/features', 'product/specifications', 'brand/positioning', 'heyzackv2/product');
+  }
+
+  switch (doc.category) {
+    case 'product':
+      add('product/overview', 'product/features', 'product/specifications', 'heyzackv2/product');
+      break;
+    case 'brand':
+      add('brand/positioning', 'brand/voice-tone', 'product/overview');
+      break;
+    case 'audience':
+      add('audience/primary-persona', 'audience/secondary-personas', 'audience/b2b-personas', 'product/overview');
+      break;
+    case 'marketing':
+      add('brand/voice-tone', 'brand/positioning', 'product/overview', 'heyzackv2/product');
+      break;
+    case 'heyzackv2':
+      add('heyzackv2/product', 'product/overview', 'brand/positioning');
+      break;
+    case 'getting-started':
+      add('index', 'product/overview', 'brand/voice-tone');
+      break;
+    default:
+      break;
+  }
+
+  if (doc.audience.includes('b2b')) {
+    add('audience/b2b-personas', 'heyzackv2/voice/voice-b2b');
+  }
+
+  if (doc.audience.includes('b2c')) {
+    add('audience/primary-persona', 'heyzackv2/voice/voice-b2c');
+  }
+
+  if (doc.slug.includes('/voice/')) {
+    add('brand/voice-tone', 'brand/positioning');
+  }
+
+  if (doc.slug.includes('/personas/')) {
+    add('audience/primary-persona', 'audience/secondary-personas', 'audience/b2b-personas');
+  }
+
+  if (doc.slug.includes('/ads/') || doc.slug.includes('/campaigns/') || doc.slug.includes('/emails/')) {
+    add('brand/positioning', 'brand/voice-tone', 'heyzackv2/product');
+  }
+
+  if (doc.slug.includes('/engagement/') || doc.slug.startsWith('marketing/')) {
+    add('brand/voice-tone', 'heyzackv2/product');
+  }
+
+  if (doc.docType === 'slide') {
+    const segments = doc.slug.split('/');
+    const folder = segments.slice(0, -1).join('/');
+    const leaf = segments.at(-1);
+    const sourceSlug = `${folder}/source`;
+    if (leaf !== 'source') {
+      add(sourceSlug);
+    } else {
+      add(
+        `${folder}/notebooklm-prompt`,
+        `${folder}/gamma-prompt`,
+        `${folder}/canva-brief`,
+      );
+    }
+  }
+
+  return unique(candidates)
+    .filter((slug) => slug !== doc.slug && availableSlugs.has(slug))
+    .slice(0, 5);
+}
+
 function formatLastUpdated(value) {
   if (!value) {
     return null;
@@ -292,12 +374,21 @@ export async function buildDocIndex({ docsRoot, siteUrl }) {
     };
   }));
 
-  const errors = validateDocIndex(docs);
+  const availableSlugs = new Set(docs.map((doc) => doc.slug));
+  const docsWithRelations = docs.map((doc) => ({
+    ...doc,
+    related: unique([
+      ...doc.related,
+      ...deriveRelatedSlugs(doc, availableSlugs),
+    ]).slice(0, 5),
+  }));
+
+  const errors = validateDocIndex(docsWithRelations);
   if (errors.length > 0) {
     throw new Error(`Doc index validation failed:\n- ${errors.join('\n- ')}`);
   }
 
-  return docs.sort((left, right) => {
+  return docsWithRelations.sort((left, right) => {
     if (left.ingestPriority !== right.ingestPriority) {
       return right.ingestPriority - left.ingestPriority;
     }

@@ -1,9 +1,29 @@
 ---
-title: "B2B Campaign - Gamma Prompt"
-description: "Gamma.app prompt for generating the HeyZack B2B property management campaign deck"
-category: "heyzackv2"
+title: B2B Campaign - Gamma Prompt
+description: Gamma.app prompt for generating the HeyZack B2B property management campaign deck
+summary: Gamma.app prompt for generating the HeyZack B2B property management campaign deck
+category: heyzackv2
+docId: heyzackv2-slides-b2b-campaign-gamma-prompt
+docType: slide
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/slides/b2b-campaign/gamma-prompt/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["slides", "gamma", "b2b", "ai-prompt", "property-management"]
+tags:
+  - slides
+  - gamma
+  - b2b
+  - ai-prompt
+  - property-management
 lastUpdated: "2026-01-25"
 ---
 

@@ -1,9 +1,27 @@
 ---
-title: "Product Overview - Gamma Prompt"
-description: "Gamma.app prompt for generating the HeyZack product overview deck"
-category: "heyzackv2"
+title: Product Overview - Gamma Prompt
+description: Gamma.app prompt for generating the HeyZack product overview deck
+summary: Gamma.app prompt for generating the HeyZack product overview deck
+category: heyzackv2
+docId: heyzackv2-slides-product-overview-gamma-prompt
+docType: slide
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/slides/product-overview/gamma-prompt/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - heyzackv2/slides/product-overview/source
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["slides", "gamma", "product", "overview"]
+tags:
+  - slides
+  - gamma
+  - product
+  - overview
 lastUpdated: "2026-01-25"
 ---
 

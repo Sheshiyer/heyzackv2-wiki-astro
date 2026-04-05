@@ -1,17 +1,27 @@
 ---
-title: "HeyZack Wiki"
-description: "Comprehensive documentation for HeyZack AI-Powered Smart Home & Building Automation System"
-summary: "Entry point for the HeyZack documentation corpus across product, brand, audience, and marketing materials."
-category: "home"
-docId: "home-index"
-docType: "landing"
-audience: ["all"]
-status: "active"
-canonicalPath: "/docs/"
-related: ["product/overview", "product/features", "brand/positioning"]
+title: HeyZack Wiki
+description: Comprehensive documentation for HeyZack AI-Powered Smart Home & Building Automation System
+summary: Entry point for the HeyZack documentation corpus across product, brand, audience, and marketing materials.
+category: home
+docId: home-index
+docType: landing
+audience:
+  - all
+status: active
+canonicalPath: /docs/
+related:
+  - product/overview
+  - product/features
+  - brand/positioning
+  - product/specifications
+  - heyzackv2/product
 ingestPriority: 5
-chunkStrategy: "heading"
-tags: ["heyzack", "smart-home", "building-automation", "wiki"]
+chunkStrategy: heading
+tags:
+  - heyzack
+  - smart-home
+  - building-automation
+  - wiki
 lastUpdated: "2025-01-25"
 ---
 

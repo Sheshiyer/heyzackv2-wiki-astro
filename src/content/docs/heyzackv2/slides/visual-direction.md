@@ -1,9 +1,27 @@
 ---
-title: "Visual Direction"
-description: "Brand visual guidelines for presentations, ads, and marketing materials"
-category: "heyzackv2"
+title: Visual Direction
+description: Brand visual guidelines for presentations, ads, and marketing materials
+summary: Brand visual guidelines for presentations, ads, and marketing materials
+category: heyzackv2
+docId: heyzackv2-slides-visual-direction
+docType: slide
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/slides/visual-direction/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["slides", "visual", "brand", "design", "presentation"]
+tags:
+  - slides
+  - visual
+  - brand
+  - design
+  - presentation
 lastUpdated: "2026-01-25"
 ---
 

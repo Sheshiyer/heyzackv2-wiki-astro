@@ -1,9 +1,28 @@
 ---
-title: "Product Overview - Source Document"
-description: "Complete source document for the HeyZack product overview deck"
-category: "heyzackv2"
+title: Product Overview - Source Document
+description: Complete source document for the HeyZack product overview deck
+summary: Complete source document for the HeyZack product overview deck
+category: heyzackv2
+docId: heyzackv2-slides-product-overview-source
+docType: slide
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/slides/product-overview/source/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - heyzackv2/slides/product-overview/notebooklm-prompt
+  - heyzackv2/slides/product-overview/gamma-prompt
+ingestPriority: 3
+chunkStrategy: heading
 order: 4
-tags: ["slides", "source", "product", "overview"]
+tags:
+  - slides
+  - source
+  - product
+  - overview
 lastUpdated: "2026-01-25"
 ---
 

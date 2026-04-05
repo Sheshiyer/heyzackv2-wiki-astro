@@ -1,9 +1,27 @@
 ---
-title: "Product Overview - NotebookLM Prompt"
-description: "NotebookLM prompt for generating the HeyZack product overview deck"
-category: "heyzackv2"
+title: Product Overview - NotebookLM Prompt
+description: NotebookLM prompt for generating the HeyZack product overview deck
+summary: NotebookLM prompt for generating the HeyZack product overview deck
+category: heyzackv2
+docId: heyzackv2-slides-product-overview-notebooklm-prompt
+docType: slide
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/slides/product-overview/notebooklm-prompt/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - heyzackv2/slides/product-overview/source
+ingestPriority: 3
+chunkStrategy: heading
 order: 3
-tags: ["slides", "notebooklm", "product", "overview"]
+tags:
+  - slides
+  - notebooklm
+  - product
+  - overview
 lastUpdated: "2026-01-25"
 ---
 

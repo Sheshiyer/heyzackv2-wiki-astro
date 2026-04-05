@@ -8,6 +8,7 @@
     "build:ingest": "node scripts/build-ingestion.mjs",
     "build:site": "astro build",
     "check:ingest": "node scripts/build-ingestion.mjs --check",
+    "sync:metadata": "node scripts/sync-doc-metadata.mjs",
     "preview": "astro preview"
   },
   "dependencies": {

@@ -1,9 +1,29 @@
 ---
 title: "Hospitality Persona: Hugo"
-description: "Detailed buyer persona dossier for Hospitality Hugo - boutique hotels and vacation rental operators seeking automation"
-category: "heyzackv2"
+description: Detailed buyer persona dossier for Hospitality Hugo - boutique hotels and vacation rental operators seeking automation
+summary: Detailed buyer persona dossier for Hospitality Hugo boutique hotels and vacation rental operators seeking automation
+category: heyzackv2
+docId: heyzackv2-personas-hospitality-hugo
+docType: persona
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/personas/hospitality-hugo/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 5
-tags: ["personas", "B2B", "hospitality", "hotels", "airbnb"]
+tags:
+  - personas
+  - B2B
+  - hospitality
+  - hotels
+  - airbnb
 lastUpdated: "2026-01-25"
 ---
 

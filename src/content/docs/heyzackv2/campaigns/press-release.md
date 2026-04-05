@@ -1,9 +1,27 @@
 ---
-title: "Press Release"
-description: "Official HeyZack launch press release for AI-powered smart home and building automation platform"
-category: "heyzackv2"
+title: Press Release
+description: Official HeyZack launch press release for AI-powered smart home and building automation platform
+summary: Official HeyZack launch press release for AI powered smart home and building automation platform
+category: heyzackv2
+docId: heyzackv2-campaigns-press-release
+docType: campaign
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/campaigns/press-release/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
 order: 3
-tags: ["campaigns", "press", "launch", "media"]
+tags:
+  - campaigns
+  - press
+  - launch
+  - media
 lastUpdated: "2026-02-01"
 ---
 

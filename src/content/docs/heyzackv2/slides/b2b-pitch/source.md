@@ -1,9 +1,29 @@
 ---
-title: "B2B Pitch - Source Document"
-description: "Complete source document for the HeyZack B2B investor pitch deck"
-category: "heyzackv2"
+title: B2B Pitch - Source Document
+description: Complete source document for the HeyZack B2B investor pitch deck
+summary: Complete source document for the HeyZack B2B investor pitch deck
+category: heyzackv2
+docId: heyzackv2-slides-b2b-pitch-source
+docType: slide
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/slides/b2b-pitch/source/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 4
-tags: ["slides", "source", "b2b", "investor", "pitch-deck"]
+tags:
+  - slides
+  - source
+  - b2b
+  - investor
+  - pitch-deck
 lastUpdated: "2026-01-25"
 ---
 

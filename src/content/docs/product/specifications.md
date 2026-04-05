@@ -25,7 +25,7 @@ tags:
 sources:
   - heyzackv2/product.md
   - heyzackv2/messaging/mds_master.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Technical Specifications

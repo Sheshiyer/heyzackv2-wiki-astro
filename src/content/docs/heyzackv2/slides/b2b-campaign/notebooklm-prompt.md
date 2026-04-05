@@ -1,9 +1,29 @@
 ---
-title: "B2B Campaign - NotebookLM Prompt"
-description: "NotebookLM prompt for generating the HeyZack B2B property management campaign deck"
-category: "heyzackv2"
+title: B2B Campaign - NotebookLM Prompt
+description: NotebookLM prompt for generating the HeyZack B2B property management campaign deck
+summary: NotebookLM prompt for generating the HeyZack B2B property management campaign deck
+category: heyzackv2
+docId: heyzackv2-slides-b2b-campaign-notebooklm-prompt
+docType: slide
+audience:
+  - b2b
+status: active
+canonicalPath: /docs/heyzackv2/slides/b2b-campaign/notebooklm-prompt/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - audience/b2b-personas
+  - heyzackv2/voice/voice-b2b
+ingestPriority: 3
+chunkStrategy: heading
 order: 3
-tags: ["slides", "notebooklm", "b2b", "ai-prompt", "property-management"]
+tags:
+  - slides
+  - notebooklm
+  - b2b
+  - ai-prompt
+  - property-management
 lastUpdated: "2026-01-25"
 ---
 

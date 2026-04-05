@@ -1,9 +1,28 @@
 ---
-title: "Influencer Outreach"
-description: "DM scripts and email templates for B2B and B2C influencer partnerships"
-category: "heyzackv2"
+title: Influencer Outreach
+description: DM scripts and email templates for B2B and B2C influencer partnerships
+summary: DM scripts and email templates for B2B and B2C influencer partnerships
+category: heyzackv2
+docId: heyzackv2-engagement-influencer-outreach
+docType: reference
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/engagement/influencer-outreach/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
 order: 2
-tags: ["engagement", "influencer", "outreach", "partnerships", "linkedin"]
+tags:
+  - engagement
+  - influencer
+  - outreach
+  - partnerships
+  - linkedin
 lastUpdated: "2026-01-25"
 ---
 

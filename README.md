@@ -42,6 +42,7 @@ npm run dev
 - `npm run dev` or `bun run dev`: start the local Astro dev server
 - `npm run build:ingest`: generate machine-readable ingestion assets into `public/`
 - `npm run check:ingest`: validate metadata integrity and generated ingestion outputs
+- `npm run sync:metadata`: rewrite doc frontmatter with explicit ingestion metadata for the full corpus
 - `npm run build` or `bun run build`: generate ingestion assets, then build the static site into `dist/`
 - `npm run build:site`: run only the Astro site build
 - `npm run preview` or `bun run preview`: preview the production build locally

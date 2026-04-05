@@ -1,9 +1,26 @@
 ---
-title: "Positioning Summary"
-description: "CBBE brand positioning framework - salience, performance, imagery, judgments, and feelings"
-category: "heyzackv2"
+title: Positioning Summary
+description: CBBE brand positioning framework - salience, performance, imagery, judgments, and feelings
+summary: CBBE brand positioning framework salience, performance, imagery, judgments, and feelings
+category: heyzackv2
+docId: heyzackv2-positioning-positioning-summary
+docType: reference
+audience:
+  - all
+status: active
+canonicalPath: /docs/heyzackv2/positioning/positioning-summary/
+related:
+  - heyzackv2/product
+  - product/overview
+  - brand/positioning
+ingestPriority: 3
+chunkStrategy: heading
 order: 1
-tags: ["positioning", "brand", "strategy", "CBBE"]
+tags:
+  - positioning
+  - brand
+  - strategy
+  - CBBE
 lastUpdated: "2026-01-25"
 ---
 

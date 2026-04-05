@@ -1,7 +1,21 @@
 ---
 title: "Primary Persona: Tech-Savvy Homeowners"
-description: "Tech-Forward Tyler - Early adopters seeking genuine smart home intelligence, unified ecosystems, and future-proof automation"
+description: Tech-Forward Tyler - Early adopters seeking genuine smart home intelligence, unified ecosystems, and future-proof automation
+summary: Tech Forward Tyler Early adopters seeking genuine smart home intelligence, unified ecosystems, and future proof automation
 category: audience
+docId: audience-primary-persona
+docType: persona
+audience:
+  - b2c
+status: active
+canonicalPath: /docs/audience/primary-persona/
+related:
+  - audience/secondary-personas
+  - audience/b2b-personas
+  - product/overview
+  - heyzackv2/voice/voice-b2c
+ingestPriority: 4
+chunkStrategy: heading
 tags:
   - persona
   - b2c
@@ -10,7 +24,7 @@ tags:
   - early-adopter
 sources:
   - heyzackv2/personas/persona_tech_savvy.md
-lastUpdated: 2025-01-25
+lastUpdated: 2025-01-25T00:00:00.000Z
 ---
 
 # Primary Persona: Tech-Savvy Homeowners

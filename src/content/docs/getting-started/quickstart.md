@@ -1,8 +1,24 @@
 ---
-title: "Quick Start Guide"
-description: "Get up to speed with HeyZack documentation in 5 minutes"
-category: "getting-started"
-tags: ["quickstart", "onboarding", "guide"]
+title: Quick Start Guide
+description: Get up to speed with HeyZack documentation in 5 minutes
+summary: Get up to speed with HeyZack documentation in 5 minutes
+category: getting-started
+docId: getting-started-quickstart
+docType: reference
+audience:
+  - all
+status: active
+canonicalPath: /docs/getting-started/quickstart/
+related:
+  - index
+  - product/overview
+  - brand/voice-tone
+ingestPriority: 3
+chunkStrategy: heading
+tags:
+  - quickstart
+  - onboarding
+  - guide
 lastUpdated: "2025-01-25"
 ---
 

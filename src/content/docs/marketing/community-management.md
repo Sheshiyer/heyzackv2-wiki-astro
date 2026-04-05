@@ -1,7 +1,7 @@
 ---
 title: Community Management
 description: Discord and Facebook Group engagement scripts, moderation templates, and daily discussion prompts
-category: Marketing
+category: marketing
 tags:
   - community
   - discord

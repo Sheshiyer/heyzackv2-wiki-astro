@@ -1,7 +1,20 @@
 ---
 title: Technical Specifications
 description: Complete technical specifications for HeyZack's 128-product ecosystem, including connectivity protocols, power options, compatibility, and detailed product category breakdown.
-category: Foundation/Product
+summary: Technical reference for HeyZack connectivity, compatibility, product categories, and deployment specifications.
+category: product
+docId: product-specifications
+docType: spec
+audience:
+  - all
+status: active
+canonicalPath: /docs/product/specifications/
+related:
+  - product/overview
+  - product/features
+  - heyzackv2/product
+ingestPriority: 5
+chunkStrategy: heading
 tags:
   - specifications
   - technical

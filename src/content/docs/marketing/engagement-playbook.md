@@ -1,7 +1,7 @@
 ---
 title: Engagement Playbook
 description: Short-form video hooks and review response templates for HeyZack B2B and B2C campaigns
-category: Marketing
+category: marketing
 tags:
   - engagement
   - social-media

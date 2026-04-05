@@ -4,7 +4,10 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/build-ingestion.mjs && astro build",
+    "build:ingest": "node scripts/build-ingestion.mjs",
+    "build:site": "astro build",
+    "check:ingest": "node scripts/build-ingestion.mjs --check",
     "preview": "astro preview"
   },
   "dependencies": {

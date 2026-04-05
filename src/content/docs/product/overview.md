@@ -1,7 +1,21 @@
 ---
 title: Product Overview
 description: High-level overview of HeyZack's AI-powered smart home and building automation platform, including brand promise, market positioning, and core value propositions.
-category: Foundation/Product
+summary: Canonical overview of the HeyZack platform, promise, market positioning, and value propositions.
+category: product
+docId: product-overview
+docType: overview
+audience:
+  - all
+status: active
+canonicalPath: /docs/product/overview/
+related:
+  - product/features
+  - product/specifications
+  - brand/positioning
+  - heyzackv2/product
+ingestPriority: 5
+chunkStrategy: heading
 tags:
   - product
   - brand

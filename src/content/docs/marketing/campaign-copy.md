@@ -1,7 +1,7 @@
 ---
 title: Campaign Copy
 description: Kickstarter/Indiegogo campaign page copy for B2B and B2C audiences, plus press release for launch
-category: Marketing
+category: marketing
 tags: [campaign, crowdfunding, Kickstarter, press-release, B2B, B2C, landing-page]
 sources:
   - /heyzackv2/campaigns/campaign_page_b2b.md

@@ -1,7 +1,7 @@
 ---
 title: Email Templates
 description: Complete email sequences for pre-launch and launch campaigns, including VIP, B2B, and B2C segments with scheduling data
-category: Marketing
+category: marketing
 tags: [email, sequences, pre-launch, launch, B2B, B2C, VIP, automation]
 sources:
   - /heyzackv2/emails/pre_launch_sequence.md

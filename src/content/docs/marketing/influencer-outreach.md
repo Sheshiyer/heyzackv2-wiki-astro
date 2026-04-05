@@ -1,7 +1,7 @@
 ---
 title: Influencer Outreach
 description: DM scripts and email templates for B2B and B2C influencer partnerships
-category: Marketing
+category: marketing
 tags:
   - influencer
   - outreach

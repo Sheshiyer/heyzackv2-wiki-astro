@@ -51,10 +51,27 @@
 - [x] Add a reusable metadata sync path for all docs
 - [x] Backfill explicit metadata across all 57 Markdown docs
 - [x] Verify metadata sync, ingestion build, and full site build
-- [ ] Commit and push the backfill changes
+- [x] Commit and push the backfill changes
 
 ### Result
 
 - Added `npm run sync:metadata` for deterministic corpus-wide metadata normalization
 - Verified 57/57 docs now contain explicit `docId`, `summary`, `canonicalPath`, and `related`
 - Verified `npm run build:ingest`, `npm run check:ingest`, `npm run build:site`, and `npm run build`
+
+## Session Task - CI Verification Workflow
+
+### Plan
+
+- [x] Inspect current repo automation state
+- [x] Add a GitHub Actions workflow for metadata sync and build verification
+- [x] Verify the workflow commands locally
+- [ ] Commit and push the CI change
+
+### Result
+
+- Added a GitHub Actions `Verify` workflow under `.github/workflows/verify.yml`
+- Disabled npm dependency caching in `setup-node` because the repo does not commit an npm lockfile
+- Verified `npm run sync:metadata` and `git diff --exit-code -- src/content/docs`
+- Verified `npm run build:ingest`, `npm run check:ingest`, and `npm run build:site`
+- Confirmed `check:ingest` must run after generation, so the workflow keeps those steps ordered

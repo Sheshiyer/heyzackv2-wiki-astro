@@ -85,6 +85,15 @@ Preferred ingestion order:
 - `node_modules/`, `dist/`, generated ingestion files in `public/`, and macOS `.DS_Store` files should not be committed
 - The generated site should be rebuilt locally or in CI instead of stored in git
 
+## CI
+
+GitHub Actions now verifies four things on pushes to `main` and on pull requests:
+
+1. dependencies install from a clean checkout
+2. `npm run sync:metadata` produces no uncommitted doc changes
+3. ingestion generation and integrity checks pass
+4. the Astro site build succeeds
+
 ## Verification
 
 Latest local verification command:

@@ -1,0 +1,44 @@
+name: Verify
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          package-manager-cache: false
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Verify metadata sync is committed
+        run: |
+          npm run sync:metadata
+          git diff --exit-code -- src/content/docs
+
+      - name: Verify ingestion exports
+        run: |
+          npm run build:ingest
+          npm run check:ingest
+
+      - name: Verify site build
+        run: npm run build:site

@@ -6,7 +6,8 @@
 - [x] Review the current repo for publish blockers
 - [x] Update repo docs and hygiene rules
 - [x] Verify the site build after changes
-- [ ] Commit and push validated changes to `main`
+- [x] Commit validated repo cleanup changes locally
+- [ ] Push validated changes to `main`
 
 ## Review Notes
 
@@ -19,3 +20,4 @@
 - Verified locally with `npm run build`
 - Docs landing page now builds to `dist/docs/index.html`
 - Generated directories are staged for removal from git tracking
+- Local commit created: `3dccdbed`

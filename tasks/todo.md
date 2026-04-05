@@ -66,7 +66,7 @@
 - [x] Inspect current repo automation state
 - [x] Add a GitHub Actions workflow for metadata sync and build verification
 - [x] Verify the workflow commands locally
-- [ ] Commit and push the CI change
+- [x] Commit and push the CI change
 
 ### Result
 
@@ -75,3 +75,4 @@
 - Verified `npm run sync:metadata` and `git diff --exit-code -- src/content/docs`
 - Verified `npm run build:ingest`, `npm run check:ingest`, and `npm run build:site`
 - Confirmed `check:ingest` must run after generation, so the workflow keeps those steps ordered
+- Pushed CI workflow commit `0a1c9120` to `origin/main`

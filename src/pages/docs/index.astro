@@ -1,0 +1,20 @@
+---
+import { getEntry } from 'astro:content';
+import DocLayout from '../../layouts/DocLayout.astro';
+
+const doc = await getEntry('docs', 'index');
+
+if (!doc) {
+  throw new Error('Missing docs index entry in the docs collection.');
+}
+
+const { Content, headings } = await doc.render();
+---
+
+<DocLayout
+  title={doc.data.title}
+  description={doc.data.description}
+  headings={headings}
+>
+  <Content />
+</DocLayout>

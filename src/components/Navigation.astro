@@ -59,8 +59,10 @@ const { product_stats } = productCatalog;
         <h3 class="nav-category-title">{category}</h3>
         <ul class="nav-list">
           {categories[category].map(doc => {
-            const href = `/docs/${doc.slug}`;
-            const isActive = currentPath === href || currentPath === `${href}/`;
+            const href = doc.slug === 'index' ? '/docs' : `/docs/${doc.slug}`;
+            const isActive = doc.slug === 'index'
+              ? currentPath === '/docs' || currentPath === '/docs/'
+              : currentPath === href || currentPath === `${href}/`;
             return (
               <li>
                 <a href={href} class:list={['nav-link', { active: isActive }]}>
